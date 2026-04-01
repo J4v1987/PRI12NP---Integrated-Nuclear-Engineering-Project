@@ -1,0 +1,32 @@
+
+//
+// Standard library includes
+//
+#include <iostream>
+
+//
+// Include the class interface
+//
+#include "Line.h"
+
+using namespace std;  //On utilise un espace de nom ici
+
+
+int main()
+{
+   //
+   // Create a line object
+   //
+   Line l(Point(0.0, 0.0), Point(10.0, 10.0));
+
+   //
+   // Translate it
+   //
+   l.translate(10.0, 35.0);
+
+   // Show its length
+   //
+   cout << "l.length() = " << l.length() << endl;
+
+   return 0;
+};
