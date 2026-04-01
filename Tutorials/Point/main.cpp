@@ -73,5 +73,11 @@ int main()
    //theta
    cout << "Theta(p6) "<<p6.theta() <<endl;
 
+      
+   cout << "C++ script compiled by:" << endl;
+   cout << "Javier Alonzo ROMO LEON."<< endl;
+   cout << "M.Sc. NE-PIA Candidate: j25romol." << endl;
+   cout << "As of: 1 april 2026." << endl;
+
    return 0;
 };

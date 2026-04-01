@@ -1,0 +1,36 @@
+#!/bin/csh
+alias xterm xterm -rightbar -sb -sl 1000  
+set path=($path /home/linux)
+
+###############################################################################
+## ROOT
+###############################################################################
+
+setenv ROOTSYS /home/linux/Geant4/root
+#messo questo
+setenv LD_LIBRARY_PATH /usr/local/MatlabR2007b/sys/os/glnx86/
+#al posto di questo
+#setenv LD_LIBRARY_PATH /home/linux/Matlab/sys/os/glnx86
+#setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${ROOTSYS}/lib
+#setenv LD_LIBRARY_PATH ${ROOTSYS}/lib
+
+set path = ($ROOTSYS/bin $path)
+
+###############################################################################
+##  OpenGl
+###############################################################################
+setenv OGLHOME /usr/X11R6.orig
+setenv OGLFLAGS "-I${OGLHOME}/include"
+setenv OGLLIBS "-L${OGLHOME}/lib -lGLU -lGL"
+
+
+###############################################################################
+### Geant4
+###############################################################################
+setenv G4WORKDIR ~/geant4
+set path = (${G4WORKDIR}/bin/Linux-g++ $path) 
+source /home/linux/Geant4/geant4/env.csh
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${CLHEP_LIB_DIR}
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${G4INSTALL}/lib/${G4SYSTEM}
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:/usr/X11R6.orig/lib
+set path=($path /home/linux/Geant4/dawn)
