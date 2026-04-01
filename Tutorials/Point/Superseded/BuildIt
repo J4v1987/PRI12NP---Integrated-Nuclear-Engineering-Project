@@ -1,0 +1,2 @@
+#!/bin/ksh
+g++ -o Point Point.cpp main.cpp
