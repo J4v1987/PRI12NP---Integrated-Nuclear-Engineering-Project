@@ -9,7 +9,7 @@ void testMacro()
  TH1F *h2 = new TH1F("h2"," histogram ",100,0,1000);
   
 
- // on genere 10000 nombres aléatoires x distribués suivant une loi uniforme entre -2 et 2 en utilisant le générateur de nombres pseudoaleatoires gRandom (classe TRandom de ROOT)
+ // on genere 1000000 nombres aléatoires x distribués suivant une loi uniforme entre -2 et 2 en utilisant le générateur de nombres pseudoaleatoires gRandom (classe TRandom de ROOT)
  // et on remplit l'histogramme h1
 
   for (int i = 0; i < 1000000; i++) {
