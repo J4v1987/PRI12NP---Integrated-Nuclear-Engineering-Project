@@ -1,0 +1,18 @@
+
+//
+// Standard library includes
+//
+#include <iostream>
+
+
+
+using namespace std;  //On utilise un espace de nom ici
+
+
+int main()
+{
+   //
+   cout << "Hello " << endl;
+
+   return 0;
+};
