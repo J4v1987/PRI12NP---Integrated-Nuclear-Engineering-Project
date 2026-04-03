@@ -21,7 +21,7 @@ public:
    //
    // Operators
    //
-   //variabile bool é variabile logica (vero o falso)
+   //variabile bool ï¿½ variabile logica (vero o falso)
 
    bool operator==(const Point& aPoint) const;
    bool operator!=(const Point& aPoint) const;
@@ -30,7 +30,7 @@ public:
    //
    // Modifiers
    //
-   //void é una funzione che non ritorna un valore
+   //void ï¿½ una funzione che non ritorna un valore
    void translate(float horizontal, float vertical);
    Point& moveTo(float x, float y);
 
@@ -42,8 +42,9 @@ public:
    float rho() const;     // distance to the origin
    float distanceTo(const Point& aPoint) const;
 
-   //theta
-   float theta() const;
+   
+   //float theta() const;
+   float phi() const;     //j25romol: the method 'theta' has been renamed to 'phi' in consistency with ISO 80000-2:2009(E) standard, which defines the 'azimuthal' angle (from x towards y) in a spherical coordinate system as 'phi' or 'Ï†', while the 'polar' angle 'theta' or 'Ï‘' refers to the angle from z towards the xy plane. See: https://en.wikipedia.org/wiki/Spherical_coordinate_system#ISO_80000-2:2009(E)_standard
 
 private:
  
