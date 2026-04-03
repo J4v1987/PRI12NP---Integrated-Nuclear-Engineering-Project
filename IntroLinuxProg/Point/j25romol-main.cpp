@@ -29,12 +29,24 @@ int main()
    // Translate it
    //
    cout << "Before translate, distance to the origin: "
-        << target.rho() << endl; //j25romol: rho 'ρ' is a method that assumes an origin is located at (0,0) and then calculates the distance of a point object from this origin by applying the Pythagorean theorem directly to the x and y coordinates of the point object. See: https://mathworld.wolfram.com/PythagoreanTheorem.html
-   target.translate(10.0, 35.0); //j25romol: applying the translate method to the point object 'target', to set target at x=10.0 and y=35.0, by adding 10.0 to the x coordinate and 35.0 to the y coordinate of the target point object.
-
+        << target.rho() << endl;    //j25romol: rho 'ρ' is a method that assumes an origin is located at (0,0) and then calculates the distance of a point object from this origin by applying the Pythagorean theorem directly to the x and y coordinates of the point object. See: https://mathworld.wolfram.com/PythagoreanTheorem.html
+   target.translate(10.0, 35.0);  //j25romol: applying the translate method to the point object 'target', to set target at x=10.0 and y=35.0, by adding 10.0 to the x coordinate and 35.0 to the y coordinate of the target point object.
+   
    cout << "After translate, distance to the origin: " << target.rho() << endl;
    cout << "Target x= " << target.getX() <<" y= "<< target.getY() << endl;
    
+   /*
+   j25romol:
+      From class conversation with Prof. M. Settimo, and instructions in file "Initiation to Linux",
+      It is required to move point object 'target' to coordinates (20,20).
+      The upcoming lines achieve this result and print it to Terminal:
+   */
+   target.moveTo(20,20);
+   cout << "------------------" << endl;
+   cout << "Initiation to Linux 2026 update 1: move 'target' to (20,20)" << endl;
+   cout << "After target moveTo(20.0, 20.0) x= " << target.getX() <<" y= "<< target.getY() << endl;
+   cout << "------------------" << endl;
+
    //
    // Compute distance to origin by using 'distanceTo'
    //
@@ -72,15 +84,16 @@ int main()
    cout << "p5 x= " << p5.getX() <<" y= "<< p5.getY() <<" address "<<&p5 << endl;   //j25romol: copying p3 to p5 using the built-in C++ assignment operator to demonstrate its memory address, and how it differs slightly more with respect from p4, in comparison to the difference between p4 to p3, allegedly demanding more memory than the copy constructor.
 
    Point p6(0,-10);
-   //theta --- IGNORE ---                       //j25romol: superseded, see the method 'phi' below.
-   //cout << "Theta(p6) "<<p6.theta() <<endl;   //j25romol: the method 'theta' has been renamed to 'phi' in consistency with ISO 80000-2:2009(E) standard, which defines the 'azimuthal' angle (from x towards y) in a spherical coordinate system as 'phi' or 'φ', while the 'polar' angle 'theta' or 'ϑ' refers to the angle from z towards the xy plane. See: https://en.wikipedia.org/wiki/Spherical_coordinate_system#ISO_80000-2:2009(E)_standard
-   float epsilon = std::numeric_limits<float>::epsilon();
-   cout << "Epsilon = " << epsilon << endl;
-   cout << "Float 0.0 = " << 0.0f << endl;
-   cout << "0.0 = " << 0.0 << endl;
-   cout << "Phi(p6) "<<p6.phi() <<endl;         //j25romol: the method 'theta' has been renamed to 'phi' in consistency with ISO 80000-2:2009(E) standard, which defines the 'azimuthal' angle (from x towards y) in a spherical coordinate system as 'phi' or 'φ', while the 'polar' angle 'theta' or 'ϑ' refers to the angle from z towards the xy plane. See: https://en.wikipedia.org/wiki/Spherical_coordinate_system#ISO_80000-2:2009(E)_standard
+   //theta --- IGNORE ---                                   //j25romol: superseded, see the method 'phi' below.
+   //cout << "Theta(p6) "<<p6.theta() <<endl;               //j25romol: superseded, the method 'theta' has been renamed to 'phi' in consistency with ISO 80000-2:2009(E) standard, which defines the 'azimuthal' angle (from x towards y) in a spherical coordinate system as 'phi' or 'φ', while the 'polar' angle 'theta' or 'ϑ' refers to the angle from z towards the xy plane. See: https://en.wikipedia.org/wiki/Spherical_coordinate_system#ISO_80000-2:2009(E)_standard
+   //j25romol: In attempting to evaluate to real float 0, the following could be tried:
+   //float epsilon = std::numeric_limits<float>::epsilon(); //j25romol
+   //cout << "Epsilon = " << epsilon << endl;               //j25romol
+   //cout << "Float 0.0 = " << 0.0f << endl;                //j25romol 
+   //cout << "0.0 = " << 0.0 << endl;                       //j25romol
+   cout << "Phi(p6) "<<p6.phi() <<endl;                     //j25romol: the method 'theta' has been renamed to 'phi' in consistency with ISO 80000-2:2009(E) standard, which defines the 'azimuthal' angle (from x towards y) in a spherical coordinate system as 'phi' or 'φ', while the 'polar' angle 'theta' or 'ϑ' refers to the angle from z towards the xy plane. See: https://en.wikipedia.org/wiki/Spherical_coordinate_system#ISO_80000-2:2009(E)_standard
 
-      
+   cout << "------------------" << endl;
    cout << "C++ script compiled by:" << endl;
    cout << "Javier Alonzo ROMO LEON."<< endl;
    cout << "M.Sc. NE-PIA Candidate: j25romol." << endl;
