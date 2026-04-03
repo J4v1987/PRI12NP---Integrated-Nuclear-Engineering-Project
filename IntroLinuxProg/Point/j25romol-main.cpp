@@ -97,7 +97,6 @@ int main()
    cout << "C++ script compiled by:" << endl;
    cout << "Javier Alonzo ROMO LEON."<< endl;
    cout << "M.Sc. NE-PIA Candidate: j25romol." << endl;
-   cout << "As of: 1 april 2026." << endl;
 
    return 0;
 };
