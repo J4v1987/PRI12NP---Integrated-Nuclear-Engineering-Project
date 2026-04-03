@@ -11,7 +11,7 @@
 #include <iostream>
 
 
-#include "Point.h"
+#include "j25romol-line-Point.h"
 
 class Line {
 
@@ -103,3 +103,4 @@ inline float Line::length() const
 }
 
 #endif // LINE_H
+

@@ -10,7 +10,7 @@
 //
 // Include this class interface
 //
-#include "Point.h"
+#include "j25romol-line-Point.h"
 
 using namespace std;  //On utilise un espace de nom ici
 
@@ -188,3 +188,4 @@ float Point::distanceTo(const Point& aPoint) const
 };
 
 //-------------------------------------------------------------------------//
+

@@ -17,7 +17,7 @@
 //
 // Include this class interface
 //
-#include "Line.h"
+#include "j25romol-Line.h"
 
 
 //
@@ -128,3 +128,4 @@ void Line::rotate(float angle)
 };
 
 //-------------------------------------------------------------------------//
+
