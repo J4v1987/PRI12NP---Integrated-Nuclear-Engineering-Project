@@ -94,10 +94,10 @@
 /tracking/verbose 2
 
 # Define particle type
-/gun/particle e-
+/gun/particle gamma
 # Define particle energy
 /gun/energy 1 MeV
 # start run with one particle generated
-/run/beamOn 5
+/run/beamOn 1
 #/run/beamOn 100000
 
