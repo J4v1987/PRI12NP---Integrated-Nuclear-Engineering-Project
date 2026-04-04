@@ -3,7 +3,7 @@ javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulat
 Available UI session types: [ Qt, tcsh, csh ]
 qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in ""
  **** bacth mode ***
- **** UI = 0x5869705de5b0
+ **** UI = 0x5cede7dd15b0
 
 **************************************************************
  Geant4 version Name: geant4-11-03-patch-02 [MT]   (25-April-2025)
@@ -881,16 +881,16 @@ Max 2J for sampling of angular correlations         10
 =======================================================================
 
 G4WT1 > /run/verbose 2
-G4WT0 > /run/verbose 2
 G4WT1 > /run/initialize 
-G4WT0 > /run/initialize 
 G4WT1 > /run/physicsModified 
+G4WT0 > /run/verbose 2
+G4WT0 > /run/initialize 
 G4WT0 > /run/physicsModified 
 #
 # Visualization setting
 /control/execute vis.mac
 # Macro file for the visualization setting for the initialization phase
-# of the B2 example when running in interactive mode
+# of the B2a example when running in interactive mode
 #
 # Use these open statements to open selected visualization
 #
@@ -923,20 +923,37 @@ Note: Parameters specified on the command line will override these defaults.
 # Disable auto refresh and quieten vis messages whilst scene and
 # trajectories are established:
 /vis/viewer/set/autoRefresh false
-/vis/verbose errors
-Visualization verbosity is now errors (2)
+#/vis/verbose errors
+/vis/verbose warnings
+Visualization verbosity is now warnings (3)
+/vis/verbose confirmations
+Visualization verbosity is now confirmations (4)
 #
 # Draw geometry:
 /vis/drawVolume
 /vis/scene/create
+New empty scene "scene-0" created.
 /vis/scene/add/volume world -1 -1 none m 0 0 0 0 0 0
+"World", copy no. 0,
+  found in searched volume "World" at depth 0,
+  base path: " TOP",
+  with a requested depth of further descent of <0 (unlimited),
+  has been added to scene "scene-0".
 /vis/sceneHandler/attach
+Scene "scene-0" attached to scene handler "scene-handler-0.
+  (You may have to refresh with "/vis/viewer/flush" if view is not "auto-refresh".)
+NOTE: For systems which are not "auto-refresh" you will need to
+  issue "/vis/viewer/refresh" or "/vis/viewer/flush".
 #
 # Specify view angle:
 /vis/viewer/set/viewpointThetaPhi 50. 50.
+Viewpoint direction set to (0.492404,0.586824,0.642788)
+Issue /vis/viewer/refresh or flush to see effect.
 #
 # Specify zoom value:
 /vis/viewer/zoom 1.4
+Zoom factor changed to 1.4
+Issue /vis/viewer/refresh or flush to see effect.
 #
 # Specify style (surface, wireframe, auxiliary edges,...)
 #/vis/viewer/set/style wireframe
@@ -969,17 +986,45 @@ G4SmoothTrajectory:
 G4SmoothTrajectoryPoint:
   Auxiliary Point Position (Aux): G4BestUnit (G4ThreeVector)
   Step Position (Pos): G4BestUnit (G4ThreeVector)
+Default trajectory type G4SmoothTrajectory
+  will be used to store trajectories for scene "scene-0".
+WARNING: Trajectory storing has been requested.  This action may be
+  reversed with "/tracking/storeTrajectory 0".
 /vis/scene/notifyHandlers
+NOTE: The scene, "scene-0", of viewer "viewer-0 (OpenGLStoredQt)"
+  of scene handler "scene-handler-0"  has changed.  To see effect,
+  "/vis/viewer/select viewer-0" and "/vis/viewer/rebuild".
+G4VisManager::SetCurrentViewer: viewer now viewer-0 (OpenGLStoredQt)
+G4VisManager::SetCurrentSceneHandler: scene handler now "scene-handler-0"
+/tracking/storeTrajectory 1
 /vis/modeling/trajectories/create/drawByCharge
 /vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+G4VisManager::NotifyHandler() called.
 /vis/scene/notifyHandlers scene-0
+NOTE: The scene, "scene-0", of viewer "viewer-0 (OpenGLStoredQt)"
+  of scene handler "scene-handler-0"  has changed.  To see effect,
+  "/vis/viewer/select viewer-0" and "/vis/viewer/rebuild".
+G4VisManager::SetCurrentViewer: viewer now viewer-0 (OpenGLStoredQt)
+G4VisManager::SetCurrentSceneHandler: scene handler now "scene-handler-0"
 /vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
+G4VisManager::NotifyHandler() called.
 /vis/scene/notifyHandlers scene-0
+NOTE: The scene, "scene-0", of viewer "viewer-0 (OpenGLStoredQt)"
+  of scene handler "scene-handler-0"  has changed.  To see effect,
+  "/vis/viewer/select viewer-0" and "/vis/viewer/rebuild".
+G4VisManager::SetCurrentViewer: viewer now viewer-0 (OpenGLStoredQt)
+G4VisManager::SetCurrentSceneHandler: scene handler now "scene-handler-0"
 # (if too many tracks cause core dump => /tracking/storeTrajectory 0)
 #
 # Draw hits at end of event:
 /vis/scene/add/hits
+Hits, if any, will be drawn at end of run in scene "scene-0".
 /vis/scene/notifyHandlers
+NOTE: The scene, "scene-0", of viewer "viewer-0 (OpenGLStoredQt)"
+  of scene handler "scene-handler-0"  has changed.  To see effect,
+  "/vis/viewer/select viewer-0" and "/vis/viewer/rebuild".
+G4VisManager::SetCurrentViewer: viewer now viewer-0 (OpenGLStoredQt)
+G4VisManager::SetCurrentSceneHandler: scene handler now "scene-handler-0"
 #
 # To draw only gammas:
 #/vis/filtering/trajectories/create/particleFilter
@@ -999,10 +1044,20 @@ G4SmoothTrajectoryPoint:
 #
 # To superimpose all of the events from a given run:
 /vis/scene/endOfEventAction accumulate
+End of event action set to "accumulate".
+  Maximum number of events to be kept: 100 (unlimited if negative).
+  This may be changed with, e.g., "/vis/scene/endOfEventAction accumulate 1000".
+WARNING: The vis manager will keep up to 100 events.
+  This may use a lot of memory.
+  It may be changed with, e.g., "/vis/scene/endOfEventAction accumulate 10".
 #
 # Re-establish auto refreshing and verbosity:
 /vis/viewer/set/autoRefresh true
+Views will be automatically refreshed after a change of view parameters.
 /vis/viewer/refresh
+Refreshing viewer "viewer-0 (OpenGLStoredQt)"...
+Viewer "viewer-0 (OpenGLStoredQt)" refreshed.
+  (You might also need "/vis/viewer/update".)
 /vis/verbose warnings
 Visualization verbosity is now warnings (3)
 #
@@ -1069,19 +1124,24 @@ G4GeometryManager::ReportVoxelStats -- Voxel Statistics
 ### Run 0 starts.
 G4WT1 >      Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
 /tracking/storeTrajectory 2
+G4WT1 > /tracking/storeTrajectory 1
+G4WT1 > /tracking/verbose 2
+G4WT1 > /gun/particle gamma
 G4WT0 >      Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
 /tracking/storeTrajectory 2
-G4WT1 > /tracking/verbose 2
+G4WT1 > /gun/energy 1 MeV
+G4WT0 > /tracking/storeTrajectory 1
 G4WT0 > /tracking/verbose 2
-G4WT1 > /gun/particle gamma
 G4WT0 > /gun/particle gamma
 G4WT0 > /gun/energy 1 MeV
-G4WT1 > /gun/energy 1 MeV
 G4WT1 > ### Run 0 starts on worker thread 1.
 G4WT0 > ### Run 0 starts on worker thread 0.
 G4WT1 > --> Event 0 starts with initial seeds (15470735,58711377).
 G4WT1 > 
 G4WT0 > Thread-local run terminated.
+G4WT0 > Run Summary
+G4WT0 >   Number of events processed : 0
+G4WT0 >   User=0.000000s Real=0.000003s Sys=0.000000s [Cpu=0.0%]
 G4WT1 > *********************************************************************************************************
 G4WT1 > * G4Track Information:   Particle = gamma,   Track ID = 1,   Parent ID = 0
 G4WT1 > *********************************************************************************************************
@@ -1089,9 +1149,6 @@ G4WT1 >
 G4WT1 > Step#    X(mm)    Y(mm)    Z(mm) KinE(MeV)  dE(MeV) StepLeng TrackLeng  NextVolume ProcName
 G4WT1 >     0        0        0     -500         1        0        0         0       World initStep
 G4WT1 >     1        0        0     -100         1        0      400       400     Tracker Transportation
-G4WT0 > Run Summary
-G4WT0 >   Number of events processed : 0
-G4WT0 >   User=0.000000s Real=0.000009s Sys=0.000000s [Cpu=0.0%]
 G4WT1 >     2        0        0      -85     0.232        0       15       415     Tracker compt
 G4WT1 >     :----- List of 2ndaries - #SpawnInStep=  1(Rest= 0,Along= 0,Post= 1), #SpawnTotal=  1 ---------------
 G4WT1 >     :         0         0       -85     0.768                 e-
@@ -1124,11 +1181,11 @@ G4WT1 >     4 hits stored in this event
 G4WT1 > Thread-local run terminated.
 G4WT1 > Run Summary
 G4WT1 >   Number of events processed : 1
-G4WT1 >   User=0.020000s Real=0.034424s Sys=0.020000s [Cpu=116.2%]
+G4WT1 >   User=0.030000s Real=0.033585s Sys=0.010000s [Cpu=119.1%]
  Run terminated.
 Run Summary
   Number of events processed : 1
-  User=0.050000s Real=0.068266s Sys=0.020000s [Cpu=102.5%]
+  User=0.050000s Real=0.068170s Sys=0.030000s [Cpu=117.4%]
 1 event has been kept for refreshing and/or reviewing.
   "/vis/reviewKeptEvents" to review one by one.
   To see accumulated, "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild".
@@ -1139,6 +1196,7 @@ There are histograms that can be viewed with visualization:
   But...there are no entries. To make your histograms available for
   plotting in this UI session, use CloseFile(false) in your
   EndOfRunAction and Reset() in your BeginOfRunAction.
+#/run/beamOn 100000
 /control/execute gui.mac
 #
 # This file permits to customize, with commands,
@@ -1180,4 +1238,3 @@ There are histograms that can be viewed with visualization:
 /gui/addButton viewer "Flush viewer (= refresh + update)" "/vis/viewer/flush"
 /gui/addButton viewer "Update scene" "/vis/scene/notifyHandlers"
 #
-
