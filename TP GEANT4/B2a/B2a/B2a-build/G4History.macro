@@ -6,7 +6,8 @@
 /vis/viewer/create ! ! 600x600-0+0
 /vis/viewer/refresh
 /vis/viewer/set/autoRefresh false
-/vis/verbose errors
+/vis/verbose warnings
+/vis/verbose confirmations
 /vis/drawVolume
 /vis/scene/create
 /vis/scene/add/volume world -1 -1 none m 0 0 0 0 0 0
@@ -16,6 +17,7 @@
 /vis/scene/add/trajectories smooth
 /tracking/storeTrajectory 2
 /vis/scene/notifyHandlers
+/tracking/storeTrajectory 1
 /vis/modeling/trajectories/create/drawByCharge
 /vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
 /vis/scene/notifyHandlers scene-0
@@ -68,9 +70,3 @@
 /gui/addButton viewer "Update viewer (interaction or end-of-file)" "/vis/viewer/update"
 /gui/addButton viewer "Flush viewer (= refresh + update)" "/vis/viewer/flush"
 /gui/addButton viewer "Update scene" "/vis/scene/notifyHandlers"
-/vis/viewer/set/viewpointThetaPhi 50. 120.
-/vis/viewer/refresh
-/vis/scene/add/axes 0 0 0 1 m auto
-/vis/scene/notifyHandlers
-/vis/scene/add/hits
-/vis/scene/notifyHandlers

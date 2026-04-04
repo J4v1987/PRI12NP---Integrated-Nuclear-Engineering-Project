@@ -1,5 +1,5 @@
 # Macro file for the visualization setting for the initialization phase 
-# of the B2 example when running in interactive mode
+# of the B2a example when running in interactive mode
 #
 
 # Use these open statements to open selected visualization
@@ -25,7 +25,9 @@
 # Disable auto refresh and quieten vis messages whilst scene and
 # trajectories are established:
 /vis/viewer/set/autoRefresh false
-/vis/verbose errors
+#/vis/verbose errors
+/vis/verbose warnings
+/vis/verbose confirmations
 #
 # Draw geometry:
 /vis/drawVolume
@@ -47,6 +49,7 @@
 # Draw smooth trajectories at end of event, showing trajectory points
 # as markers 2 pixels wide:
 /vis/scene/add/trajectories smooth
+/tracking/storeTrajectory 1 #j25romol: refer to 'GEANT4 Simulation Performance' on the importance to 'Force trajectory storage'
 /vis/modeling/trajectories/create/drawByCharge
 /vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
 /vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
