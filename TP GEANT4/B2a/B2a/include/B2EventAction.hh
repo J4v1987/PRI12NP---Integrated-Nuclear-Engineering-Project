@@ -44,8 +44,12 @@ class B2EventAction : public G4UserEventAction
     virtual ~B2EventAction();
 
     virtual void  BeginOfEventAction(const G4Event* );
-    virtual void    EndOfEventAction(const G4Event* );
+    virtual void  EndOfEventAction(const G4Event* );
+
 /*j25romol: prefer the following revisions*/
+    void AddEdep(G4double edep);
+
+  private:
     G4double fEdep; //
 /*j25romol: end of advised revisions*/
     
