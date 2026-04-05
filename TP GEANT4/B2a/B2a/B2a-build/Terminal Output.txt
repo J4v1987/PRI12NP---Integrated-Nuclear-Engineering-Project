@@ -1,3 +1,28 @@
+javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/B2a-build$ make clean
+javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/B2a-build$ cmake ..
+CMake Deprecation Warning at CMakeLists.txt:6 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/B2a-build
+javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/B2a-build$ make
+[ 10%] Building CXX object CMakeFiles/exampleB2a.dir/exampleB2a.cc.o
+[ 20%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2ActionInitialization.cc.o
+[ 30%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o
+[ 40%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2PrimaryGeneratorAction.cc.o
+[ 50%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2RunAction.cc.o
+[ 60%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2TrackerHit.cc.o
+[ 70%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2TrackerSD.cc.o
+[ 80%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2aDetectorConstruction.cc.o
+[ 90%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o
+[100%] Linking CXX executable exampleB2a
+[100%] Built target exampleB2a
 javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/B2a-build$ ./exampleB2a run2.mac
  **** argc = 2
  **** UI = 0
@@ -860,23 +885,73 @@ Correlated gamma emission flag                      0
 Max 2J for sampling of angular correlations         10
 =======================================================================
 ### Run 0 starts.
-G4WT1 >      Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
-### Run 0 starts on worker thread 1.
 G4WT0 >      Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
 ### Run 0 starts on worker thread 0.
-G4WT1 > --> Event 0 starts with initial seeds (15470735,58711377).
+G4WT0 > --> Event 0 starts with initial seeds (15470735,58711377).
+G4WT0 > eDepTot918.229
+G4WT0 > >>> Event: 0
+G4WT0 >     399 hits stored in this event
+G4WT0 > Total event edep: 918.229
+G4WT0 > eDepTot85.6096
+G4WT0 > >>> Event: 1
+G4WT0 >     88 hits stored in this event
+G4WT0 > Total event edep: 85.6096
+G4WT0 > eDepTot1138.12
+G4WT0 > >>> Event: 2
+G4WT0 >     495 hits stored in this event
+G4WT0 > Total event edep: 1138.12
+G4WT0 > eDepTot75.971
+G4WT0 > >>> Event: 3
+G4WT0 >     79 hits stored in this event
+G4WT0 > Total event edep: 75.971
+G4WT0 > eDepTot76.197
+G4WT0 > >>> Event: 4
+G4WT0 >     73 hits stored in this event
+G4WT0 > Total event edep: 76.197
+G4WT0 > eDepTot71.9041
+G4WT0 > >>> Event: 5
+G4WT0 >     58 hits stored in this event
+G4WT0 > Total event edep: 71.9041
+G4WT0 > eDepTot457.417
+G4WT0 > >>> Event: 6
+G4WT0 >     968 hits stored in this event
+G4WT0 > Total event edep: 457.417
+G4WT0 > eDepTot668.915
+G4WT0 > >>> Event: 7
+G4WT0 >     516 hits stored in this event
+G4WT0 > Total event edep: 668.915
+G4WT0 > eDepTot73.8924
+G4WT0 > >>> Event: 8
+G4WT0 >     69 hits stored in this event
+G4WT0 > Total event edep: 73.8924
+G4WT0 > eDepTot934.96
+G4WT0 > >>> Event: 9
+G4WT0 >     1136 hits stored in this event
+G4WT0 > Total event edep: 934.96
+G4WT0 > eDepTot78.5559
+G4WT0 > >>> Event: 10
+G4WT0 >     86 hits stored in this event
+G4WT0 > Total event edep: 78.5559
+G4WT0 > eDepTot480.309
+G4WT0 > >>> Event: 11
+G4WT0 >     831 hits stored in this event
+G4WT0 > Total event edep: 480.309
+G4WT0 > eDepTot73.768
+G4WT0 > >>> Event: 12
+G4WT0 >     74 hits stored in this event
+G4WT0 > Total event edep: 73.768
+G4WT0 > eDepTot72.1021
+G4WT0 > >>> Event: 13
+G4WT0 >     68 hits stored in this event
+G4WT0 > Total event edep: 72.1021
+G4WT0 > eDepTot82.0092
+G4WT0 > >>> Event: 14
+G4WT0 >     96 hits stored in this event
+G4WT0 > Total event edep: 82.0092
 G4WT0 > eDepTot68.9447
 G4WT0 > >>> Event: 15
 G4WT0 >     48 hits stored in this event
 G4WT0 > Total event edep: 68.9447
-G4WT1 > eDepTot918.229
-G4WT1 > >>> Event: 0
-G4WT1 >     399 hits stored in this event
-G4WT1 > Total event edep: 918.229
-G4WT1 > eDepTot85.6096
-G4WT1 > >>> Event: 1
-G4WT1 >     88 hits stored in this event
-G4WT1 > Total event edep: 85.6096
 G4WT0 > eDepTot414.687
 G4WT0 > >>> Event: 16
 G4WT0 >     506 hits stored in this event
@@ -885,26 +960,10 @@ G4WT0 > eDepTot611.569
 G4WT0 > >>> Event: 17
 G4WT0 >     430 hits stored in this event
 G4WT0 > Total event edep: 611.569
-G4WT1 > eDepTot1138.12
-G4WT1 > >>> Event: 2
-G4WT1 >     495 hits stored in this event
-G4WT1 > Total event edep: 1138.12
 G4WT0 > eDepTot77.4984
 G4WT0 > >>> Event: 18
 G4WT0 >     90 hits stored in this event
-G4WT1 > eDepTot75.971
 G4WT0 > Total event edep: 77.4984
-G4WT1 > >>> Event: 3
-G4WT1 >     79 hits stored in this event
-G4WT1 > Total event edep: 75.971
-G4WT1 > eDepTot76.197
-G4WT1 > >>> Event: 4
-G4WT1 >     73 hits stored in this event
-G4WT1 > Total event edep: 76.197
-G4WT1 > eDepTot71.9041
-G4WT1 > >>> Event: 5
-G4WT1 >     58 hits stored in this event
-G4WT1 > Total event edep: 71.9041
 G4WT0 > eDepTot200.353
 G4WT0 > >>> Event: 19
 G4WT0 >     195 hits stored in this event
@@ -925,10 +984,6 @@ G4WT0 > eDepTot77.5668
 G4WT0 > >>> Event: 23
 G4WT0 >     85 hits stored in this event
 G4WT0 > Total event edep: 77.5668
-G4WT1 > eDepTot457.417
-G4WT1 > >>> Event: 6
-G4WT1 >     968 hits stored in this event
-G4WT1 > Total event edep: 457.417
 G4WT0 > eDepTot319.42
 G4WT0 > >>> Event: 24
 G4WT0 >     448 hits stored in this event
@@ -953,14 +1008,6 @@ G4WT0 > eDepTot73.8329
 G4WT0 > >>> Event: 29
 G4WT0 >     88 hits stored in this event
 G4WT0 > Total event edep: 73.8329
-G4WT1 > eDepTot668.915
-G4WT1 > >>> Event: 7
-G4WT1 >     516 hits stored in this event
-G4WT1 > Total event edep: 668.915
-G4WT1 > eDepTot73.8924
-G4WT1 > >>> Event: 8
-G4WT1 >     69 hits stored in this event
-G4WT1 > Total event edep: 73.8924
 G4WT0 > eDepTot584.495
 G4WT0 > >>> Event: 30
 G4WT0 >     525 hits stored in this event
@@ -985,42 +1032,10 @@ G4WT0 > eDepTot73.7479
 G4WT0 > >>> Event: 35
 G4WT0 >     74 hits stored in this event
 G4WT0 > Total event edep: 73.7479
-G4WT1 > eDepTot934.96
-G4WT1 > >>> Event: 9
-G4WT1 >     1136 hits stored in this event
-G4WT1 > Total event edep: 934.96
-G4WT1 > eDepTot78.5559
-G4WT1 > >>> Event: 10
-G4WT1 >     86 hits stored in this event
-G4WT1 > Total event edep: 78.5559
-G4WT1 > eDepTot480.309
-G4WT1 > >>> Event: 11
-G4WT1 >     831 hits stored in this event
-G4WT1 > Total event edep: 480.309
-G4WT1 > eDepTot73.768
-G4WT1 > >>> Event: 12
-G4WT1 >     74 hits stored in this event
-G4WT1 > Total event edep: 73.768
 G4WT0 > eDepTot1440.77
 G4WT0 > >>> Event: 36
 G4WT0 >     818 hits stored in this event
 G4WT0 > Total event edep: 1440.77
-G4WT1 > eDepTot72.1021
-G4WT1 > >>> Event: 13
-G4WT1 >     68 hits stored in this event
-G4WT1 > Total event edep: 72.1021
-G4WT1 > eDepTot82.0092
-G4WT1 > >>> Event: 14
-G4WT1 >     96 hits stored in this event
-G4WT1 > Total event edep: 82.0092
-G4WT1 > eDepTot75.0259
-G4WT1 > >>> Event: 45
-G4WT1 >     63 hits stored in this event
-G4WT1 > Total event edep: 75.0259
-G4WT1 > eDepTot75.1485
-G4WT1 > >>> Event: 46
-G4WT1 >     65 hits stored in this event
-G4WT1 > Total event edep: 75.1485
 G4WT0 > eDepTot210.414
 G4WT0 > >>> Event: 37
 G4WT0 >     142 hits stored in this event
@@ -1029,18 +1044,6 @@ G4WT0 > eDepTot78.0422
 G4WT0 > >>> Event: 38
 G4WT0 >     85 hits stored in this event
 G4WT0 > Total event edep: 78.0422
-G4WT1 > eDepTot517.436
-G4WT1 > >>> Event: 47
-G4WT1 >     604 hits stored in this event
-G4WT1 > Total event edep: 517.436
-G4WT1 > eDepTot68.7473
-G4WT1 > >>> Event: 48
-G4WT1 >     56 hits stored in this event
-G4WT1 > Total event edep: 68.7473
-G4WT1 > eDepTot81.0907
-G4WT1 > >>> Event: 49
-G4WT1 >     85 hits stored in this event
-G4WT1 > Total event edep: 81.0907
 G4WT0 > eDepTot816.483
 G4WT0 > >>> Event: 39
 G4WT0 >     568 hits stored in this event
@@ -1049,30 +1052,14 @@ G4WT0 > eDepTot70.5235
 G4WT0 > >>> Event: 40
 G4WT0 >     53 hits stored in this event
 G4WT0 > Total event edep: 70.5235
-G4WT1 > eDepTot908.033
-G4WT1 > >>> Event: 50
-G4WT1 >     558 hits stored in this event
-G4WT1 > Total event edep: 908.033
 G4WT0 > eDepTot868.015
 G4WT0 > >>> Event: 41
 G4WT0 >     684 hits stored in this event
 G4WT0 > Total event edep: 868.015
-G4WT1 > eDepTot574.184
-G4WT1 > >>> Event: 51
-G4WT1 >     802 hits stored in this event
-G4WT1 > Total event edep: 574.184
-G4WT1 > eDepTot71.4965
-G4WT1 > >>> Event: 52
-G4WT1 >     66 hits stored in this event
-G4WT1 > Total event edep: 71.4965
 G4WT0 > eDepTot480.338
 G4WT0 > >>> Event: 42
 G4WT0 >     516 hits stored in this event
 G4WT0 > Total event edep: 480.338
-G4WT1 > eDepTot440.375
-G4WT1 > >>> Event: 53
-G4WT1 >     816 hits stored in this event
-G4WT1 > Total event edep: 440.375
 G4WT0 > eDepTot72.655
 G4WT0 > >>> Event: 43
 G4WT0 >     77 hits stored in this event
@@ -1081,18 +1068,66 @@ G4WT0 > eDepTot516.144
 G4WT0 > >>> Event: 44
 G4WT0 >     415 hits stored in this event
 G4WT0 > Total event edep: 516.144
-G4WT1 > eDepTot500.768
-G4WT1 > >>> Event: 54
-G4WT1 >     531 hits stored in this event
-G4WT1 > Total event edep: 500.768
-G4WT1 > eDepTot73.0427
-G4WT1 > >>> Event: 55
-G4WT1 >     56 hits stored in this event
-G4WT1 > Total event edep: 73.0427
-G4WT1 > eDepTot84.9598
-G4WT1 > >>> Event: 56
-G4WT1 >     137 hits stored in this event
-G4WT1 > Total event edep: 84.9598
+G4WT0 > eDepTot75.0259
+G4WT0 > >>> Event: 45
+G4WT0 >     63 hits stored in this event
+G4WT0 > Total event edep: 75.0259
+G4WT0 > eDepTot75.1485
+G4WT0 > >>> Event: 46
+G4WT0 >     65 hits stored in this event
+G4WT0 > Total event edep: 75.1485
+G4WT0 > eDepTot517.436
+G4WT0 > >>> Event: 47
+G4WT0 >     604 hits stored in this event
+G4WT0 > Total event edep: 517.436
+G4WT0 > eDepTot68.7473
+G4WT0 > >>> Event: 48
+G4WT0 >     56 hits stored in this event
+G4WT0 > Total event edep: 68.7473
+G4WT0 > eDepTot81.0907
+G4WT0 > >>> Event: 49
+G4WT0 >     85 hits stored in this event
+G4WT0 > Total event edep: 81.0907
+G4WT0 > eDepTot908.033
+G4WT0 > >>> Event: 50
+G4WT0 >     558 hits stored in this event
+G4WT0 > Total event edep: 908.033
+G4WT0 > eDepTot574.184
+G4WT0 > >>> Event: 51
+G4WT0 >     802 hits stored in this event
+G4WT0 > Total event edep: 574.184
+G4WT0 > eDepTot71.4965
+G4WT0 > >>> Event: 52
+G4WT0 >     66 hits stored in this event
+G4WT0 > Total event edep: 71.4965
+G4WT0 > eDepTot440.375
+G4WT0 > >>> Event: 53
+G4WT0 >     816 hits stored in this event
+G4WT0 > Total event edep: 440.375
+G4WT0 > eDepTot500.768
+G4WT0 > >>> Event: 54
+G4WT0 >     531 hits stored in this event
+G4WT0 > Total event edep: 500.768
+G4WT0 > eDepTot73.0427
+G4WT0 > >>> Event: 55
+G4WT0 >     56 hits stored in this event
+G4WT0 > Total event edep: 73.0427
+G4WT0 > eDepTot84.9598
+G4WT0 > >>> Event: 56
+G4WT0 >     137 hits stored in this event
+G4WT0 > Total event edep: 84.9598
+G4WT0 > eDepTot1154.42
+G4WT0 > >>> Event: 57
+G4WT0 >     1007 hits stored in this event
+G4WT0 > Total event edep: 1154.42
+G4WT0 > eDepTot72.8762
+G4WT0 > >>> Event: 58
+G4WT0 >     64 hits stored in this event
+G4WT0 > Total event edep: 72.8762
+G4WT0 > eDepTot750.026
+G4WT0 > >>> Event: 59
+G4WT0 >     523 hits stored in this event
+G4WT0 > Total event edep: 750.026
 G4WT0 > eDepTot543.752
 G4WT0 > >>> Event: 60
 G4WT0 >     762 hits stored in this event
@@ -1105,14 +1140,6 @@ G4WT0 > eDepTot74.9767
 G4WT0 > >>> Event: 62
 G4WT0 >     62 hits stored in this event
 G4WT0 > Total event edep: 74.9767
-G4WT1 > eDepTot1154.42
-G4WT1 > >>> Event: 57
-G4WT1 >     1007 hits stored in this event
-G4WT1 > Total event edep: 1154.42
-G4WT1 > eDepTot72.8762
-G4WT1 > >>> Event: 58
-G4WT1 >     64 hits stored in this event
-G4WT1 > Total event edep: 72.8762
 G4WT0 > eDepTot476.714
 G4WT0 > >>> Event: 63
 G4WT0 >     656 hits stored in this event
@@ -1141,38 +1168,6 @@ G4WT0 > eDepTot76.8859
 G4WT0 > >>> Event: 69
 G4WT0 >     86 hits stored in this event
 G4WT0 > Total event edep: 76.8859
-G4WT1 > eDepTot750.026
-G4WT1 > >>> Event: 59
-G4WT1 >     523 hits stored in this event
-G4WT1 > Total event edep: 750.026
-G4WT1 > eDepTot84.3183
-G4WT1 > >>> Event: 75
-G4WT1 >     88 hits stored in this event
-G4WT1 > Total event edep: 84.3183
-G4WT1 > eDepTot665.367
-G4WT1 > >>> Event: 76
-G4WT1 >     734 hits stored in this event
-G4WT1 > Total event edep: 665.367
-G4WT1 > eDepTot73.6834
-G4WT1 > >>> Event: 77
-G4WT1 >     68 hits stored in this event
-G4WT1 > Total event edep: 73.6834
-G4WT1 > eDepTot79.6568
-G4WT1 > >>> Event: 78
-G4WT1 >     76 hits stored in this event
-G4WT1 > Total event edep: 79.6568
-G4WT1 > eDepTot84.1095
-G4WT1 > >>> Event: 79
-G4WT1 >     100 hits stored in this event
-G4WT1 > Total event edep: 84.1095
-G4WT1 > eDepTot76.8997
-G4WT1 > >>> Event: 80
-G4WT1 >     69 hits stored in this event
-G4WT1 > Total event edep: 76.8997
-G4WT1 > eDepTot72.1204
-G4WT1 > >>> Event: 81
-G4WT1 >     63 hits stored in this event
-G4WT1 > Total event edep: 72.1204
 G4WT0 > eDepTot902.374
 G4WT0 > >>> Event: 70
 G4WT0 >     844 hits stored in this event
@@ -1181,14 +1176,6 @@ G4WT0 > eDepTot78.5711
 G4WT0 > >>> Event: 71
 G4WT0 >     79 hits stored in this event
 G4WT0 > Total event edep: 78.5711
-G4WT1 > eDepTot498.451
-G4WT1 > >>> Event: 82
-G4WT1 >     743 hits stored in this event
-G4WT1 > Total event edep: 498.451
-G4WT1 > eDepTot1016.87
-G4WT1 > >>> Event: 83
-G4WT1 >     1075 hits stored in this event
-G4WT1 > Total event edep: 1016.87
 G4WT0 > eDepTot774.831
 G4WT0 > >>> Event: 72
 G4WT0 >     1312 hits stored in this event
@@ -1197,14 +1184,70 @@ G4WT0 > eDepTot68.413
 G4WT0 > >>> Event: 73
 G4WT0 >     59 hits stored in this event
 G4WT0 > Total event edep: 68.413
-G4WT1 > eDepTot962.868
-G4WT1 > >>> Event: 84
-G4WT1 >     578 hits stored in this event
-G4WT1 > Total event edep: 962.868
 G4WT0 > eDepTot994.382
 G4WT0 > >>> Event: 74
 G4WT0 >     612 hits stored in this event
 G4WT0 > Total event edep: 994.382
+G4WT0 > eDepTot84.3183
+G4WT0 > >>> Event: 75
+G4WT0 >     88 hits stored in this event
+G4WT0 > Total event edep: 84.3183
+G4WT0 > eDepTot665.367
+G4WT0 > >>> Event: 76
+G4WT0 >     734 hits stored in this event
+G4WT0 > Total event edep: 665.367
+G4WT0 > eDepTot73.6834
+G4WT0 > >>> Event: 77
+G4WT0 >     68 hits stored in this event
+G4WT0 > Total event edep: 73.6834
+G4WT0 > eDepTot79.6568
+G4WT0 > >>> Event: 78
+G4WT0 >     76 hits stored in this event
+G4WT0 > Total event edep: 79.6568
+G4WT0 > eDepTot84.1095
+G4WT0 > >>> Event: 79
+G4WT0 >     100 hits stored in this event
+G4WT0 > Total event edep: 84.1095
+G4WT0 > eDepTot76.8997
+G4WT0 > >>> Event: 80
+G4WT0 >     69 hits stored in this event
+G4WT0 > Total event edep: 76.8997
+G4WT0 > eDepTot72.1204
+G4WT0 > >>> Event: 81
+G4WT0 >     63 hits stored in this event
+G4WT0 > Total event edep: 72.1204
+G4WT0 > eDepTot498.451
+G4WT0 > >>> Event: 82
+G4WT0 >     743 hits stored in this event
+G4WT0 > Total event edep: 498.451
+G4WT0 > eDepTot1016.87
+G4WT0 > >>> Event: 83
+G4WT0 >     1075 hits stored in this event
+G4WT0 > Total event edep: 1016.87
+G4WT0 > eDepTot962.868
+G4WT0 > >>> Event: 84
+G4WT0 >     578 hits stored in this event
+G4WT0 > Total event edep: 962.868
+G4WT0 > eDepTot1149.65
+G4WT0 > >>> Event: 85
+G4WT0 >     1010 hits stored in this event
+G4WT0 > Total event edep: 1149.65
+G4WT0 > eDepTot69.9978
+G4WT0 > >>> Event: 86
+G4WT0 >     56 hits stored in this event
+G4WT0 > Total event edep: 69.9978
+G4WT0 > eDepTot77.3865
+G4WT0 > >>> Event: 87
+G4WT0 >     89 hits stored in this event
+G4WT0 > Total event edep: 77.3865
+G4WT0 > eDepTot278.803
+G4WT0 > >>> Event: 88
+G4WT0 >     337 hits stored in this event
+G4WT0 > Total event edep: 278.803
+G4WT0 > eDepTot70.7726
+G4WT0 > >>> Event: 89
+G4WT0 >     61 hits stored in this event
+G4WT0 > Total event edep: 70.7726
 G4WT0 > eDepTot71.2685
 G4WT0 > >>> Event: 90
 G4WT0 >     65 hits stored in this event
@@ -1237,22 +1280,10 @@ G4WT0 > eDepTot79.0015
 G4WT0 > >>> Event: 97
 G4WT0 >     77 hits stored in this event
 G4WT0 > Total event edep: 79.0015
-G4WT1 > eDepTot1149.65
-G4WT1 > >>> Event: 85
-G4WT1 >     1010 hits stored in this event
-G4WT1 > Total event edep: 1149.65
-G4WT1 > eDepTot69.9978
-G4WT1 > >>> Event: 86
-G4WT1 >     56 hits stored in this event
-G4WT1 > Total event edep: 69.9978
 G4WT0 > eDepTot605.615
 G4WT0 > >>> Event: 98
 G4WT0 >     832 hits stored in this event
 G4WT0 > Total event edep: 605.615
-G4WT1 > eDepTot77.3865
-G4WT1 > >>> Event: 87
-G4WT1 >     89 hits stored in this event
-G4WT1 > Total event edep: 77.3865
 G4WT0 > eDepTot87.5897
 G4WT0 > >>> Event: 99
 G4WT0 >     101 hits stored in this event
@@ -1289,18 +1320,6 @@ G4WT0 > eDepTot76.8654
 G4WT0 > Total event edep: 76.8654
 G4WT0 > eDepTot73.6938
 G4WT0 > Total event edep: 73.6938
-G4WT1 > eDepTot278.803
-G4WT1 > >>> Event: 88
-G4WT1 >     337 hits stored in this event
-G4WT1 > Total event edep: 278.803
-G4WT1 > eDepTot70.7726
-G4WT1 > >>> Event: 89
-G4WT1 >     61 hits stored in this event
-G4WT1 > Total event edep: 70.7726
-G4WT1 > eDepTot84.1155
-G4WT1 > Total event edep: 84.1155
-G4WT1 > eDepTot392.043
-G4WT1 > Total event edep: 392.043
 G4WT0 > eDepTot778.669
 G4WT0 > Total event edep: 778.669
 G4WT0 > eDepTot73.9579
@@ -1311,80 +1330,58 @@ G4WT0 > eDepTot71.7087
 G4WT0 > Total event edep: 71.7087
 G4WT0 > eDepTot978.52
 G4WT0 > Total event edep: 978.52
-G4WT1 > eDepTot1330.2
-G4WT1 > Total event edep: 1330.2
+G4WT0 > eDepTot84.1155
+G4WT0 > Total event edep: 84.1155
+G4WT0 > eDepTot392.043
+G4WT0 > Total event edep: 392.043
+G4WT0 > eDepTot1330.2
+G4WT0 > Total event edep: 1330.2
+G4WT0 > eDepTot81.0797
+G4WT0 > Total event edep: 81.0797
+G4WT0 > eDepTot80.0808
+G4WT0 > Total event edep: 80.0808
+G4WT0 > eDepTot78.2406
+G4WT0 > Total event edep: 78.2406
+G4WT0 > eDepTot72.0537
+G4WT0 > Total event edep: 72.0537
+G4WT0 > eDepTot78.6905
+G4WT0 > Total event edep: 78.6905
+G4WT0 > eDepTot822.686
+G4WT0 > Total event edep: 822.686
+G4WT0 > eDepTot452.367
+G4WT0 > Total event edep: 452.367
+G4WT0 > eDepTot445.4
+G4WT0 > Total event edep: 445.4
+G4WT0 > eDepTot84.4458
+G4WT0 > Total event edep: 84.4458
+G4WT0 > eDepTot71.4739
+G4WT0 > Total event edep: 71.4739
+G4WT0 > eDepTot68.5326
+G4WT0 > Total event edep: 68.5326
+G4WT0 > eDepTot446.584
+G4WT0 > Total event edep: 446.584
 G4WT0 > eDepTot74.5483
 G4WT0 > Total event edep: 74.5483
-G4WT1 > eDepTot81.0797
-G4WT1 > Total event edep: 81.0797
-G4WT1 > eDepTot80.0808
-G4WT1 > Total event edep: 80.0808
-G4WT1 > eDepTot78.2406
-G4WT1 > Total event edep: 78.2406
-G4WT1 > eDepTot72.0537
-G4WT1 > Total event edep: 72.0537
-G4WT1 > eDepTot78.6905
-G4WT1 > Total event edep: 78.6905
 G4WT0 > eDepTot650.998
 G4WT0 > Total event edep: 650.998
-G4WT1 > eDepTot822.686
-G4WT1 > Total event edep: 822.686
-G4WT1 > eDepTot452.367
-G4WT1 > Total event edep: 452.367
 G4WT0 > eDepTot560.985
 G4WT0 > Total event edep: 560.985
-G4WT1 > eDepTot445.4
-G4WT1 > Total event edep: 445.4
 G4WT0 > eDepTot74.0278
 G4WT0 > Total event edep: 74.0278
 G4WT0 > eDepTot75.5471
 G4WT0 > Total event edep: 75.5471
-G4WT1 > eDepTot84.4458
-G4WT1 > Total event edep: 84.4458
-G4WT1 > eDepTot71.4739
-G4WT1 > Total event edep: 71.4739
-G4WT1 > eDepTot68.5326
-G4WT1 > Total event edep: 68.5326
 G4WT0 > eDepTot301.696
 G4WT0 > Total event edep: 301.696
 G4WT0 > eDepTot74.2006
 G4WT0 > Total event edep: 74.2006
-G4WT1 > eDepTot446.584
-G4WT1 > Total event edep: 446.584
 G4WT0 > eDepTot197.857
 G4WT0 > Total event edep: 197.857
-G4WT1 > eDepTot438.836
-G4WT1 > Total event edep: 438.836
-G4WT1 > eDepTot136.112
-G4WT1 > Total event edep: 136.112
-G4WT1 > eDepTot78.3364
-G4WT1 > Total event edep: 78.3364
 G4WT0 > eDepTot459.679
 G4WT0 > Total event edep: 459.679
-G4WT1 > eDepTot86.1788
-G4WT1 > Total event edep: 86.1788
 G4WT0 > eDepTot75.3129
 G4WT0 > Total event edep: 75.3129
 G4WT0 > eDepTot80.4372
 G4WT0 > Total event edep: 80.4372
-G4WT1 > eDepTot799.363
-G4WT1 > Total event edep: 799.363
-G4WT1 > eDepTot243.839
-G4WT1 > Total event edep: 243.839
-G4WT1 > eDepTot90.5614
-G4WT1 > Total event edep: 90.5614
-G4WT1 > eDepTot87.2885
-G4WT1 > Total event edep: 87.2885
-G4WT1 > eDepTot74.123
-G4WT1 > Total event edep: 74.123
-G4WT1 > eDepTot73.4594
-G4WT1 > Total event edep: 73.4594
-G4WT1 > eDepTot80.2421
-G4WT1 > Total event edep: 80.2421
-G4WT1 > eDepTot77.9701
-G4WT1 > Total event edep: 77.9701
-G4WT1 > eDepTot79.9509
-G4WT1 > Total event edep: 79.9509
 G4WT0 > eDepTot1359.72
 G4WT0 > Total event edep: 1359.72
 G4WT0 > eDepTot80.16
@@ -1393,6 +1390,36 @@ G4WT0 > eDepTot73.8428
 G4WT0 > Total event edep: 73.8428
 G4WT0 > eDepTot73.9821
 G4WT0 > Total event edep: 73.9821
+G4WT0 > eDepTot438.836
+G4WT0 > Total event edep: 438.836
+G4WT0 > eDepTot136.112
+G4WT0 > Total event edep: 136.112
+G4WT0 > eDepTot78.3364
+G4WT0 > Total event edep: 78.3364
+G4WT0 > eDepTot86.1788
+G4WT0 > Total event edep: 86.1788
+G4WT0 > eDepTot799.363
+G4WT0 > Total event edep: 799.363
+G4WT0 > eDepTot243.839
+G4WT0 > Total event edep: 243.839
+G4WT0 > eDepTot90.5614
+G4WT0 > Total event edep: 90.5614
+G4WT0 > eDepTot87.2885
+G4WT0 > Total event edep: 87.2885
+G4WT0 > eDepTot74.123
+G4WT0 > Total event edep: 74.123
+G4WT0 > eDepTot73.4594
+G4WT0 > Total event edep: 73.4594
+G4WT0 > eDepTot80.2421
+G4WT0 > Total event edep: 80.2421
+G4WT0 > eDepTot77.9701
+G4WT0 > Total event edep: 77.9701
+G4WT0 > eDepTot79.9509
+G4WT0 > Total event edep: 79.9509
+G4WT0 > eDepTot1436.72
+G4WT0 > Total event edep: 1436.72
+G4WT0 > eDepTot712.908
+G4WT0 > Total event edep: 712.908
 G4WT0 > eDepTot68.6925
 G4WT0 > Total event edep: 68.6925
 G4WT0 > eDepTot477.336
@@ -1407,16 +1434,12 @@ G4WT0 > eDepTot78.0608
 G4WT0 > Total event edep: 78.0608
 G4WT0 > eDepTot69.4971
 G4WT0 > Total event edep: 69.4971
-G4WT1 > eDepTot1436.72
-G4WT1 > Total event edep: 1436.72
 G4WT0 > eDepTot1070.08
 G4WT0 > Total event edep: 1070.08
 G4WT0 > eDepTot83.2532
 G4WT0 > Total event edep: 83.2532
 G4WT0 > eDepTot70.1177
 G4WT0 > Total event edep: 70.1177
-G4WT1 > eDepTot712.908
-G4WT1 > Total event edep: 712.908
 G4WT0 > eDepTot81.0341
 G4WT0 > Total event edep: 81.0341
 G4WT0 > eDepTot71.9844
@@ -1425,100 +1448,54 @@ G4WT0 > eDepTot84.0655
 G4WT0 > Total event edep: 84.0655
 G4WT0 > eDepTot487.264
 G4WT0 > Total event edep: 487.264
-G4WT1 > eDepTot760.107
-G4WT1 > Total event edep: 760.107
-G4WT1 > eDepTot80.3253
-G4WT1 > Total event edep: 80.3253
-G4WT1 > eDepTot72.2978
-G4WT1 > Total event edep: 72.2978
-G4WT1 > eDepTot186.484
-G4WT1 > Total event edep: 186.484
-G4WT1 > eDepTot80.0885
-G4WT1 > Total event edep: 80.0885
 G4WT0 > eDepTot1305.98
 G4WT0 > Total event edep: 1305.98
+G4WT0 > eDepTot760.107
+G4WT0 > Total event edep: 760.107
+G4WT0 > eDepTot80.3253
+G4WT0 > Total event edep: 80.3253
+G4WT0 > eDepTot72.2978
+G4WT0 > Total event edep: 72.2978
+G4WT0 > eDepTot186.484
+G4WT0 > Total event edep: 186.484
+G4WT0 > eDepTot80.0885
+G4WT0 > Total event edep: 80.0885
+G4WT0 > eDepTot714.353
+G4WT0 > Total event edep: 714.353
+G4WT0 > eDepTot536.009
+G4WT0 > Total event edep: 536.009
+G4WT0 > eDepTot528.642
+G4WT0 > Total event edep: 528.642
+G4WT0 > eDepTot81.7188
+G4WT0 > Total event edep: 81.7188
+G4WT0 > eDepTot76.3119
+G4WT0 > Total event edep: 76.3119
+G4WT0 > eDepTot76.5547
+G4WT0 > Total event edep: 76.5547
+G4WT0 > eDepTot424.407
+G4WT0 > Total event edep: 424.407
+G4WT0 > eDepTot70.9183
+G4WT0 > Total event edep: 70.9183
+G4WT0 > eDepTot72.5521
+G4WT0 > Total event edep: 72.5521
+G4WT0 > eDepTot98.7328
+G4WT0 > Total event edep: 98.7328
 G4WT0 > eDepTot71.765
 G4WT0 > Total event edep: 71.765
-G4WT1 > eDepTot714.353
-G4WT1 > Total event edep: 714.353
 G4WT0 > eDepTot578.015
 G4WT0 > Total event edep: 578.015
-G4WT1 > eDepTot536.009
-G4WT1 > Total event edep: 536.009
-G4WT1 > eDepTot528.642
-G4WT1 > Total event edep: 528.642
-G4WT1 > eDepTot81.7188
-G4WT1 > Total event edep: 81.7188
-G4WT1 > eDepTot76.3119
-G4WT1 > Total event edep: 76.3119
-G4WT1 > eDepTot76.5547
-G4WT1 > Total event edep: 76.5547
 G4WT0 > eDepTot745.737
 G4WT0 > Total event edep: 745.737
-G4WT1 > eDepTot424.407
-G4WT1 > Total event edep: 424.407
-G4WT1 > eDepTot70.9183
-G4WT1 > Total event edep: 70.9183
-G4WT1 > eDepTot72.5521
-G4WT1 > Total event edep: 72.5521
-G4WT1 > eDepTot98.7328
-G4WT1 > Total event edep: 98.7328
-G4WT1 > eDepTot82.7397
-G4WT1 > Total event edep: 82.7397
-G4WT1 > eDepTot73.9784
-G4WT1 > Total event edep: 73.9784
-G4WT1 > eDepTot309.814
-G4WT1 > Total event edep: 309.814
-G4WT1 > eDepTot84.3966
-G4WT1 > Total event edep: 84.3966
-G4WT1 > eDepTot69.3314
-G4WT1 > Total event edep: 69.3314
-G4WT1 > eDepTot69.8603
-G4WT1 > Total event edep: 69.8603
-G4WT1 > eDepTot75.998
-G4WT1 > Total event edep: 75.998
-G4WT1 > eDepTot78.3075
-G4WT1 > Total event edep: 78.3075
-G4WT1 > eDepTot82.2415
-G4WT1 > Total event edep: 82.2415
-G4WT1 > eDepTot76.2961
-G4WT1 > Total event edep: 76.2961
-G4WT1 > eDepTot88.7932
-G4WT1 > Total event edep: 88.7932
-G4WT1 > eDepTot79.1338
-G4WT1 > Total event edep: 79.1338
-G4WT1 > eDepTot79.7872
-G4WT1 > Total event edep: 79.7872
 G4WT0 > eDepTot1362.46
 G4WT0 > Total event edep: 1362.46
-G4WT1 > eDepTot79.5431
-G4WT1 > Total event edep: 79.5431
 G4WT0 > eDepTot80.2363
 G4WT0 > Total event edep: 80.2363
-G4WT1 > eDepTot79.2327
-G4WT1 > Total event edep: 79.2327
-G4WT1 > eDepTot76.0611
-G4WT1 > Total event edep: 76.0611
-G4WT1 > eDepTot1165.96
-G4WT1 > Total event edep: 1165.96
-G4WT1 > eDepTot79.4946
-G4WT1 > Total event edep: 79.4946
 G4WT0 > eDepTot1284.13
 G4WT0 > >>> Event: 200
 G4WT0 >     1477 hits stored in this event
 G4WT0 > Total event edep: 1284.13
 G4WT0 > eDepTot73.4395
 G4WT0 > Total event edep: 73.4395
-G4WT1 > eDepTot1000.62
-G4WT1 > Total event edep: 1000.62
-G4WT1 > eDepTot372.118
-G4WT1 > Total event edep: 372.118
-G4WT1 > eDepTot80.7994
-G4WT1 > Total event edep: 80.7994
-G4WT1 > eDepTot75.3386
-G4WT1 > Total event edep: 75.3386
-G4WT1 > eDepTot92.1153
-G4WT1 > Total event edep: 92.1153
 G4WT0 > eDepTot1047.38
 G4WT0 > Total event edep: 1047.38
 G4WT0 > eDepTot974.264
@@ -1533,60 +1510,82 @@ G4WT0 > eDepTot76.2534
 G4WT0 > Total event edep: 76.2534
 G4WT0 > eDepTot85.0175
 G4WT0 > Total event edep: 85.0175
-G4WT1 > eDepTot737.197
-G4WT1 > Total event edep: 737.197
-G4WT1 > eDepTot524.548
-G4WT1 > Total event edep: 524.548
-G4WT1 > eDepTot74.0408
-G4WT1 > Total event edep: 74.0408
 G4WT0 > eDepTot941.617
 G4WT0 > Total event edep: 941.617
+G4WT0 > eDepTot82.7397
+G4WT0 > Total event edep: 82.7397
+G4WT0 > eDepTot73.9784
+G4WT0 > Total event edep: 73.9784
+G4WT0 > eDepTot309.814
+G4WT0 > Total event edep: 309.814
+G4WT0 > eDepTot84.3966
+G4WT0 > Total event edep: 84.3966
+G4WT0 > eDepTot69.3314
+G4WT0 > Total event edep: 69.3314
+G4WT0 > eDepTot69.8603
+G4WT0 > Total event edep: 69.8603
+G4WT0 > eDepTot75.998
+G4WT0 > Total event edep: 75.998
+G4WT0 > eDepTot78.3075
+G4WT0 > Total event edep: 78.3075
+G4WT0 > eDepTot82.2415
+G4WT0 > Total event edep: 82.2415
+G4WT0 > eDepTot76.2961
+G4WT0 > Total event edep: 76.2961
+G4WT0 > eDepTot88.7932
+G4WT0 > Total event edep: 88.7932
+G4WT0 > eDepTot79.1338
+G4WT0 > Total event edep: 79.1338
+G4WT0 > eDepTot79.7872
+G4WT0 > Total event edep: 79.7872
+G4WT0 > eDepTot79.5431
+G4WT0 > Total event edep: 79.5431
+G4WT0 > eDepTot79.2327
+G4WT0 > Total event edep: 79.2327
+G4WT0 > eDepTot76.0611
+G4WT0 > Total event edep: 76.0611
+G4WT0 > eDepTot1165.96
+G4WT0 > Total event edep: 1165.96
+G4WT0 > eDepTot79.4946
+G4WT0 > Total event edep: 79.4946
+G4WT0 > eDepTot1000.62
+G4WT0 > Total event edep: 1000.62
+G4WT0 > eDepTot372.118
+G4WT0 > Total event edep: 372.118
+G4WT0 > eDepTot80.7994
+G4WT0 > Total event edep: 80.7994
+G4WT0 > eDepTot75.3386
+G4WT0 > Total event edep: 75.3386
+G4WT0 > eDepTot92.1153
+G4WT0 > Total event edep: 92.1153
+G4WT0 > eDepTot737.197
+G4WT0 > Total event edep: 737.197
+G4WT0 > eDepTot524.548
+G4WT0 > Total event edep: 524.548
+G4WT0 > eDepTot74.0408
+G4WT0 > Total event edep: 74.0408
+G4WT0 > eDepTot851.563
+G4WT0 > Total event edep: 851.563
+G4WT0 > eDepTot71.2089
+G4WT0 > Total event edep: 71.2089
+G4WT0 > eDepTot74.1513
+G4WT0 > Total event edep: 74.1513
+G4WT0 > eDepTot519.856
+G4WT0 > Total event edep: 519.856
 G4WT0 > eDepTot75.4332
 G4WT0 > Total event edep: 75.4332
 G4WT0 > eDepTot81.5807
 G4WT0 > Total event edep: 81.5807
-G4WT1 > eDepTot851.563
-G4WT1 > Total event edep: 851.563
-G4WT1 > eDepTot71.2089
-G4WT1 > Total event edep: 71.2089
-G4WT1 > eDepTot74.1513
-G4WT1 > Total event edep: 74.1513
 G4WT0 > eDepTot1133.16
 G4WT0 > Total event edep: 1133.16
 G4WT0 > eDepTot76.5185
 G4WT0 > Total event edep: 76.5185
 G4WT0 > eDepTot77.4956
 G4WT0 > Total event edep: 77.4956
-G4WT1 > eDepTot519.856
-G4WT1 > Total event edep: 519.856
-G4WT1 > eDepTot83.5805
-G4WT1 > Total event edep: 83.5805
-G4WT1 > eDepTot780.057
-G4WT1 > Total event edep: 780.057
-G4WT1 > eDepTot71.6714
-G4WT1 > Total event edep: 71.6714
-G4WT1 > eDepTot81.7475
-G4WT1 > Total event edep: 81.7475
-G4WT1 > eDepTot69.4388
-G4WT1 > Total event edep: 69.4388
 G4WT0 > eDepTot982.132
 G4WT0 > Total event edep: 982.132
 G4WT0 > eDepTot74.8093
 G4WT0 > Total event edep: 74.8093
-G4WT1 > eDepTot419.24
-G4WT1 > Total event edep: 419.24
-G4WT1 > eDepTot75.9814
-G4WT1 > Total event edep: 75.9814
-G4WT1 > eDepTot77.8633
-G4WT1 > Total event edep: 77.8633
-G4WT1 > eDepTot71.3824
-G4WT1 > Total event edep: 71.3824
-G4WT1 > eDepTot440.08
-G4WT1 > Total event edep: 440.08
-G4WT1 > eDepTot79.9451
-G4WT1 > Total event edep: 79.9451
-G4WT1 > eDepTot70.3386
-G4WT1 > Total event edep: 70.3386
 G4WT0 > eDepTot562.669
 G4WT0 > Total event edep: 562.669
 G4WT0 > eDepTot77.5292
@@ -1595,30 +1594,76 @@ G4WT0 > eDepTot486.971
 G4WT0 > Total event edep: 486.971
 G4WT0 > eDepTot76.4232
 G4WT0 > Total event edep: 76.4232
-G4WT1 > eDepTot948.401
-G4WT1 > Total event edep: 948.401
 G4WT0 > eDepTot74.1118
 G4WT0 > Total event edep: 74.1118
-G4WT1 > eDepTot70.8177
-G4WT1 > Total event edep: 70.8177
-G4WT1 > eDepTot81.0576
-G4WT1 > Total event edep: 81.0576
-G4WT1 > eDepTot75.4656
-G4WT1 > Total event edep: 75.4656
 G4WT0 > eDepTot521.927
 G4WT0 > Total event edep: 521.927
-G4WT1 > eDepTot801.764
-G4WT1 > Total event edep: 801.764
 G4WT0 > eDepTot1101.43
 G4WT0 > Total event edep: 1101.43
-G4WT1 > eDepTot74.2337
-G4WT1 > Total event edep: 74.2337
 G4WT0 > eDepTot78.9741
 G4WT0 > Total event edep: 78.9741
+G4WT0 > eDepTot83.5805
+G4WT0 > Total event edep: 83.5805
+G4WT0 > eDepTot780.057
+G4WT0 > Total event edep: 780.057
+G4WT0 > eDepTot71.6714
+G4WT0 > Total event edep: 71.6714
+G4WT0 > eDepTot81.7475
+G4WT0 > Total event edep: 81.7475
+G4WT0 > eDepTot69.4388
+G4WT0 > Total event edep: 69.4388
+G4WT0 > eDepTot419.24
+G4WT0 > Total event edep: 419.24
+G4WT0 > eDepTot75.9814
+G4WT0 > Total event edep: 75.9814
+G4WT0 > eDepTot77.8633
+G4WT0 > Total event edep: 77.8633
+G4WT0 > eDepTot71.3824
+G4WT0 > Total event edep: 71.3824
+G4WT0 > eDepTot440.08
+G4WT0 > Total event edep: 440.08
+G4WT0 > eDepTot79.9451
+G4WT0 > Total event edep: 79.9451
+G4WT0 > eDepTot70.3386
+G4WT0 > Total event edep: 70.3386
+G4WT0 > eDepTot948.401
+G4WT0 > Total event edep: 948.401
+G4WT0 > eDepTot70.8177
+G4WT0 > Total event edep: 70.8177
+G4WT0 > eDepTot81.0576
+G4WT0 > Total event edep: 81.0576
+G4WT0 > eDepTot75.4656
+G4WT0 > Total event edep: 75.4656
+G4WT0 > eDepTot801.764
+G4WT0 > Total event edep: 801.764
+G4WT0 > eDepTot74.2337
+G4WT0 > Total event edep: 74.2337
+G4WT0 > eDepTot448.203
+G4WT0 > Total event edep: 448.203
+G4WT0 > eDepTot990.72
+G4WT0 > Total event edep: 990.72
+G4WT0 > eDepTot77.1852
+G4WT0 > Total event edep: 77.1852
+G4WT0 > eDepTot444.841
+G4WT0 > Total event edep: 444.841
+G4WT0 > eDepTot75.3799
+G4WT0 > Total event edep: 75.3799
+G4WT0 > eDepTot83.2223
+G4WT0 > Total event edep: 83.2223
+G4WT0 > eDepTot67.7987
+G4WT0 > Total event edep: 67.7987
+G4WT0 > eDepTot504.7
+G4WT0 > Total event edep: 504.7
+G4WT0 > eDepTot71.8775
+G4WT0 > Total event edep: 71.8775
+G4WT0 > eDepTot80.2228
+G4WT0 > Total event edep: 80.2228
+G4WT0 > eDepTot1113.18
+G4WT0 > Total event edep: 1113.18
+G4WT0 > eDepTot80.806
+G4WT0 > Total event edep: 80.806
 G4WT0 > eDepTot78.3565
 G4WT0 > Total event edep: 78.3565
-G4WT1 > eDepTot448.203
-G4WT1 > Total event edep: 448.203
 G4WT0 > eDepTot775.867
 G4WT0 > Total event edep: 775.867
 G4WT0 > eDepTot817.115
@@ -1627,10 +1672,6 @@ G4WT0 > eDepTot75.6539
 G4WT0 > Total event edep: 75.6539
 G4WT0 > eDepTot83.9504
 G4WT0 > Total event edep: 83.9504
-G4WT1 > eDepTot990.72
-G4WT1 > Total event edep: 990.72
-G4WT1 > eDepTot77.1852
-G4WT1 > Total event edep: 77.1852
 G4WT0 > eDepTot1002.71
 G4WT0 > Total event edep: 1002.71
 G4WT0 > eDepTot79.8542
@@ -1645,26 +1686,12 @@ G4WT0 > eDepTot78.9517
 G4WT0 > Total event edep: 78.9517
 G4WT0 > eDepTot76.5443
 G4WT0 > Total event edep: 76.5443
-G4WT1 > eDepTot444.841
-G4WT1 > Total event edep: 444.841
-G4WT1 > eDepTot75.3799
-G4WT1 > Total event edep: 75.3799
-G4WT1 > eDepTot83.2223
-G4WT1 > Total event edep: 83.2223
-G4WT1 > eDepTot67.7987
-G4WT1 > Total event edep: 67.7987
 G4WT0 > eDepTot684.027
 G4WT0 > Total event edep: 684.027
 G4WT0 > eDepTot92.2741
 G4WT0 > Total event edep: 92.2741
 G4WT0 > eDepTot82.3876
 G4WT0 > Total event edep: 82.3876
-G4WT1 > eDepTot504.7
-G4WT1 > Total event edep: 504.7
-G4WT1 > eDepTot71.8775
-G4WT1 > Total event edep: 71.8775
-G4WT1 > eDepTot80.2228
-G4WT1 > Total event edep: 80.2228
 G4WT0 > eDepTot270.688
 G4WT0 > >>> Event: 300
 G4WT0 >     346 hits stored in this event
@@ -1673,28 +1700,14 @@ G4WT0 > eDepTot75.3903
 G4WT0 > Total event edep: 75.3903
 G4WT0 > eDepTot69.3807
 G4WT0 > Total event edep: 69.3807
-G4WT1 > eDepTot1113.18
-G4WT1 > Total event edep: 1113.18
-G4WT1 > eDepTot80.806
-G4WT1 > Total event edep: 80.806
 G4WT0 > eDepTot955.446
 G4WT0 > Total event edep: 955.446
-G4WT1 > eDepTot82.8955
 G4WT0 > eDepTot72.0682
-G4WT1 > Total event edep: 82.8955
 G4WT0 > Total event edep: 72.0682
 G4WT0 > eDepTot74.8871
 G4WT0 > Total event edep: 74.8871
-G4WT1 > eDepTot73.6861
-G4WT1 > Total event edep: 73.6861
-G4WT1 > eDepTot68.4651
-G4WT1 > Total event edep: 68.4651
 G4WT0 > eDepTot86.5618
 G4WT0 > Total event edep: 86.5618
-G4WT1 > eDepTot77.4863
-G4WT1 > Total event edep: 77.4863
-G4WT1 > eDepTot73.9425
-G4WT1 > Total event edep: 73.9425
 G4WT0 > eDepTot85.0118
 G4WT0 > Total event edep: 85.0118
 G4WT0 > eDepTot77.522
@@ -1703,44 +1716,50 @@ G4WT0 > eDepTot70.1526
 G4WT0 > Total event edep: 70.1526
 G4WT0 > eDepTot77.0904
 G4WT0 > Total event edep: 77.0904
-G4WT1 > eDepTot976.923
-G4WT1 > Total event edep: 976.923
 G4WT0 > eDepTot937.048
 G4WT0 > Total event edep: 937.048
-G4WT1 > eDepTot925.02
-G4WT1 > Total event edep: 925.02
-G4WT1 > eDepTot71.0719
-G4WT1 > Total event edep: 71.0719
-G4WT1 > eDepTot78.3044
-G4WT1 > Total event edep: 78.3044
 G4WT0 > eDepTot852.629
 G4WT0 > Total event edep: 852.629
 G4WT0 > eDepTot78.4509
 G4WT0 > Total event edep: 78.4509
-G4WT1 > eDepTot371.666
-G4WT1 > Total event edep: 371.666
-G4WT1 > eDepTot78.6304
-G4WT1 > Total event edep: 78.6304
-G4WT1 > eDepTot202.198
-G4WT1 > Total event edep: 202.198
-G4WT1 > eDepTot74.0341
-G4WT1 > Total event edep: 74.0341
-G4WT1 > eDepTot90.3718
-G4WT1 > Total event edep: 90.3718
 G4WT0 > eDepTot905.626
 G4WT0 > Total event edep: 905.626
+G4WT0 > eDepTot82.8955
+G4WT0 > Total event edep: 82.8955
+G4WT0 > eDepTot73.6861
+G4WT0 > Total event edep: 73.6861
+G4WT0 > eDepTot68.4651
+G4WT0 > Total event edep: 68.4651
+G4WT0 > eDepTot77.4863
+G4WT0 > Total event edep: 77.4863
+G4WT0 > eDepTot73.9425
+G4WT0 > Total event edep: 73.9425
+G4WT0 > eDepTot976.923
+G4WT0 > Total event edep: 976.923
+G4WT0 > eDepTot925.02
+G4WT0 > Total event edep: 925.02
+G4WT0 > eDepTot71.0719
+G4WT0 > Total event edep: 71.0719
+G4WT0 > eDepTot78.3044
+G4WT0 > Total event edep: 78.3044
+G4WT0 > eDepTot371.666
+G4WT0 > Total event edep: 371.666
+G4WT0 > eDepTot78.6304
+G4WT0 > Total event edep: 78.6304
+G4WT0 > eDepTot202.198
+G4WT0 > Total event edep: 202.198
+G4WT0 > eDepTot74.0341
+G4WT0 > Total event edep: 74.0341
+G4WT0 > eDepTot90.3718
+G4WT0 > Total event edep: 90.3718
+G4WT0 > eDepTot727.202
+G4WT0 > Total event edep: 727.202
 G4WT0 > eDepTot77.8851
 G4WT0 > Total event edep: 77.8851
-G4WT1 > eDepTot727.202
-G4WT1 > Total event edep: 727.202
-G4WT1 > eDepTot83.3743
-G4WT1 > Total event edep: 83.3743
 G4WT0 > eDepTot670.604
 G4WT0 > Total event edep: 670.604
 G4WT0 > eDepTot104.461
 G4WT0 > Total event edep: 104.461
-G4WT1 > eDepTot358.63
-G4WT1 > Total event edep: 358.63
 G4WT0 > eDepTot518.705
 G4WT0 > Total event edep: 518.705
 G4WT0 > eDepTot71.5122
@@ -1749,72 +1768,82 @@ G4WT0 > eDepTot469.658
 G4WT0 > Total event edep: 469.658
 G4WT0 > eDepTot81.1482
 G4WT0 > Total event edep: 81.1482
-G4WT1 > eDepTot1060.69
-G4WT1 > Total event edep: 1060.69
-G4WT1 > eDepTot77.3949
-G4WT1 > Total event edep: 77.3949
-G4WT1 > eDepTot77.3364
-G4WT1 > Total event edep: 77.3364
-G4WT1 > eDepTot73.3113
-G4WT1 > Total event edep: 73.3113
 G4WT0 > eDepTot1129.46
 G4WT0 > Total event edep: 1129.46
 G4WT0 > eDepTot91.4462
 G4WT0 > Total event edep: 91.4462
-G4WT1 > eDepTot766.381
-G4WT1 > Total event edep: 766.381
-G4WT1 > eDepTot79.1831
-G4WT1 > Total event edep: 79.1831
 G4WT0 > eDepTot83.299
 G4WT0 > Total event edep: 83.299
-G4WT1 > eDepTot73.8171
-G4WT1 > Total event edep: 73.8171
 G4WT0 > eDepTot79.4895
 G4WT0 > Total event edep: 79.4895
 G4WT0 > eDepTot75.174
 G4WT0 > Total event edep: 75.174
-G4WT1 > eDepTot396.218
-G4WT1 > Total event edep: 396.218
-G4WT1 > eDepTot81.0863
-G4WT1 > Total event edep: 81.0863
-G4WT1 > eDepTot72.1113
-G4WT1 > Total event edep: 72.1113
-G4WT1 > eDepTot72.0851
-G4WT1 > Total event edep: 72.0851
-G4WT1 > eDepTot135.442
-G4WT1 > Total event edep: 135.442
-G4WT1 > eDepTot95.6032
-G4WT1 > Total event edep: 95.6032
-G4WT1 > eDepTot71.5299
-G4WT1 > Total event edep: 71.5299
-G4WT1 > eDepTot260.975
-G4WT1 > Total event edep: 260.975
 G4WT0 > eDepTot715.344
 G4WT0 > Total event edep: 715.344
-G4WT1 > eDepTot75.4882
-G4WT1 > Total event edep: 75.4882
-G4WT1 > eDepTot86.519
-G4WT1 > Total event edep: 86.519
-G4WT1 > eDepTot78.0646
-G4WT1 > Total event edep: 78.0646
-G4WT1 > eDepTot83.1937
-G4WT1 > Total event edep: 83.1937
-G4WT1 > eDepTot71.2147
-G4WT1 > Total event edep: 71.2147
-G4WT1 > eDepTot78.8113
-G4WT1 > Total event edep: 78.8113
-G4WT1 > eDepTot88.7683
-G4WT1 > Total event edep: 88.7683
-G4WT1 > eDepTot147.713
-G4WT1 > Total event edep: 147.713
 G4WT0 > eDepTot671.544
 G4WT0 > Total event edep: 671.544
-G4WT1 > eDepTot172.114
-G4WT1 > Total event edep: 172.114
-G4WT1 > eDepTot73.1714
-G4WT1 > Total event edep: 73.1714
 G4WT0 > eDepTot79.6449
 G4WT0 > Total event edep: 79.6449
+G4WT0 > eDepTot83.3743
+G4WT0 > Total event edep: 83.3743
+G4WT0 > eDepTot358.63
+G4WT0 > Total event edep: 358.63
+G4WT0 > eDepTot1060.69
+G4WT0 > Total event edep: 1060.69
+G4WT0 > eDepTot77.3949
+G4WT0 > Total event edep: 77.3949
+G4WT0 > eDepTot77.3364
+G4WT0 > Total event edep: 77.3364
+G4WT0 > eDepTot73.3113
+G4WT0 > Total event edep: 73.3113
+G4WT0 > eDepTot766.381
+G4WT0 > Total event edep: 766.381
+G4WT0 > eDepTot79.1831
+G4WT0 > Total event edep: 79.1831
+G4WT0 > eDepTot73.8171
+G4WT0 > Total event edep: 73.8171
+G4WT0 > eDepTot396.218
+G4WT0 > Total event edep: 396.218
+G4WT0 > eDepTot81.0863
+G4WT0 > Total event edep: 81.0863
+G4WT0 > eDepTot72.1113
+G4WT0 > Total event edep: 72.1113
+G4WT0 > eDepTot72.0851
+G4WT0 > Total event edep: 72.0851
+G4WT0 > eDepTot135.442
+G4WT0 > Total event edep: 135.442
+G4WT0 > eDepTot95.6032
+G4WT0 > Total event edep: 95.6032
+G4WT0 > eDepTot71.5299
+G4WT0 > Total event edep: 71.5299
+G4WT0 > eDepTot260.975
+G4WT0 > Total event edep: 260.975
+G4WT0 > eDepTot75.4882
+G4WT0 > Total event edep: 75.4882
+G4WT0 > eDepTot86.519
+G4WT0 > Total event edep: 86.519
+G4WT0 > eDepTot78.0646
+G4WT0 > Total event edep: 78.0646
+G4WT0 > eDepTot83.1937
+G4WT0 > Total event edep: 83.1937
+G4WT0 > eDepTot71.2147
+G4WT0 > Total event edep: 71.2147
+G4WT0 > eDepTot78.8113
+G4WT0 > Total event edep: 78.8113
+G4WT0 > eDepTot88.7683
+G4WT0 > Total event edep: 88.7683
+G4WT0 > eDepTot147.713
+G4WT0 > Total event edep: 147.713
+G4WT0 > eDepTot172.114
+G4WT0 > Total event edep: 172.114
+G4WT0 > eDepTot73.1714
+G4WT0 > Total event edep: 73.1714
+G4WT0 > eDepTot1067.97
+G4WT0 > Total event edep: 1067.97
+G4WT0 > eDepTot76.6572
+G4WT0 > Total event edep: 76.6572
+G4WT0 > eDepTot1034.65
+G4WT0 > Total event edep: 1034.65
 G4WT0 > eDepTot72.3296
 G4WT0 > Total event edep: 72.3296
 G4WT0 > eDepTot70.306
@@ -1839,48 +1868,20 @@ G4WT0 > eDepTot105.715
 G4WT0 > Total event edep: 105.715
 G4WT0 > eDepTot75.4806
 G4WT0 > Total event edep: 75.4806
-G4WT1 > eDepTot1067.97
-G4WT1 > Total event edep: 1067.97
-G4WT1 > eDepTot76.6572
-G4WT1 > Total event edep: 76.6572
 G4WT0 > eDepTot1411.73
 G4WT0 > Total event edep: 1411.73
 G4WT0 > eDepTot72.0857
 G4WT0 > Total event edep: 72.0857
 G4WT0 > eDepTot98.4031
 G4WT0 > Total event edep: 98.4031
-G4WT1 > eDepTot1034.65
-G4WT1 > Total event edep: 1034.65
 G4WT0 > eDepTot239.522
 G4WT0 > Total event edep: 239.522
-G4WT1 > eDepTot76.9865
-G4WT1 > Total event edep: 76.9865
 G4WT0 > eDepTot83.3637
 G4WT0 > Total event edep: 83.3637
-G4WT1 > eDepTot77.3372
-G4WT1 > Total event edep: 77.3372
 G4WT0 > eDepTot74.1181
 G4WT0 > Total event edep: 74.1181
-G4WT1 > eDepTot76.9737
-G4WT1 > Total event edep: 76.9737
-G4WT1 > eDepTot77.0375
-G4WT1 > Total event edep: 77.0375
 G4WT0 > eDepTot75.6948
 G4WT0 > Total event edep: 75.6948
-G4WT1 > eDepTot80.6641
-G4WT1 > Total event edep: 80.6641
-G4WT1 > eDepTot752.518
-G4WT1 > Total event edep: 752.518
-G4WT1 > eDepTot72.4012
-G4WT1 > Total event edep: 72.4012
-G4WT1 > eDepTot83.7285
-G4WT1 > Total event edep: 83.7285
-G4WT1 > eDepTot77.496
-G4WT1 > Total event edep: 77.496
-G4WT1 > eDepTot72.5513
-G4WT1 > Total event edep: 72.5513
-G4WT1 > eDepTot71.5437
-G4WT1 > Total event edep: 71.5437
 G4WT0 > eDepTot1265.49
 G4WT0 > Total event edep: 1265.49
 G4WT0 > eDepTot73.485
@@ -1893,10 +1894,6 @@ G4WT0 > eDepTot73.5886
 G4WT0 > Total event edep: 73.5886
 G4WT0 > eDepTot71.8446
 G4WT0 > Total event edep: 71.8446
-G4WT1 > eDepTot443.953
-G4WT1 > Total event edep: 443.953
-G4WT1 > eDepTot72.8178
-G4WT1 > Total event edep: 72.8178
 G4WT0 > eDepTot295.074
 G4WT0 > >>> Event: 400
 G4WT0 >     496 hits stored in this event
@@ -1909,12 +1906,40 @@ G4WT0 > eDepTot75.9617
 G4WT0 > Total event edep: 75.9617
 G4WT0 > eDepTot74.0074
 G4WT0 > Total event edep: 74.0074
+G4WT0 > eDepTot76.9865
+G4WT0 > Total event edep: 76.9865
+G4WT0 > eDepTot77.3372
+G4WT0 > Total event edep: 77.3372
+G4WT0 > eDepTot76.9737
+G4WT0 > Total event edep: 76.9737
+G4WT0 > eDepTot77.0375
+G4WT0 > Total event edep: 77.0375
+G4WT0 > eDepTot80.6641
+G4WT0 > Total event edep: 80.6641
+G4WT0 > eDepTot752.518
+G4WT0 > Total event edep: 752.518
+G4WT0 > eDepTot72.4012
+G4WT0 > Total event edep: 72.4012
+G4WT0 > eDepTot83.7285
+G4WT0 > Total event edep: 83.7285
+G4WT0 > eDepTot77.496
+G4WT0 > Total event edep: 77.496
+G4WT0 > eDepTot72.5513
+G4WT0 > Total event edep: 72.5513
+G4WT0 > eDepTot71.5437
+G4WT0 > Total event edep: 71.5437
+G4WT0 > eDepTot443.953
+G4WT0 > Total event edep: 443.953
+G4WT0 > eDepTot72.8178
+G4WT0 > Total event edep: 72.8178
+G4WT0 > eDepTot426.163
+G4WT0 > Total event edep: 426.163
+G4WT0 > eDepTot1092.4
+G4WT0 > Total event edep: 1092.4
 G4WT0 > eDepTot88.3167
 G4WT0 > Total event edep: 88.3167
 G4WT0 > eDepTot80.5439
 G4WT0 > Total event edep: 80.5439
-G4WT1 > eDepTot426.163
-G4WT1 > Total event edep: 426.163
 G4WT0 > eDepTot1014.08
 G4WT0 > Total event edep: 1014.08
 G4WT0 > eDepTot73.7679
@@ -1925,12 +1950,6 @@ G4WT0 > eDepTot72.3447
 G4WT0 > Total event edep: 72.3447
 G4WT0 > eDepTot78.9862
 G4WT0 > Total event edep: 78.9862
-G4WT1 > eDepTot1092.4
-G4WT1 > Total event edep: 1092.4
-G4WT1 > eDepTot75.3719
-G4WT1 > Total event edep: 75.3719
-G4WT1 > eDepTot82.2332
-G4WT1 > Total event edep: 82.2332
 G4WT0 > eDepTot562.697
 G4WT0 > Total event edep: 562.697
 G4WT0 > eDepTot75.0182
@@ -1941,26 +1960,42 @@ G4WT0 > eDepTot725.319
 G4WT0 > Total event edep: 725.319
 G4WT0 > eDepTot80.0272
 G4WT0 > Total event edep: 80.0272
-G4WT1 > eDepTot310.667
-G4WT1 > Total event edep: 310.667
 G4WT0 > eDepTot82.8582
-G4WT1 > eDepTot73.3745
 G4WT0 > Total event edep: 82.8582
-G4WT1 > Total event edep: 73.3745
 G4WT0 > eDepTot72.1202
 G4WT0 > Total event edep: 72.1202
-G4WT1 > eDepTot67.183
-G4WT1 > Total event edep: 67.183
-G4WT1 > eDepTot74.7706
-G4WT1 > Total event edep: 74.7706
-G4WT1 > eDepTot74.0851
-G4WT1 > Total event edep: 74.0851
-G4WT1 > eDepTot74.035
-G4WT1 > Total event edep: 74.035
-G4WT1 > eDepTot72.5928
-G4WT1 > Total event edep: 72.5928
 G4WT0 > eDepTot469.957
 G4WT0 > Total event edep: 469.957
+G4WT0 > eDepTot75.3719
+G4WT0 > Total event edep: 75.3719
+G4WT0 > eDepTot82.2332
+G4WT0 > Total event edep: 82.2332
+G4WT0 > eDepTot310.667
+G4WT0 > Total event edep: 310.667
+G4WT0 > eDepTot73.3745
+G4WT0 > Total event edep: 73.3745
+G4WT0 > eDepTot67.183
+G4WT0 > Total event edep: 67.183
+G4WT0 > eDepTot74.7706
+G4WT0 > Total event edep: 74.7706
+G4WT0 > eDepTot74.0851
+G4WT0 > Total event edep: 74.0851
+G4WT0 > eDepTot74.035
+G4WT0 > Total event edep: 74.035
+G4WT0 > eDepTot72.5928
+G4WT0 > Total event edep: 72.5928
+G4WT0 > eDepTot1297.51
+G4WT0 > Total event edep: 1297.51
+G4WT0 > eDepTot912.462
+G4WT0 > Total event edep: 912.462
+G4WT0 > eDepTot79.9444
+G4WT0 > Total event edep: 79.9444
+G4WT0 > eDepTot77.8654
+G4WT0 > Total event edep: 77.8654
+G4WT0 > eDepTot92.9626
+G4WT0 > Total event edep: 92.9626
+G4WT0 > eDepTot72.4488
+G4WT0 > Total event edep: 72.4488
 G4WT0 > eDepTot83.815
 G4WT0 > Total event edep: 83.815
 G4WT0 > eDepTot83.0924
@@ -1969,76 +2004,62 @@ G4WT0 > eDepTot74.2005
 G4WT0 > Total event edep: 74.2005
 G4WT0 > eDepTot70.924
 G4WT0 > Total event edep: 70.924
-G4WT1 > eDepTot1297.51
-G4WT1 > Total event edep: 1297.51
 G4WT0 > eDepTot650.631
 G4WT0 > Total event edep: 650.631
 G4WT0 > eDepTot78.2543
 G4WT0 > Total event edep: 78.2543
 G4WT0 > eDepTot74.2497
 G4WT0 > Total event edep: 74.2497
-G4WT1 > eDepTot912.462
-G4WT1 > Total event edep: 912.462
-G4WT1 > eDepTot79.9444
-G4WT1 > Total event edep: 79.9444
-G4WT1 > eDepTot77.8654
-G4WT1 > Total event edep: 77.8654
-G4WT1 > eDepTot92.9626
-G4WT1 > Total event edep: 92.9626
 G4WT0 > eDepTot837.68
 G4WT0 > Total event edep: 837.68
-G4WT1 > eDepTot72.4488
-G4WT1 > Total event edep: 72.4488
 G4WT0 > eDepTot83.4984
-G4WT1 > eDepTot75.8426
 G4WT0 > Total event edep: 83.4984
-G4WT1 > Total event edep: 75.8426
-G4WT1 > eDepTot80.1728
-G4WT1 > Total event edep: 80.1728
 G4WT0 > eDepTot83.3065
 G4WT0 > Total event edep: 83.3065
-G4WT1 > eDepTot76.332
-G4WT1 > Total event edep: 76.332
 G4WT0 > eDepTot74.9683
 G4WT0 > Total event edep: 74.9683
-G4WT1 > eDepTot79.0762
-G4WT1 > Total event edep: 79.0762
 G4WT0 > eDepTot82.2784
 G4WT0 > Total event edep: 82.2784
 G4WT0 > eDepTot74.5415
 G4WT0 > Total event edep: 74.5415
-G4WT1 > eDepTot124.504
-G4WT1 > Total event edep: 124.504
-G4WT1 > eDepTot79.7379
-G4WT1 > Total event edep: 79.7379
 G4WT0 > eDepTot490.373
 G4WT0 > Total event edep: 490.373
-G4WT1 > eDepTot307.152
-G4WT1 > Total event edep: 307.152
 G4WT0 > eDepTot71.3065
 G4WT0 > Total event edep: 71.3065
-G4WT1 > eDepTot76.1733
-G4WT1 > Total event edep: 76.1733
-G4WT1 > eDepTot64.4953
-G4WT1 > Total event edep: 64.4953
-G4WT1 > eDepTot84.7944
-G4WT1 > Total event edep: 84.7944
-G4WT1 > eDepTot80.0214
-G4WT1 > Total event edep: 80.0214
+G4WT0 > eDepTot75.8426
+G4WT0 > Total event edep: 75.8426
+G4WT0 > eDepTot80.1728
+G4WT0 > Total event edep: 80.1728
+G4WT0 > eDepTot76.332
+G4WT0 > Total event edep: 76.332
+G4WT0 > eDepTot79.0762
+G4WT0 > Total event edep: 79.0762
+G4WT0 > eDepTot124.504
+G4WT0 > Total event edep: 124.504
+G4WT0 > eDepTot79.7379
+G4WT0 > Total event edep: 79.7379
+G4WT0 > eDepTot307.152
+G4WT0 > Total event edep: 307.152
+G4WT0 > eDepTot76.1733
+G4WT0 > Total event edep: 76.1733
+G4WT0 > eDepTot64.4953
+G4WT0 > Total event edep: 64.4953
+G4WT0 > eDepTot84.7944
+G4WT0 > Total event edep: 84.7944
+G4WT0 > eDepTot80.0214
+G4WT0 > Total event edep: 80.0214
+G4WT0 > eDepTot906.263
+G4WT0 > Total event edep: 906.263
+G4WT0 > eDepTot74.5307
+G4WT0 > Total event edep: 74.5307
+G4WT0 > eDepTot214.087
+G4WT0 > Total event edep: 214.087
+G4WT0 > eDepTot69.2741
+G4WT0 > Total event edep: 69.2741
 G4WT0 > eDepTot360.5
 G4WT0 > Total event edep: 360.5
-G4WT1 > eDepTot906.263
-G4WT1 > Total event edep: 906.263
-G4WT1 > eDepTot74.5307
-G4WT1 > Total event edep: 74.5307
 G4WT0 > eDepTot483.651
 G4WT0 > Total event edep: 483.651
-G4WT1 > eDepTot214.087
-G4WT1 > Total event edep: 214.087
-G4WT1 > eDepTot69.2741
-G4WT1 > Total event edep: 69.2741
-G4WT1 > eDepTot75.8427
-G4WT1 > Total event edep: 75.8427
 G4WT0 > eDepTot365.84
 G4WT0 > Total event edep: 365.84
 G4WT0 > eDepTot78.0348
@@ -2049,14 +2070,6 @@ G4WT0 > eDepTot69.5407
 G4WT0 > Total event edep: 69.5407
 G4WT0 > eDepTot323.375
 G4WT0 > Total event edep: 323.375
-G4WT1 > eDepTot1049.7
-G4WT1 > Total event edep: 1049.7
-G4WT1 > eDepTot84.1141
-G4WT1 > Total event edep: 84.1141
-G4WT1 > eDepTot82.0499
-G4WT1 > Total event edep: 82.0499
-G4WT1 > eDepTot78.9986
-G4WT1 > Total event edep: 78.9986
 G4WT0 > eDepTot1123.78
 G4WT0 > Total event edep: 1123.78
 G4WT0 > eDepTot72.7538
@@ -2073,6 +2086,1026 @@ G4WT0 > eDepTot464.003
 G4WT0 > Total event edep: 464.003
 G4WT0 > eDepTot75.1228
 G4WT0 > Total event edep: 75.1228
+G4WT0 > eDepTot75.8427
+G4WT0 > Total event edep: 75.8427
+G4WT0 > eDepTot1049.7
+G4WT0 > Total event edep: 1049.7
+G4WT0 > eDepTot84.1141
+G4WT0 > Total event edep: 84.1141
+G4WT0 > eDepTot82.0499
+G4WT0 > Total event edep: 82.0499
+G4WT0 > eDepTot78.9986
+G4WT0 > Total event edep: 78.9986
+G4WT0 > eDepTot842.383
+G4WT0 > >>> Event: 500
+G4WT0 >     497 hits stored in this event
+G4WT0 > Total event edep: 842.383
+G4WT0 > eDepTot83.8663
+G4WT0 > Total event edep: 83.8663
+G4WT0 > eDepTot82.0409
+G4WT0 > Total event edep: 82.0409
+G4WT0 > eDepTot78.3686
+G4WT0 > Total event edep: 78.3686
+G4WT0 > eDepTot86.8371
+G4WT0 > Total event edep: 86.8371
+G4WT0 > eDepTot88.5095
+G4WT0 > Total event edep: 88.5095
+G4WT0 > eDepTot84.2627
+G4WT0 > Total event edep: 84.2627
+G4WT0 > eDepTot72.3441
+G4WT0 > Total event edep: 72.3441
+G4WT0 > eDepTot74.7455
+G4WT0 > Total event edep: 74.7455
+G4WT0 > eDepTot72.2583
+G4WT0 > Total event edep: 72.2583
+G4WT0 > eDepTot76.3155
+G4WT0 > Total event edep: 76.3155
+G4WT0 > eDepTot154.75
+G4WT0 > Total event edep: 154.75
+G4WT0 > eDepTot75.0869
+G4WT0 > Total event edep: 75.0869
+G4WT0 > eDepTot83.9738
+G4WT0 > Total event edep: 83.9738
+G4WT0 > eDepTot72.614
+G4WT0 > Total event edep: 72.614
+G4WT0 > eDepTot71.6078
+G4WT0 > Total event edep: 71.6078
+G4WT0 > eDepTot205.976
+G4WT0 > Total event edep: 205.976
+G4WT0 > eDepTot92.9818
+G4WT0 > Total event edep: 92.9818
+G4WT0 > eDepTot952.475
+G4WT0 > Total event edep: 952.475
+G4WT0 > eDepTot77.7672
+G4WT0 > Total event edep: 77.7672
+G4WT0 > eDepTot75.2711
+G4WT0 > Total event edep: 75.2711
+G4WT0 > eDepTot73.9396
+G4WT0 > Total event edep: 73.9396
+G4WT0 > eDepTot74.4023
+G4WT0 > Total event edep: 74.4023
+G4WT0 > eDepTot84.6817
+G4WT0 > Total event edep: 84.6817
+G4WT0 > eDepTot75.0464
+G4WT0 > Total event edep: 75.0464
+G4WT0 > eDepTot221.221
+G4WT0 > Total event edep: 221.221
+G4WT0 > eDepTot84.0718
+G4WT0 > Total event edep: 84.0718
+G4WT0 > eDepTot76.822
+G4WT0 > Total event edep: 76.822
+G4WT0 > eDepTot74.3937
+G4WT0 > Total event edep: 74.3937
+G4WT0 > eDepTot76.6986
+G4WT0 > Total event edep: 76.6986
+G4WT0 > eDepTot74.3449
+G4WT0 > Total event edep: 74.3449
+G4WT0 > eDepTot76.1674
+G4WT0 > Total event edep: 76.1674
+G4WT0 > eDepTot95.8865
+G4WT0 > Total event edep: 95.8865
+G4WT0 > eDepTot78.3512
+G4WT0 > Total event edep: 78.3512
+G4WT0 > eDepTot84.394
+G4WT0 > Total event edep: 84.394
+G4WT0 > eDepTot70.327
+G4WT0 > Total event edep: 70.327
+G4WT0 > eDepTot73.6649
+G4WT0 > Total event edep: 73.6649
+G4WT0 > eDepTot78.8551
+G4WT0 > Total event edep: 78.8551
+G4WT0 > eDepTot78.5397
+G4WT0 > Total event edep: 78.5397
+G4WT0 > eDepTot77.9274
+G4WT0 > Total event edep: 77.9274
+G4WT0 > eDepTot70.8145
+G4WT0 > Total event edep: 70.8145
+G4WT0 > eDepTot79.8117
+G4WT0 > Total event edep: 79.8117
+G4WT0 > eDepTot83.7329
+G4WT0 > Total event edep: 83.7329
+G4WT0 > eDepTot76.9522
+G4WT0 > Total event edep: 76.9522
+G4WT0 > eDepTot900.494
+G4WT0 > Total event edep: 900.494
+G4WT0 > eDepTot72.1407
+G4WT0 > Total event edep: 72.1407
+G4WT0 > eDepTot77.5372
+G4WT0 > Total event edep: 77.5372
+G4WT0 > eDepTot784.091
+G4WT0 > Total event edep: 784.091
+G4WT0 > eDepTot77.6112
+G4WT0 > Total event edep: 77.6112
+G4WT0 > eDepTot87.3483
+G4WT0 > Total event edep: 87.3483
+G4WT0 > eDepTot1122.44
+G4WT0 > Total event edep: 1122.44
+G4WT0 > eDepTot1031.17
+G4WT0 > Total event edep: 1031.17
+G4WT0 > eDepTot72.7561
+G4WT0 > Total event edep: 72.7561
+G4WT0 > eDepTot78.2167
+G4WT0 > Total event edep: 78.2167
+G4WT0 > eDepTot72.8267
+G4WT0 > Total event edep: 72.8267
+G4WT0 > eDepTot1119.53
+G4WT0 > Total event edep: 1119.53
+G4WT0 > eDepTot76.107
+G4WT0 > Total event edep: 76.107
+G4WT0 > eDepTot458.09
+G4WT0 > Total event edep: 458.09
+G4WT0 > eDepTot76.5042
+G4WT0 > Total event edep: 76.5042
+G4WT0 > eDepTot73.1711
+G4WT0 > Total event edep: 73.1711
+G4WT0 > eDepTot81.1649
+G4WT0 > Total event edep: 81.1649
+G4WT0 > eDepTot80.6711
+G4WT0 > Total event edep: 80.6711
+G4WT0 > eDepTot79.679
+G4WT0 > Total event edep: 79.679
+G4WT0 > eDepTot1406.35
+G4WT0 > Total event edep: 1406.35
+G4WT0 > eDepTot1024.06
+G4WT0 > Total event edep: 1024.06
+G4WT0 > eDepTot77.5711
+G4WT0 > Total event edep: 77.5711
+G4WT0 > eDepTot766
+G4WT0 > Total event edep: 766
+G4WT0 > eDepTot1040.29
+G4WT0 > Total event edep: 1040.29
+G4WT0 > eDepTot67.1964
+G4WT0 > Total event edep: 67.1964
+G4WT0 > eDepTot71.3946
+G4WT0 > Total event edep: 71.3946
+G4WT0 > eDepTot82.2322
+G4WT0 > Total event edep: 82.2322
+G4WT0 > eDepTot87.5652
+G4WT0 > Total event edep: 87.5652
+G4WT0 > eDepTot79.8066
+G4WT0 > Total event edep: 79.8066
+G4WT0 > eDepTot77.8201
+G4WT0 > Total event edep: 77.8201
+G4WT0 > eDepTot79.5762
+G4WT0 > Total event edep: 79.5762
+G4WT0 > eDepTot83.7476
+G4WT0 > Total event edep: 83.7476
+G4WT0 > eDepTot71.0474
+G4WT0 > Total event edep: 71.0474
+G4WT0 > eDepTot91.3134
+G4WT0 > Total event edep: 91.3134
+G4WT0 > eDepTot82.3135
+G4WT0 > Total event edep: 82.3135
+G4WT0 > eDepTot70.8096
+G4WT0 > Total event edep: 70.8096
+G4WT0 > eDepTot885.609
+G4WT0 > Total event edep: 885.609
+G4WT0 > eDepTot74.7676
+G4WT0 > Total event edep: 74.7676
+G4WT0 > eDepTot654.971
+G4WT0 > Total event edep: 654.971
+G4WT0 > eDepTot87.2052
+G4WT0 > Total event edep: 87.2052
+G4WT0 > eDepTot76.4787
+G4WT0 > Total event edep: 76.4787
+G4WT0 > eDepTot76.5423
+G4WT0 > Total event edep: 76.5423
+G4WT0 > eDepTot76.164
+G4WT0 > Total event edep: 76.164
+G4WT0 > eDepTot81.5149
+G4WT0 > Total event edep: 81.5149
+G4WT0 > eDepTot77.7097
+G4WT0 > Total event edep: 77.7097
+G4WT0 > eDepTot71.5979
+G4WT0 > Total event edep: 71.5979
+G4WT0 > eDepTot80.1487
+G4WT0 > Total event edep: 80.1487
+G4WT0 > eDepTot819.698
+G4WT0 > Total event edep: 819.698
+G4WT0 > eDepTot73.1903
+G4WT0 > Total event edep: 73.1903
+G4WT0 > eDepTot70.9468
+G4WT0 > Total event edep: 70.9468
+G4WT0 > eDepTot79.5313
+G4WT0 > Total event edep: 79.5313
+G4WT0 > eDepTot366.461
+G4WT0 > Total event edep: 366.461
+G4WT0 > eDepTot347.078
+G4WT0 > Total event edep: 347.078
+G4WT0 > eDepTot68.0559
+G4WT0 > Total event edep: 68.0559
+G4WT0 > eDepTot71.2655
+G4WT0 > Total event edep: 71.2655
+G4WT0 > eDepTot73.0772
+G4WT0 > Total event edep: 73.0772
+G4WT0 > eDepTot83.4476
+G4WT0 > >>> Event: 600
+G4WT0 >     94 hits stored in this event
+G4WT0 > Total event edep: 83.4476
+G4WT0 > eDepTot1271.78
+G4WT0 > Total event edep: 1271.78
+G4WT0 > eDepTot632.063
+G4WT0 > Total event edep: 632.063
+G4WT0 > eDepTot504.043
+G4WT0 > Total event edep: 504.043
+G4WT0 > eDepTot236.283
+G4WT0 > Total event edep: 236.283
+G4WT0 > eDepTot79.7187
+G4WT0 > Total event edep: 79.7187
+G4WT0 > eDepTot1080.73
+G4WT0 > Total event edep: 1080.73
+G4WT0 > eDepTot1107.99
+G4WT0 > Total event edep: 1107.99
+G4WT0 > eDepTot769
+G4WT0 > Total event edep: 769
+G4WT0 > eDepTot71.5056
+G4WT0 > Total event edep: 71.5056
+G4WT0 > eDepTot69.9905
+G4WT0 > Total event edep: 69.9905
+G4WT0 > eDepTot76.5388
+G4WT0 > Total event edep: 76.5388
+G4WT0 > eDepTot78.7847
+G4WT0 > Total event edep: 78.7847
+G4WT0 > eDepTot853.038
+G4WT0 > Total event edep: 853.038
+G4WT0 > eDepTot78.0405
+G4WT0 > Total event edep: 78.0405
+G4WT0 > eDepTot707.371
+G4WT0 > Total event edep: 707.371
+G4WT0 > eDepTot82.3008
+G4WT0 > Total event edep: 82.3008
+G4WT0 > eDepTot69.3272
+G4WT0 > Total event edep: 69.3272
+G4WT0 > eDepTot74.3899
+G4WT0 > Total event edep: 74.3899
+G4WT0 > eDepTot626.762
+G4WT0 > Total event edep: 626.762
+G4WT0 > eDepTot82.8282
+G4WT0 > Total event edep: 82.8282
+G4WT0 > eDepTot72.3225
+G4WT0 > Total event edep: 72.3225
+G4WT0 > eDepTot1993.21
+G4WT0 > Total event edep: 1993.21
+G4WT0 > eDepTot74.486
+G4WT0 > Total event edep: 74.486
+G4WT0 > eDepTot70.1896
+G4WT0 > Total event edep: 70.1896
+G4WT0 > eDepTot76.4948
+G4WT0 > Total event edep: 76.4948
+G4WT0 > eDepTot935.807
+G4WT0 > Total event edep: 935.807
+G4WT0 > eDepTot90.202
+G4WT0 > Total event edep: 90.202
+G4WT0 > eDepTot210.381
+G4WT0 > Total event edep: 210.381
+G4WT0 > eDepTot543.856
+G4WT0 > Total event edep: 543.856
+G4WT0 > eDepTot76.9713
+G4WT0 > Total event edep: 76.9713
+G4WT0 > eDepTot75.9281
+G4WT0 > Total event edep: 75.9281
+G4WT0 > eDepTot81.3854
+G4WT0 > Total event edep: 81.3854
+G4WT0 > eDepTot77.6192
+G4WT0 > Total event edep: 77.6192
+G4WT0 > eDepTot509.822
+G4WT0 > Total event edep: 509.822
+G4WT0 > eDepTot75.4171
+G4WT0 > Total event edep: 75.4171
+G4WT0 > eDepTot75.5332
+G4WT0 > Total event edep: 75.5332
+G4WT0 > eDepTot72.083
+G4WT0 > Total event edep: 72.083
+G4WT0 > eDepTot517.539
+G4WT0 > Total event edep: 517.539
+G4WT0 > eDepTot77.2816
+G4WT0 > Total event edep: 77.2816
+G4WT0 > eDepTot953.536
+G4WT0 > Total event edep: 953.536
+G4WT0 > eDepTot78.6284
+G4WT0 > Total event edep: 78.6284
+G4WT0 > eDepTot79.7989
+G4WT0 > Total event edep: 79.7989
+G4WT0 > eDepTot693.743
+G4WT0 > Total event edep: 693.743
+G4WT0 > eDepTot69.2595
+G4WT0 > Total event edep: 69.2595
+G4WT0 > eDepTot92.2764
+G4WT0 > Total event edep: 92.2764
+G4WT0 > eDepTot76.5153
+G4WT0 > Total event edep: 76.5153
+G4WT0 > eDepTot70.6596
+G4WT0 > Total event edep: 70.6596
+G4WT0 > eDepTot330.303
+G4WT0 > Total event edep: 330.303
+G4WT0 > eDepTot81.5487
+G4WT0 > Total event edep: 81.5487
+G4WT0 > eDepTot80.5006
+G4WT0 > Total event edep: 80.5006
+G4WT0 > eDepTot77.527
+G4WT0 > Total event edep: 77.527
+G4WT0 > eDepTot725.305
+G4WT0 > Total event edep: 725.305
+G4WT0 > eDepTot69.566
+G4WT0 > Total event edep: 69.566
+G4WT0 > eDepTot182.93
+G4WT0 > Total event edep: 182.93
+G4WT0 > eDepTot73.6676
+G4WT0 > Total event edep: 73.6676
+G4WT0 > eDepTot508.834
+G4WT0 > Total event edep: 508.834
+G4WT0 > eDepTot75.1446
+G4WT0 > Total event edep: 75.1446
+G4WT0 > eDepTot85.433
+G4WT0 > Total event edep: 85.433
+G4WT0 > eDepTot1097.74
+G4WT0 > Total event edep: 1097.74
+G4WT0 > eDepTot77.9542
+G4WT0 > Total event edep: 77.9542
+G4WT0 > eDepTot73.0143
+G4WT0 > Total event edep: 73.0143
+G4WT0 > eDepTot72.9293
+G4WT0 > Total event edep: 72.9293
+G4WT0 > eDepTot73.825
+G4WT0 > Total event edep: 73.825
+G4WT0 > eDepTot69.6336
+G4WT0 > Total event edep: 69.6336
+G4WT0 > eDepTot86.986
+G4WT0 > Total event edep: 86.986
+G4WT0 > eDepTot76.5117
+G4WT0 > Total event edep: 76.5117
+G4WT0 > eDepTot75.4227
+G4WT0 > Total event edep: 75.4227
+G4WT0 > eDepTot94.6151
+G4WT0 > Total event edep: 94.6151
+G4WT0 > eDepTot76.222
+G4WT0 > Total event edep: 76.222
+G4WT0 > eDepTot80.5052
+G4WT0 > Total event edep: 80.5052
+G4WT0 > eDepTot899.116
+G4WT0 > Total event edep: 899.116
+G4WT0 > eDepTot90.6661
+G4WT0 > Total event edep: 90.6661
+G4WT0 > eDepTot589.166
+G4WT0 > Total event edep: 589.166
+G4WT0 > eDepTot85.6964
+G4WT0 > Total event edep: 85.6964
+G4WT0 > eDepTot1401.32
+G4WT0 > Total event edep: 1401.32
+G4WT0 > eDepTot82.9964
+G4WT0 > Total event edep: 82.9964
+G4WT0 > eDepTot71.401
+G4WT0 > Total event edep: 71.401
+G4WT0 > eDepTot68.5805
+G4WT0 > Total event edep: 68.5805
+G4WT0 > eDepTot78.5757
+G4WT0 > Total event edep: 78.5757
+G4WT0 > eDepTot78.826
+G4WT0 > Total event edep: 78.826
+G4WT0 > eDepTot924.266
+G4WT0 > Total event edep: 924.266
+G4WT0 > eDepTot70.0417
+G4WT0 > Total event edep: 70.0417
+G4WT0 > eDepTot91.6074
+G4WT0 > Total event edep: 91.6074
+G4WT0 > eDepTot77.0612
+G4WT0 > Total event edep: 77.0612
+G4WT0 > eDepTot948.601
+G4WT0 > Total event edep: 948.601
+G4WT0 > eDepTot1377.65
+G4WT0 > Total event edep: 1377.65
+G4WT0 > eDepTot73.1835
+G4WT0 > Total event edep: 73.1835
+G4WT0 > eDepTot78.9985
+G4WT0 > Total event edep: 78.9985
+G4WT0 > eDepTot1251.15
+G4WT0 > Total event edep: 1251.15
+G4WT0 > eDepTot89.3268
+G4WT0 > Total event edep: 89.3268
+G4WT0 > eDepTot77.3911
+G4WT0 > Total event edep: 77.3911
+G4WT0 > eDepTot206.891
+G4WT0 > Total event edep: 206.891
+G4WT0 > eDepTot741.921
+G4WT0 > Total event edep: 741.921
+G4WT0 > eDepTot76.45
+G4WT0 > Total event edep: 76.45
+G4WT0 > eDepTot71.5529
+G4WT0 > Total event edep: 71.5529
+G4WT0 > eDepTot912.615
+G4WT0 > Total event edep: 912.615
+G4WT0 > eDepTot1013.71
+G4WT0 > Total event edep: 1013.71
+G4WT0 > eDepTot1046.53
+G4WT0 > Total event edep: 1046.53
+G4WT0 > eDepTot83.372
+G4WT0 > Total event edep: 83.372
+G4WT0 > eDepTot74.0236
+G4WT0 > >>> Event: 700
+G4WT0 >     72 hits stored in this event
+G4WT0 > Total event edep: 74.0236
+G4WT0 > eDepTot75.4495
+G4WT0 > Total event edep: 75.4495
+G4WT0 > eDepTot79.2112
+G4WT0 > Total event edep: 79.2112
+G4WT0 > eDepTot364.227
+G4WT0 > Total event edep: 364.227
+G4WT0 > eDepTot76.7793
+G4WT0 > Total event edep: 76.7793
+G4WT0 > eDepTot79.1318
+G4WT0 > Total event edep: 79.1318
+G4WT0 > eDepTot125.097
+G4WT0 > Total event edep: 125.097
+G4WT0 > eDepTot74.3441
+G4WT0 > Total event edep: 74.3441
+G4WT0 > eDepTot907.491
+G4WT0 > Total event edep: 907.491
+G4WT0 > eDepTot71.4861
+G4WT0 > Total event edep: 71.4861
+G4WT0 > eDepTot529.965
+G4WT0 > Total event edep: 529.965
+G4WT0 > eDepTot348.732
+G4WT0 > Total event edep: 348.732
+G4WT0 > eDepTot942.711
+G4WT0 > Total event edep: 942.711
+G4WT0 > eDepTot74.4493
+G4WT0 > Total event edep: 74.4493
+G4WT0 > eDepTot75.0647
+G4WT0 > Total event edep: 75.0647
+G4WT0 > eDepTot288.4
+G4WT0 > Total event edep: 288.4
+G4WT0 > eDepTot79.64
+G4WT0 > Total event edep: 79.64
+G4WT0 > eDepTot78.9512
+G4WT0 > Total event edep: 78.9512
+G4WT0 > eDepTot74.0401
+G4WT0 > Total event edep: 74.0401
+G4WT0 > eDepTot669.476
+G4WT0 > Total event edep: 669.476
+G4WT0 > eDepTot71.7122
+G4WT0 > Total event edep: 71.7122
+G4WT0 > eDepTot71.8135
+G4WT0 > Total event edep: 71.8135
+G4WT0 > eDepTot523.87
+G4WT0 > Total event edep: 523.87
+G4WT0 > eDepTot612.153
+G4WT0 > Total event edep: 612.153
+G4WT0 > eDepTot78.6403
+G4WT0 > Total event edep: 78.6403
+G4WT0 > eDepTot102.137
+G4WT0 > Total event edep: 102.137
+G4WT0 > eDepTot70.7982
+G4WT0 > Total event edep: 70.7982
+G4WT0 > eDepTot78.0079
+G4WT0 > Total event edep: 78.0079
+G4WT0 > eDepTot76.645
+G4WT0 > Total event edep: 76.645
+G4WT0 > eDepTot73.5951
+G4WT0 > Total event edep: 73.5951
+G4WT0 > eDepTot568.945
+G4WT0 > Total event edep: 568.945
+G4WT0 > eDepTot799.419
+G4WT0 > Total event edep: 799.419
+G4WT0 > eDepTot829.437
+G4WT0 > Total event edep: 829.437
+G4WT0 > eDepTot1162.17
+G4WT0 > Total event edep: 1162.17
+G4WT0 > eDepTot80.6962
+G4WT0 > Total event edep: 80.6962
+G4WT0 > eDepTot76.6254
+G4WT0 > Total event edep: 76.6254
+G4WT0 > eDepTot70.1671
+G4WT0 > Total event edep: 70.1671
+G4WT0 > eDepTot66.1398
+G4WT0 > Total event edep: 66.1398
+G4WT0 > eDepTot441.809
+G4WT0 > Total event edep: 441.809
+G4WT0 > eDepTot300.378
+G4WT0 > Total event edep: 300.378
+G4WT0 > eDepTot921.31
+G4WT0 > Total event edep: 921.31
+G4WT0 > eDepTot1234.13
+G4WT0 > Total event edep: 1234.13
+G4WT0 > eDepTot76.3833
+G4WT0 > Total event edep: 76.3833
+G4WT0 > eDepTot74.006
+G4WT0 > Total event edep: 74.006
+G4WT0 > eDepTot71.453
+G4WT0 > Total event edep: 71.453
+G4WT0 > eDepTot120.278
+G4WT0 > Total event edep: 120.278
+G4WT0 > eDepTot77.1492
+G4WT0 > Total event edep: 77.1492
+G4WT0 > eDepTot76.9605
+G4WT0 > Total event edep: 76.9605
+G4WT0 > eDepTot75.3129
+G4WT0 > Total event edep: 75.3129
+G4WT0 > eDepTot1164.9
+G4WT0 > Total event edep: 1164.9
+G4WT0 > eDepTot70.381
+G4WT0 > Total event edep: 70.381
+G4WT0 > eDepTot78.8224
+G4WT0 > Total event edep: 78.8224
+G4WT0 > eDepTot900.581
+G4WT0 > Total event edep: 900.581
+G4WT0 > eDepTot78.9596
+G4WT0 > Total event edep: 78.9596
+G4WT0 > eDepTot79.3252
+G4WT0 > Total event edep: 79.3252
+G4WT0 > eDepTot465.245
+G4WT0 > Total event edep: 465.245
+G4WT0 > eDepTot80.6852
+G4WT0 > Total event edep: 80.6852
+G4WT0 > eDepTot1189.67
+G4WT0 > Total event edep: 1189.67
+G4WT0 > eDepTot76.8584
+G4WT0 > Total event edep: 76.8584
+G4WT0 > eDepTot75.2399
+G4WT0 > Total event edep: 75.2399
+G4WT0 > eDepTot74.7741
+G4WT0 > Total event edep: 74.7741
+G4WT0 > eDepTot74.976
+G4WT0 > Total event edep: 74.976
+G4WT0 > eDepTot70.2147
+G4WT0 > Total event edep: 70.2147
+G4WT0 > eDepTot68.4053
+G4WT0 > Total event edep: 68.4053
+G4WT0 > eDepTot70.2976
+G4WT0 > Total event edep: 70.2976
+G4WT0 > eDepTot80.8912
+G4WT0 > Total event edep: 80.8912
+G4WT0 > eDepTot84.8045
+G4WT0 > Total event edep: 84.8045
+G4WT0 > eDepTot74.5881
+G4WT0 > Total event edep: 74.5881
+G4WT0 > eDepTot621.488
+G4WT0 > Total event edep: 621.488
+G4WT0 > eDepTot902.362
+G4WT0 > Total event edep: 902.362
+G4WT0 > eDepTot74.1676
+G4WT0 > Total event edep: 74.1676
+G4WT0 > eDepTot68.8693
+G4WT0 > Total event edep: 68.8693
+G4WT0 > eDepTot1327.81
+G4WT0 > Total event edep: 1327.81
+G4WT0 > eDepTot76.3734
+G4WT0 > Total event edep: 76.3734
+G4WT0 > eDepTot81.0062
+G4WT0 > Total event edep: 81.0062
+G4WT0 > eDepTot129.055
+G4WT0 > Total event edep: 129.055
+G4WT0 > eDepTot84.7391
+G4WT0 > Total event edep: 84.7391
+G4WT0 > eDepTot75.0612
+G4WT0 > Total event edep: 75.0612
+G4WT0 > eDepTot79.5971
+G4WT0 > Total event edep: 79.5971
+G4WT0 > eDepTot73.7198
+G4WT0 > Total event edep: 73.7198
+G4WT0 > eDepTot75.0815
+G4WT0 > Total event edep: 75.0815
+G4WT0 > eDepTot75.3515
+G4WT0 > Total event edep: 75.3515
+G4WT0 > eDepTot519.864
+G4WT0 > Total event edep: 519.864
+G4WT0 > eDepTot72.1857
+G4WT0 > Total event edep: 72.1857
+G4WT0 > eDepTot72.4848
+G4WT0 > Total event edep: 72.4848
+G4WT0 > eDepTot913.413
+G4WT0 > Total event edep: 913.413
+G4WT0 > eDepTot649.072
+G4WT0 > Total event edep: 649.072
+G4WT0 > eDepTot66.811
+G4WT0 > Total event edep: 66.811
+G4WT0 > eDepTot406.776
+G4WT0 > Total event edep: 406.776
+G4WT0 > eDepTot72.7966
+G4WT0 > Total event edep: 72.7966
+G4WT0 > eDepTot649.714
+G4WT0 > Total event edep: 649.714
+G4WT0 > eDepTot77.7162
+G4WT0 > Total event edep: 77.7162
+G4WT0 > eDepTot896.764
+G4WT0 > Total event edep: 896.764
+G4WT0 > eDepTot1257.76
+G4WT0 > Total event edep: 1257.76
+G4WT0 > eDepTot1056.34
+G4WT0 > Total event edep: 1056.34
+G4WT0 > eDepTot999.439
+G4WT0 > Total event edep: 999.439
+G4WT0 > eDepTot77.6359
+G4WT0 > Total event edep: 77.6359
+G4WT0 > eDepTot71.8967
+G4WT0 > Total event edep: 71.8967
+G4WT0 > eDepTot83.9475
+G4WT0 > Total event edep: 83.9475
+G4WT0 > eDepTot74.1917
+G4WT0 > Total event edep: 74.1917
+G4WT0 > eDepTot1427.62
+G4WT0 > >>> Event: 800
+G4WT0 >     2065 hits stored in this event
+G4WT0 > Total event edep: 1427.62
+G4WT0 > eDepTot70.6533
+G4WT0 > Total event edep: 70.6533
+G4WT0 > eDepTot73.4514
+G4WT0 > Total event edep: 73.4514
+G4WT0 > eDepTot506.504
+G4WT0 > Total event edep: 506.504
+G4WT0 > eDepTot79.7167
+G4WT0 > Total event edep: 79.7167
+G4WT0 > eDepTot1183.8
+G4WT0 > Total event edep: 1183.8
+G4WT0 > eDepTot74.4866
+G4WT0 > Total event edep: 74.4866
+G4WT0 > eDepTot72.279
+G4WT0 > Total event edep: 72.279
+G4WT0 > eDepTot77.4605
+G4WT0 > Total event edep: 77.4605
+G4WT0 > eDepTot75.0594
+G4WT0 > Total event edep: 75.0594
+G4WT0 > eDepTot82.6543
+G4WT0 > Total event edep: 82.6543
+G4WT0 > eDepTot76.1043
+G4WT0 > Total event edep: 76.1043
+G4WT0 > eDepTot91.6911
+G4WT0 > Total event edep: 91.6911
+G4WT0 > eDepTot562.038
+G4WT0 > Total event edep: 562.038
+G4WT0 > eDepTot75.8046
+G4WT0 > Total event edep: 75.8046
+G4WT0 > eDepTot123.453
+G4WT0 > Total event edep: 123.453
+G4WT0 > eDepTot73.1365
+G4WT0 > Total event edep: 73.1365
+G4WT0 > eDepTot72.6614
+G4WT0 > Total event edep: 72.6614
+G4WT0 > eDepTot80.5636
+G4WT0 > Total event edep: 80.5636
+G4WT0 > eDepTot73.1921
+G4WT0 > Total event edep: 73.1921
+G4WT0 > eDepTot81.0253
+G4WT0 > Total event edep: 81.0253
+G4WT0 > eDepTot74.3099
+G4WT0 > Total event edep: 74.3099
+G4WT0 > eDepTot75.1333
+G4WT0 > Total event edep: 75.1333
+G4WT0 > eDepTot214.287
+G4WT0 > Total event edep: 214.287
+G4WT0 > eDepTot93.8588
+G4WT0 > Total event edep: 93.8588
+G4WT0 > eDepTot82.5497
+G4WT0 > Total event edep: 82.5497
+G4WT0 > eDepTot76.5624
+G4WT0 > Total event edep: 76.5624
+G4WT0 > eDepTot1589.08
+G4WT0 > Total event edep: 1589.08
+G4WT0 > eDepTot79.7048
+G4WT0 > Total event edep: 79.7048
+G4WT0 > eDepTot793.578
+G4WT0 > Total event edep: 793.578
+G4WT0 > eDepTot475.305
+G4WT0 > Total event edep: 475.305
+G4WT0 > eDepTot75.723
+G4WT0 > Total event edep: 75.723
+G4WT0 > eDepTot74.1502
+G4WT0 > Total event edep: 74.1502
+G4WT0 > eDepTot74.8986
+G4WT0 > Total event edep: 74.8986
+G4WT0 > eDepTot446.11
+G4WT0 > Total event edep: 446.11
+G4WT0 > eDepTot75.4786
+G4WT0 > Total event edep: 75.4786
+G4WT0 > eDepTot71.5379
+G4WT0 > Total event edep: 71.5379
+G4WT0 > eDepTot357.469
+G4WT0 > Total event edep: 357.469
+G4WT0 > eDepTot69.3767
+G4WT0 > Total event edep: 69.3767
+G4WT0 > eDepTot361.316
+G4WT0 > Total event edep: 361.316
+G4WT0 > eDepTot69.4106
+G4WT0 > Total event edep: 69.4106
+G4WT0 > eDepTot793.992
+G4WT0 > Total event edep: 793.992
+G4WT0 > eDepTot983.623
+G4WT0 > Total event edep: 983.623
+G4WT0 > eDepTot70.4074
+G4WT0 > Total event edep: 70.4074
+G4WT0 > eDepTot118.207
+G4WT0 > Total event edep: 118.207
+G4WT0 > eDepTot269.063
+G4WT0 > Total event edep: 269.063
+G4WT0 > eDepTot80.6679
+G4WT0 > Total event edep: 80.6679
+G4WT0 > eDepTot81.7618
+G4WT0 > Total event edep: 81.7618
+G4WT0 > eDepTot73.7986
+G4WT0 > Total event edep: 73.7986
+G4WT0 > eDepTot773.957
+G4WT0 > Total event edep: 773.957
+G4WT0 > eDepTot307.86
+G4WT0 > Total event edep: 307.86
+G4WT0 > eDepTot964.84
+G4WT0 > Total event edep: 964.84
+G4WT0 > eDepTot77.0825
+G4WT0 > Total event edep: 77.0825
+G4WT0 > eDepTot683.874
+G4WT0 > Total event edep: 683.874
+G4WT0 > eDepTot81.556
+G4WT0 > Total event edep: 81.556
+G4WT0 > eDepTot804.567
+G4WT0 > Total event edep: 804.567
+G4WT0 > eDepTot75.4693
+G4WT0 > Total event edep: 75.4693
+G4WT0 > eDepTot85.5518
+G4WT0 > Total event edep: 85.5518
+G4WT0 > eDepTot75.7517
+G4WT0 > Total event edep: 75.7517
+G4WT0 > eDepTot73.0827
+G4WT0 > Total event edep: 73.0827
+G4WT0 > eDepTot74.3745
+G4WT0 > Total event edep: 74.3745
+G4WT0 > eDepTot72.9967
+G4WT0 > Total event edep: 72.9967
+G4WT0 > eDepTot76.094
+G4WT0 > Total event edep: 76.094
+G4WT0 > eDepTot85.1244
+G4WT0 > Total event edep: 85.1244
+G4WT0 > eDepTot74.4795
+G4WT0 > Total event edep: 74.4795
+G4WT0 > eDepTot77.302
+G4WT0 > Total event edep: 77.302
+G4WT0 > eDepTot80.5339
+G4WT0 > Total event edep: 80.5339
+G4WT0 > eDepTot91.2002
+G4WT0 > Total event edep: 91.2002
+G4WT0 > eDepTot85.3345
+G4WT0 > Total event edep: 85.3345
+G4WT0 > eDepTot75.8569
+G4WT0 > Total event edep: 75.8569
+G4WT0 > eDepTot92.1966
+G4WT0 > Total event edep: 92.1966
+G4WT0 > eDepTot74.5692
+G4WT0 > Total event edep: 74.5692
+G4WT0 > eDepTot73.3274
+G4WT0 > Total event edep: 73.3274
+G4WT0 > eDepTot78.4967
+G4WT0 > Total event edep: 78.4967
+G4WT0 > eDepTot1147.4
+G4WT0 > Total event edep: 1147.4
+G4WT0 > eDepTot577.963
+G4WT0 > Total event edep: 577.963
+G4WT0 > eDepTot80.5803
+G4WT0 > Total event edep: 80.5803
+G4WT0 > eDepTot446.498
+G4WT0 > Total event edep: 446.498
+G4WT0 > eDepTot73.3318
+G4WT0 > Total event edep: 73.3318
+G4WT0 > eDepTot75.1902
+G4WT0 > Total event edep: 75.1902
+G4WT0 > eDepTot69.3749
+G4WT0 > Total event edep: 69.3749
+G4WT0 > eDepTot237.795
+G4WT0 > Total event edep: 237.795
+G4WT0 > eDepTot74.9832
+G4WT0 > Total event edep: 74.9832
+G4WT0 > eDepTot74.836
+G4WT0 > Total event edep: 74.836
+G4WT0 > eDepTot79.7572
+G4WT0 > Total event edep: 79.7572
+G4WT0 > eDepTot68.5602
+G4WT0 > Total event edep: 68.5602
+G4WT0 > eDepTot70.4003
+G4WT0 > Total event edep: 70.4003
+G4WT0 > eDepTot82.5368
+G4WT0 > Total event edep: 82.5368
+G4WT0 > eDepTot75.7153
+G4WT0 > Total event edep: 75.7153
+G4WT0 > eDepTot500.747
+G4WT0 > Total event edep: 500.747
+G4WT0 > eDepTot74.4817
+G4WT0 > Total event edep: 74.4817
+G4WT0 > eDepTot544.816
+G4WT0 > Total event edep: 544.816
+G4WT0 > eDepTot114.09
+G4WT0 > Total event edep: 114.09
+G4WT0 > eDepTot76.3708
+G4WT0 > Total event edep: 76.3708
+G4WT0 > eDepTot75.3463
+G4WT0 > Total event edep: 75.3463
+G4WT0 > eDepTot74.5483
+G4WT0 > Total event edep: 74.5483
+G4WT0 > eDepTot79.8868
+G4WT0 > Total event edep: 79.8868
+G4WT0 > eDepTot79.8359
+G4WT0 > Total event edep: 79.8359
+G4WT0 > eDepTot76.9017
+G4WT0 > Total event edep: 76.9017
+G4WT0 > eDepTot75.8215
+G4WT0 > Total event edep: 75.8215
+G4WT0 > eDepTot81.2687
+G4WT0 > >>> Event: 900
+G4WT0 >     90 hits stored in this event
+G4WT0 > Total event edep: 81.2687
+G4WT0 > eDepTot737.868
+G4WT0 > Total event edep: 737.868
+G4WT0 > eDepTot71.946
+G4WT0 > Total event edep: 71.946
+G4WT0 > eDepTot74.7207
+G4WT0 > Total event edep: 74.7207
+G4WT0 > eDepTot72.4605
+G4WT0 > Total event edep: 72.4605
+G4WT0 > eDepTot106.636
+G4WT0 > Total event edep: 106.636
+G4WT0 > eDepTot92.745
+G4WT0 > Total event edep: 92.745
+G4WT0 > eDepTot73.5251
+G4WT0 > Total event edep: 73.5251
+G4WT0 > eDepTot75.5511
+G4WT0 > Total event edep: 75.5511
+G4WT0 > eDepTot81.4263
+G4WT0 > Total event edep: 81.4263
+G4WT0 > eDepTot76.4727
+G4WT0 > Total event edep: 76.4727
+G4WT0 > eDepTot79.0502
+G4WT0 > Total event edep: 79.0502
+G4WT0 > eDepTot69.1501
+G4WT0 > Total event edep: 69.1501
+G4WT0 > eDepTot75.6717
+G4WT0 > Total event edep: 75.6717
+G4WT0 > eDepTot76.4403
+G4WT0 > Total event edep: 76.4403
+G4WT0 > eDepTot1365.72
+G4WT0 > Total event edep: 1365.72
+G4WT0 > eDepTot78.7588
+G4WT0 > Total event edep: 78.7588
+G4WT0 > eDepTot103.481
+G4WT0 > Total event edep: 103.481
+G4WT0 > eDepTot69.832
+G4WT0 > Total event edep: 69.832
+G4WT0 > eDepTot78.5756
+G4WT0 > Total event edep: 78.5756
+G4WT0 > eDepTot1101.08
+G4WT0 > Total event edep: 1101.08
+G4WT0 > eDepTot1209.37
+G4WT0 > Total event edep: 1209.37
+G4WT0 > eDepTot79.2758
+G4WT0 > Total event edep: 79.2758
+G4WT0 > eDepTot81.0978
+G4WT0 > Total event edep: 81.0978
+G4WT0 > eDepTot366.169
+G4WT0 > Total event edep: 366.169
+G4WT0 > eDepTot72.3215
+G4WT0 > Total event edep: 72.3215
+G4WT0 > eDepTot474.003
+G4WT0 > Total event edep: 474.003
+G4WT0 > eDepTot97.9163
+G4WT0 > Total event edep: 97.9163
+G4WT0 > eDepTot1120.52
+G4WT0 > Total event edep: 1120.52
+G4WT0 > eDepTot78.3781
+G4WT0 > Total event edep: 78.3781
+G4WT0 > eDepTot988.965
+G4WT0 > Total event edep: 988.965
+G4WT0 > eDepTot77.0823
+G4WT0 > Total event edep: 77.0823
+G4WT0 > eDepTot299.962
+G4WT0 > Total event edep: 299.962
+G4WT0 > eDepTot415.846
+G4WT0 > Total event edep: 415.846
+G4WT0 > eDepTot1124.34
+G4WT0 > Total event edep: 1124.34
+G4WT0 > eDepTot806.559
+G4WT0 > Total event edep: 806.559
+G4WT0 > eDepTot76.6347
+G4WT0 > Total event edep: 76.6347
+G4WT0 > eDepTot79.5818
+G4WT0 > Total event edep: 79.5818
+G4WT0 > eDepTot78.9191
+G4WT0 > Total event edep: 78.9191
+G4WT0 > eDepTot376.397
+G4WT0 > Total event edep: 376.397
+G4WT0 > eDepTot74.2176
+G4WT0 > Total event edep: 74.2176
+G4WT0 > eDepTot868.159
+G4WT0 > Total event edep: 868.159
+G4WT0 > eDepTot1198.77
+G4WT0 > Total event edep: 1198.77
+G4WT0 > eDepTot69.96
+G4WT0 > Total event edep: 69.96
+G4WT0 > eDepTot689.568
+G4WT0 > Total event edep: 689.568
+G4WT0 > eDepTot89.5146
+G4WT0 > Total event edep: 89.5146
+G4WT0 > eDepTot80.599
+G4WT0 > Total event edep: 80.599
+G4WT0 > eDepTot99.5464
+G4WT0 > Total event edep: 99.5464
+G4WT0 > eDepTot76.5416
+G4WT0 > Total event edep: 76.5416
+G4WT0 > eDepTot151.757
+G4WT0 > Total event edep: 151.757
+G4WT0 > eDepTot1296.91
+G4WT0 > Total event edep: 1296.91
+G4WT0 > eDepTot78.6976
+G4WT0 > Total event edep: 78.6976
+G4WT0 > eDepTot70.9858
+G4WT0 > Total event edep: 70.9858
+G4WT0 > eDepTot1324.71
+G4WT0 > Total event edep: 1324.71
+G4WT0 > eDepTot71.306
+G4WT0 > Total event edep: 71.306
+G4WT0 > eDepTot837.599
+G4WT0 > Total event edep: 837.599
+G4WT0 > eDepTot87.1008
+G4WT0 > Total event edep: 87.1008
+G4WT0 > eDepTot74.0375
+G4WT0 > Total event edep: 74.0375
+G4WT0 > eDepTot77.0234
+G4WT0 > Total event edep: 77.0234
+G4WT0 > eDepTot71.5608
+G4WT0 > Total event edep: 71.5608
+G4WT0 > eDepTot78.4794
+G4WT0 > Total event edep: 78.4794
+G4WT0 > eDepTot70.4091
+G4WT0 > Total event edep: 70.4091
+G4WT0 > eDepTot75.3159
+G4WT0 > Total event edep: 75.3159
+G4WT0 > eDepTot74.6698
+G4WT0 > Total event edep: 74.6698
+G4WT0 > eDepTot75.7633
+G4WT0 > Total event edep: 75.7633
+G4WT0 > eDepTot68.7929
+G4WT0 > Total event edep: 68.7929
+G4WT0 > eDepTot78.0831
+G4WT0 > Total event edep: 78.0831
+G4WT0 > eDepTot80.6755
+G4WT0 > Total event edep: 80.6755
+G4WT0 > eDepTot71.4214
+G4WT0 > Total event edep: 71.4214
+G4WT0 > eDepTot590.492
+G4WT0 > Total event edep: 590.492
+G4WT0 > eDepTot76.1622
+G4WT0 > Total event edep: 76.1622
+G4WT0 > eDepTot92.3551
+G4WT0 > Total event edep: 92.3551
+G4WT0 > eDepTot76.8933
+G4WT0 > Total event edep: 76.8933
+G4WT0 > eDepTot1401.54
+G4WT0 > Total event edep: 1401.54
+G4WT0 > eDepTot74.9205
+G4WT0 > Total event edep: 74.9205
+G4WT0 > eDepTot83.7695
+G4WT0 > Total event edep: 83.7695
+G4WT0 > eDepTot75.8089
+G4WT0 > Total event edep: 75.8089
+G4WT0 > eDepTot571.175
+G4WT0 > Total event edep: 571.175
+G4WT0 > eDepTot78.0698
+G4WT0 > Total event edep: 78.0698
+G4WT0 > eDepTot82.4615
+G4WT0 > Total event edep: 82.4615
+G4WT0 > eDepTot72.3636
+G4WT0 > Total event edep: 72.3636
+G4WT0 > eDepTot82.8984
+G4WT0 > Total event edep: 82.8984
+G4WT0 > eDepTot78.954
+G4WT0 > Total event edep: 78.954
+G4WT0 > eDepTot72.0528
+G4WT0 > Total event edep: 72.0528
+G4WT0 > eDepTot651.972
+G4WT0 > Total event edep: 651.972
+G4WT0 > eDepTot73.9499
+G4WT0 > Total event edep: 73.9499
+G4WT0 > eDepTot75.9236
+G4WT0 > Total event edep: 75.9236
+G4WT0 > eDepTot87.5436
+G4WT0 > Total event edep: 87.5436
+G4WT0 > eDepTot468.921
+G4WT0 > Total event edep: 468.921
+G4WT0 > eDepTot74.0977
+G4WT0 > Total event edep: 74.0977
+G4WT0 > eDepTot1308.7
+G4WT0 > Total event edep: 1308.7
+G4WT0 > eDepTot77.8929
+G4WT0 > Total event edep: 77.8929
+G4WT0 > eDepTot69.2853
+G4WT0 > Total event edep: 69.2853
+G4WT0 > eDepTot74.0332
+G4WT0 > Total event edep: 74.0332
+G4WT0 > eDepTot80.7889
+G4WT0 > Total event edep: 80.7889
+G4WT0 > eDepTot85.3129
+G4WT0 > Total event edep: 85.3129
+G4WT0 > eDepTot1139.07
+G4WT0 > Total event edep: 1139.07
+G4WT0 > eDepTot450.197
+G4WT0 > Total event edep: 450.197
+G4WT0 > eDepTot76.1562
+G4WT0 > Total event edep: 76.1562
+G4WT0 > eDepTot71.5693
+G4WT0 > Total event edep: 71.5693
 Graphics systems deleted.
 Visualization Manager deleting...
 
@@ -2093,39 +3126,39 @@ There was a crash.
 This is the entire stack trace of all threads:
 ===========================================================
 #0  __syscall_cancel_arch () at ../sysdeps/unix/sysv/linux/x86_64/syscall_cancel.S:56
-#1  0x000076d4f0aa013c in __internal_syscall_cancel (a1=<optimized out>, a2=140723379848376, a3=0, a4=0, a5=0, a6=0, nr=61) at ./nptl/cancellation.c:49
+#1  0x000074720f0a013c in __internal_syscall_cancel (a1=<optimized out>, a2=140737300572728, a3=0, a4=0, a5=0, a6=0, nr=61) at ./nptl/cancellation.c:49
 #2  __syscall_cancel (a1=<optimized out>, a2=a2
-entry=140723379848376, a3=a3
+entry=140737300572728, a3=a3
 entry=0, a4=a4
 entry=0, a5=a5
 entry=0, a6=a6
 entry=0, nr=61) at ./nptl/cancellation.c:75
-#3  0x000076d4f0b1ca0f in __GI___wait4 (pid=<optimized out>, stat_loc=stat_loc
-entry=0x7ffcb71144b8, options=options
+#3  0x000074720f11ca0f in __GI___wait4 (pid=<optimized out>, stat_loc=stat_loc
+entry=0x7ffff4ceaa38, options=options
 entry=0, usage=usage
 entry=0x0) at ../sysdeps/unix/sysv/linux/wait4.c:30
-#4  0x000076d4f0b1ca5b in __GI___waitpid (pid=<optimized out>, stat_loc=stat_loc
-entry=0x7ffcb71144b8, options=options
+#4  0x000074720f11ca5b in __GI___waitpid (pid=<optimized out>, stat_loc=stat_loc
+entry=0x7ffff4ceaa38, options=options
 entry=0) at ./posix/waitpid.c:38
-#5  0x000076d4f0a5c32d in do_system (line=<optimized out>) at ../sysdeps/posix/system.c:172
-#6  0x000076d4f1f4093c in TUnixSystem::StackTrace() () from /home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/lib/root/libCore.so.6.36
-#7  0x000076d4f1f40298 in TUnixSystem::DispatchSignals(ESignals) () from /home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/lib/root/libCore.so.6.36
+#5  0x000074720f05c32d in do_system (line=<optimized out>) at ../sysdeps/posix/system.c:172
+#6  0x000074721034093c in TUnixSystem::StackTrace() () from /home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/lib/root/libCore.so.6.36
+#7  0x0000747210340298 in TUnixSystem::DispatchSignals(ESignals) () from /home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/lib/root/libCore.so.6.36
 #8  <signal handler called>
-#9  0x000076d4f185299f in G4RootHnFileManager<tools::histo::h1d>::Write(tools::histo::h1d*, G4String const&, G4String&) () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
-#10 0x000076d4f17780ba in bool G4ToolsAnalysisManager::WriteT<tools::histo::h1d>(std::vector<std::pair<tools::histo::h1d*, G4HnInformation*>, std::allocator<std::pair<tools::histo::h1d*, G4HnInformation*> > > const&) () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
-#11 0x000076d4f175c8b3 in G4ToolsAnalysisManager::WriteHns() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
-#12 0x000076d4f175ceea in G4ToolsAnalysisManager::WriteImpl() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
-#13 0x000076d4f17f0ba3 in G4VAnalysisManager::Write() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
-#14 0x00005cb618b120e7 in B2TrackerSD::~B2TrackerSD() ()
-#15 0x00005cb618b12124 in B2TrackerSD::~B2TrackerSD() ()
-#16 0x000076d4f2831d86 in G4SDStructure::~G4SDStructure() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
-#17 0x000076d4f2831d40 in G4SDStructure::~G4SDStructure() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
-#18 0x000076d4f2831a49 in G4SDManager::~G4SDManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
-#19 0x000076d4f29fe806 in G4RunManagerKernel::~G4RunManagerKernel() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
-#20 0x000076d4f29cf9f2 in G4MTRunManagerKernel::~G4MTRunManagerKernel() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
-#21 0x000076d4f29dbe6c in G4RunManager::~G4RunManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
-#22 0x000076d4f29c7ec2 in G4MTRunManager::~G4MTRunManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
-#23 0x00005cb618b08e75 in main ()
+#9  0x000074720fc5299f in G4RootHnFileManager<tools::histo::h1d>::Write(tools::histo::h1d*, G4String const&, G4String&) () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
+#10 0x000074720fb780ba in bool G4ToolsAnalysisManager::WriteT<tools::histo::h1d>(std::vector<std::pair<tools::histo::h1d*, G4HnInformation*>, std::allocator<std::pair<tools::histo::h1d*, G4HnInformation*> > > const&) () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
+#11 0x000074720fb5c8b3 in G4ToolsAnalysisManager::WriteHns() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
+#12 0x000074720fb5ceea in G4ToolsAnalysisManager::WriteImpl() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
+#13 0x000074720fbf0ba3 in G4VAnalysisManager::Write() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
+#14 0x000063b27004e0e7 in B2TrackerSD::~B2TrackerSD() ()
+#15 0x000063b27004e124 in B2TrackerSD::~B2TrackerSD() ()
+#16 0x0000747210c31d86 in G4SDStructure::~G4SDStructure() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
+#17 0x0000747210c31d40 in G4SDStructure::~G4SDStructure() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
+#18 0x0000747210c31a49 in G4SDManager::~G4SDManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
+#19 0x0000747210dfe806 in G4RunManagerKernel::~G4RunManagerKernel() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
+#20 0x0000747210dcf9f2 in G4MTRunManagerKernel::~G4MTRunManagerKernel() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
+#21 0x0000747210ddbe6c in G4RunManager::~G4RunManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
+#22 0x0000747210dc7ec2 in G4MTRunManager::~G4MTRunManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
+#23 0x000063b270044e75 in main ()
 ===========================================================
 
 
@@ -2140,19 +3173,22 @@ the ROOT prompt. Please post the ENTIRE stack trace
 from above as an attachment in addition to anything else
 that might help us fixing this issue.
 ===========================================================
-#9  0x000076d4f185299f in G4RootHnFileManager<tools::histo::h1d>::Write(tools::histo::h1d*, G4String const&, G4String&) () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
-#10 0x000076d4f17780ba in bool G4ToolsAnalysisManager::WriteT<tools::histo::h1d>(std::vector<std::pair<tools::histo::h1d*, G4HnInformation*>, std::allocator<std::pair<tools::histo::h1d*, G4HnInformation*> > > const&) () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
-#11 0x000076d4f175c8b3 in G4ToolsAnalysisManager::WriteHns() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
-#12 0x000076d4f175ceea in G4ToolsAnalysisManager::WriteImpl() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
-#13 0x000076d4f17f0ba3 in G4VAnalysisManager::Write() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
-#14 0x00005cb618b120e7 in B2TrackerSD::~B2TrackerSD() ()
-#15 0x00005cb618b12124 in B2TrackerSD::~B2TrackerSD() ()
-#16 0x000076d4f2831d86 in G4SDStructure::~G4SDStructure() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
-#17 0x000076d4f2831d40 in G4SDStructure::~G4SDStructure() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
-#18 0x000076d4f2831a49 in G4SDManager::~G4SDManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
-#19 0x000076d4f29fe806 in G4RunManagerKernel::~G4RunManagerKernel() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
-#20 0x000076d4f29cf9f2 in G4MTRunManagerKernel::~G4MTRunManagerKernel() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
-#21 0x000076d4f29dbe6c in G4RunManager::~G4RunManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
-#22 0x000076d4f29c7ec2 in G4MTRunManager::~G4MTRunManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
-#23 0x00005cb618b08e75 in main ()
+#9  0x000074720fc5299f in G4RootHnFileManager<tools::histo::h1d>::Write(tools::histo::h1d*, G4String const&, G4String&) () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
+#10 0x000074720fb780ba in bool G4ToolsAnalysisManager::WriteT<tools::histo::h1d>(std::vector<std::pair<tools::histo::h1d*, G4HnInformation*>, std::allocator<std::pair<tools::histo::h1d*, G4HnInformation*> > > const&) () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
+#11 0x000074720fb5c8b3 in G4ToolsAnalysisManager::WriteHns() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
+#12 0x000074720fb5ceea in G4ToolsAnalysisManager::WriteImpl() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
+#13 0x000074720fbf0ba3 in G4VAnalysisManager::Write() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4analysis.so
+#14 0x000063b27004e0e7 in B2TrackerSD::~B2TrackerSD() ()
+#15 0x000063b27004e124 in B2TrackerSD::~B2TrackerSD() ()
+#16 0x0000747210c31d86 in G4SDStructure::~G4SDStructure() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
+#17 0x0000747210c31d40 in G4SDStructure::~G4SDStructure() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
+#18 0x0000747210c31a49 in G4SDManager::~G4SDManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4digits_hits.so
+#19 0x0000747210dfe806 in G4RunManagerKernel::~G4RunManagerKernel() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
+#20 0x0000747210dcf9f2 in G4MTRunManagerKernel::~G4MTRunManagerKernel() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
+#21 0x0000747210ddbe6c in G4RunManager::~G4RunManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
+#22 0x0000747210dc7ec2 in G4MTRunManager::~G4MTRunManager() () from /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/lib/libG4run.so
+#23 0x000063b270044e75 in main ()
 ===========================================================
+
+
+javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/B2a-build$ 
