@@ -134,9 +134,14 @@ G4bool B2TrackerSD::ProcessHits(G4Step* aStep,
   // energy deposit
   G4double edep = aStep->GetTotalEnergyDeposit();
 /*j25romol: prefer the following revisions*/
-  auto fB2EventAction = static_cast<B2EventAction*>(G4RunManager::GetRunManager()->GetUserEventAction());
-  if (B2EventAction) {
+  /*auto fB2EventAction = const_cast<B2EventAction*>(G4RunManager::GetRunManager()->GetUserEventAction());
+  if (EventAction) {
     fB2EventAction->AddEdep(edep);
+  }*/
+  auto eventAction = const_cast<B2EventAction*>(static_cast<const B2EventAction*>(G4RunManager::GetRunManager()->GetUserEventAction()));
+
+  if (eventAction) {
+    eventAction->AddEdep(edep);
   }
 /*j25romol: end of advised revisions*/
 
