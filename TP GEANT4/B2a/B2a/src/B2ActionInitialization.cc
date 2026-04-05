@@ -56,12 +56,12 @@ void B2ActionInitialization::BuildForMaster() const
 void B2ActionInitialization::Build() const
 {
 /*j25romol: prefer the following revisions*/
-  /*j25romol: advise to suppress this block  
+  auto eventAction = new B2EventAction();
   SetUserAction(new B2PrimaryGeneratorAction());
-  SetUserAction(new B2RunAction());
-  SetUserAction(new B2EventAction());
-  */
+  SetUserAction(eventAction);
+  SetUserAction(new B2RunAction(eventAction));
   
+  /*j25romol: advise to suppress this block  
   auto runAction = new B2RunAction();
   SetUserAction(runAction);
 
@@ -69,7 +69,7 @@ void B2ActionInitialization::Build() const
   SetUserAction(eventAction);
 
   auto trackerSD = new B2TrackerSD("TrackerSD", eventAction);
-  
+  */
 /*j25romol: end of advised revisions*/
 }  
 

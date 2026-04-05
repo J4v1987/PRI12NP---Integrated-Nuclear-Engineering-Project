@@ -15,22 +15,19 @@ javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulat
 [ 10%] Building CXX object CMakeFiles/exampleB2a.dir/exampleB2a.cc.o
 [ 20%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2ActionInitialization.cc.o
 /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc: In member function ‘virtual void B2ActionInitialization::Build() const’:
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc:68:49: error: no matching function for call to ‘B2EventAction::B2EventAction(B2RunAction*&)’
-   68 |   auto eventAction = new B2EventAction(runAction);
-      |                                                 ^
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc:68:49: note: there are 2 candidates
-In file included from /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc:34:
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2EventAction.hh:43:5: note: candidate 1: ‘B2EventAction::B2EventAction()’
-   43 |     B2EventAction();
-      |     ^~~~~~~~~~~~~
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2EventAction.hh:43:5: note: candidate expects 0 arguments, 1 provided
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2EventAction.hh:40:7: note: candidate 2: ‘constexpr B2EventAction::B2EventAction(const B2EventAction&)’
-   40 | class B2EventAction : public G4UserEventAction
-      |       ^~~~~~~~~~~~~
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2EventAction.hh:40:7: note: no known conversion for argument 1 from ‘B2RunAction*’ to ‘const B2EventAction&’
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc:71:24: error: expected type-specifier before ‘B2TrackerSD’
-   71 |   auto trackerSD = new B2TrackerSD("TrackerSD", eventAction);
-      |                        ^~~~~~~~~~~
+/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc:62:44: error: no matching function for call to ‘B2RunAction::B2RunAction(B2EventAction*&)’
+   62 |   SetUserAction(new B2RunAction(eventAction));
+      |                                            ^
+/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc:62:44: note: there are 2 candidates
+In file included from /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc:33:
+/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2RunAction.hh:46:5: note: candidate 1: ‘B2RunAction::B2RunAction()’
+   46 |     B2RunAction();
+      |     ^~~~~~~~~~~
+/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2RunAction.hh:46:5: note: candidate expects 0 arguments, 1 provided
+/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2RunAction.hh:43:7: note: candidate 2: ‘constexpr B2RunAction::B2RunAction(const B2RunAction&)’
+   43 | class B2RunAction : public G4UserRunAction
+      |       ^~~~~~~~~~~
+/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2RunAction.hh:43:7: note: no known conversion for argument 1 from ‘B2EventAction*’ to ‘const B2RunAction&’
 make[2]: *** [CMakeFiles/exampleB2a.dir/build.make:90: CMakeFiles/exampleB2a.dir/src/B2ActionInitialization.cc.o] Error 1
 make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/exampleB2a.dir/all] Error 2
 make: *** [Makefile:136: all] Error 2

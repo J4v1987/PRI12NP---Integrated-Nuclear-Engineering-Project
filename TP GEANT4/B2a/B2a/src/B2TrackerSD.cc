@@ -144,28 +144,21 @@ G4bool B2TrackerSD::ProcessHits(G4Step* aStep,
 /*j25romol: prefer the following revisions*/
   if (edep <= 0.) return false;
 
-  auto baseEventAction = G4RunManager::GetRunManager()->GetUserEventAction();
+  auto event = G4RunManager::GetRunManager()->GetCurrentEvent();
 
-  if (!baseEventAction) return false;
+  auto eventAction = (B2EventAction*) G4EventManager::GetEventManager()
+    ->GetUserEventAction();
 
-  auto eventAction = const_cast<B2EventAction*>(
-      dynamic_cast<const B2EventAction*>(baseEventAction)
-  );
-
+  if (eventAction) {
+      eventAction->AddEdep(edep);
+  }
   //if (!eventAction) return false; //j25romol: replace with the following
   if (!eventAction) {
     G4cout << "ERROR: eventAction is null!" << G4endl;
     return false;
 /*j25romol: end of advised revisions*/
   }
-/*j25romol: prefer the following revisions*/
-  if (fEventAction) {
-      fEventAction->AddEdep(edep);
-  }
-  //eventAction->AddEdep(edep);
 
-  //if (edep==0.) return false;
-/*j25romol: end of advised revisions*/
   B2TrackerHit* newHit = new B2TrackerHit();
 
   newHit->SetTrackID  (aStep->GetTrack()->GetTrackID());

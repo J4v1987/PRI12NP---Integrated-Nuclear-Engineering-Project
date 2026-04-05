@@ -39,12 +39,20 @@
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
+/*j25romol: prefer the following revisions*/
+/*j25romol: suppress this block
 B2RunAction::B2RunAction()
  : G4UserRunAction()
 { 
   // set printing event number per each 100 events
   G4RunManager::GetRunManager()->SetPrintProgress(1000);     
 }
+*/
+B2RunAction::B2RunAction(B2EventAction* eventAction)
+ : G4UserRunAction(),
+   fEventAction(eventAction)
+{}
+/*j25romol: end of advised revisions*/
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
