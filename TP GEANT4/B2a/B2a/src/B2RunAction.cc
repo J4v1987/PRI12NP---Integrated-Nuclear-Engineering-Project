@@ -75,9 +75,10 @@ void B2RunAction::EndOfRunAction(const G4Run* )
 {
 /*j25romol: prefer the following revisions*/
   auto analysisManager = G4AnalysisManager::Instance();
-
-  analysisManager->Write();
-  analysisManager->CloseFile();
+  if (analysisManager){
+    analysisManager->Write();
+    analysisManager->CloseFile();
+  }
 /*j25romol: end of advised revisions*/
 }
 

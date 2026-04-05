@@ -134,15 +134,28 @@ G4bool B2TrackerSD::ProcessHits(G4Step* aStep,
   // energy deposit
   G4double edep = aStep->GetTotalEnergyDeposit();
 /*j25romol: prefer the following revisions*/
-  auto eventAction = const_cast<B2EventAction*>(static_cast<const B2EventAction*>(G4RunManager::GetRunManager()->GetUserEventAction()));
+  if (edep <= 0.) return false;
 
-  if (eventAction) {
-    eventAction->AddEdep(edep);
-  }
+  auto baseEventAction = G4RunManager::GetRunManager()->GetUserEventAction();
+
+  if (!baseEventAction) return false;
+
+  auto eventAction = const_cast<B2EventAction*>(
+      dynamic_cast<const B2EventAction*>(baseEventAction)
+  );
+/*j25romol: prefer the following revisions*/
+  //if (!eventAction) return false; //j25romol: replace with the following
+  if (!eventAction) {
+    G4cout << "ERROR: eventAction is null!" << G4endl;
+    return false;
 /*j25romol: end of advised revisions*/
+}
 
-  if (edep==0.) return false;
+  eventAction->AddEdep(edep);
 
+
+  //if (edep==0.) return false;
+/*j25romol: end of advised revisions*/
   B2TrackerHit* newHit = new B2TrackerHit();
 
   newHit->SetTrackID  (aStep->GetTrack()->GetTrackID());
@@ -154,6 +167,7 @@ G4bool B2TrackerSD::ProcessHits(G4Step* aStep,
   fHitsCollection->insert( newHit );
 
   /*j25romol: additional outputs*/
+  G4cout << "ProcessHits called" << G4endl;
   //G4cout << "Hit edep: " << edep << G4endl;
   /*j25romol: end of additional outputs*/
 

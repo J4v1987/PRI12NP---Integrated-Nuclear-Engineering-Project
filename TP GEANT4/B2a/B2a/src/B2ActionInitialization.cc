@@ -55,9 +55,22 @@ void B2ActionInitialization::BuildForMaster() const
 
 void B2ActionInitialization::Build() const
 {
+/*j25romol: prefer the following revisions*/
+  /*j25romol: advise to suppress this block
   SetUserAction(new B2PrimaryGeneratorAction);
   SetUserAction(new B2RunAction);
   SetUserAction(new B2EventAction);
+
+  //j25romol: next, supersede with the following lines
+  */  
+  SetUserAction(new B2PrimaryGeneratorAction);
+
+  auto runAction = new B2RunAction;
+  SetUserAction(runAction);
+
+  auto eventAction = new B2EventAction(runAction);
+  SetUserAction(eventAction);
+/*j25romol: end of advised revisions*/
 }  
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
