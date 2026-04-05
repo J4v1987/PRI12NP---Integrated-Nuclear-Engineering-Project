@@ -1628,7 +1628,69 @@ CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o: /home/javier/Documents/C++/M1S
   /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Trajectory.hh \
   /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TrajectoryPoint.hh \
   /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTrajectoryPoint.hh \
-  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ios.hh
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ios.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericAnalysisManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ToolsAnalysisManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VAnalysisManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisManagerState.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisVerbose.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisUtilities.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTBaseHnManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HnInformation.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BinScheme.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Fcn.hh \
+  /usr/include/c++/15/utility \
+  /usr/include/c++/15/bits/stl_relops.h \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VAnalysisManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HnManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BaseAnalysisManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4NtupleBookingManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/ntuple_booking \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/cids \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/cid \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/typedefs \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/forit \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4NtupleBookingManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VNtupleManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VFileManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BaseFileManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTHnFileManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TH1ToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnMessenger.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnToolsManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnMessenger.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Tokenizer.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TH2ToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TH3ToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TP1ToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TP2ToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h1d \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h1 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b1 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/base_histo \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/histo_data \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/axes \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/axis \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/eqT \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h2d \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h2 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b2 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h3d \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h3 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b3 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p1d \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p1 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/profile_data \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p2d \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p2 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ToolsAnalysisManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericAnalysisManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericFileManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericFileManager.icc
 
 CMakeFiles/exampleB2a.dir/src/B2PrimaryGeneratorAction.cc.o: /home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/src/B2PrimaryGeneratorAction.cc \
   /usr/include/stdc-predef.h \
@@ -2692,7 +2754,69 @@ CMakeFiles/exampleB2a.dir/src/B2RunAction.cc.o: /home/javier/Documents/C++/M1S2\
   /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/rundefs.hh \
   /usr/include/c++/15/list \
   /usr/include/c++/15/bits/stl_list.h \
-  /usr/include/c++/15/bits/list.tcc
+  /usr/include/c++/15/bits/list.tcc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericAnalysisManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ToolsAnalysisManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VAnalysisManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisManagerState.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisVerbose.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisUtilities.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTBaseHnManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HnInformation.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BinScheme.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Fcn.hh \
+  /usr/include/c++/15/utility \
+  /usr/include/c++/15/bits/stl_relops.h \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VAnalysisManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HnManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BaseAnalysisManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4NtupleBookingManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/ntuple_booking \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/cids \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/cid \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/typedefs \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/forit \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4NtupleBookingManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VNtupleManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VFileManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BaseFileManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTHnFileManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TH1ToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnMessenger.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnToolsManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnMessenger.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Tokenizer.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TH2ToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TH3ToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TP1ToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TP2ToolsManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h1d \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h1 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b1 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/base_histo \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/histo_data \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/axes \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/axis \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/eqT \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h2d \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h2 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b2 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h3d \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h3 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b3 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p1d \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p1 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/profile_data \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p2d \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p2 \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ToolsAnalysisManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericAnalysisManager.icc \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericFileManager.hh \
+  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericFileManager.icc
 
 CMakeFiles/exampleB2a.dir/src/B2TrackerHit.cc.o: /home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/src/B2TrackerHit.cc \
   /usr/include/stdc-predef.h \
@@ -4592,88 +4716,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4NistElementBuilder.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericFileManager.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericAnalysisManager.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ToolsAnalysisManager.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p2:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p2d:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p1d:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b3:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h3:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h3d:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b2:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h2:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/eqT:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/histo_data:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b1:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h1:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h1d:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TP1ToolsManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TH3ToolsManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnToolsManager.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnMessenger.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnManager.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnToolsManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTHnFileManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BaseFileManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VFileManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4NtupleBookingManager.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/cid:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/cids:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/ntuple_booking:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4NtupleBookingManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BaseAnalysisManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HnManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VAnalysisManager.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Fcn.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BinScheme.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HnInformation.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisUtilities.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisManagerState.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VAnalysisManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ToolsAnalysisManager.hh:
-
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SDStructure.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HCtable.hh:
@@ -4726,6 +4768,72 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/ROOT/RSpan.hxx:
 
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/ROOT/RRangeCast.hxx:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TIterator.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TObjArray.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TSchemaRule.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/ESTLType.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TDictionary.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TClass.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TDirectory.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArrayF.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArrayL64.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArrayI.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TAttFill.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/ROOT/TypeTraits.hxx:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TVersionCheck.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TIsAProxy.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TSchemaHelper.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TGenericClassInfo.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/snprintf.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/strtok.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/RConfigure.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/RVersion.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/RtypesCore.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/Rtypes.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TNamed.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TAxis.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TH1F.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VSDFilter.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VSensitiveDetector.hh:
+
+/home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/src/B2TrackerSD.cc:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Circle.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UnitsTable.icc:
+
+/home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/include/B2TrackerHit.hh:
+
+/home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/src/B2TrackerHit.cc:
+
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTouchable.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
@@ -4737,6 +4845,10 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ParticleDefinition.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TVirtualIsAProxy.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VUIshell.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4LorentzVector.hh:
 
@@ -4756,15 +4868,13 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Vector/AxisAngle.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TH1ToolsManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4RayTracerX.hh:
-
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Vector/LorentzVector.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4RotationMatrix.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VDigi.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnMessenger.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AutoLock.hh:
 
@@ -4806,6 +4916,10 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4StackManager.hh:
 
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TH1.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VSolid.hh:
+
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TrajectoryContainer.hh:
 
 /usr/include/c++/15/condition_variable:
@@ -4828,25 +4942,23 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4PrimaryVertex.hh:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p1d:
+
 /usr/lib/gcc/x86_64-linux-gnu/15/include/float.h:
 
 /usr/include/c++/15/bits/stl_multiset.h:
 
 /usr/include/c++/15/bits/stl_set.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Tokenizer.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Event.hh:
-
 /usr/include/c++/15/cctype:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Colour.hh:
 
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TMathBase.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p1:
+
 /usr/include/c++/15/bits/deque.tcc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisVerbose.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandPoisson.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Log.hh:
 
@@ -4862,10 +4974,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Vector/RotationX.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnMessenger.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Vector/Rotation.h:
-
 /usr/include/errno.h:
 
 /usr/include/c++/15/queue:
@@ -4875,6 +4983,10 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /usr/include/stdio.h:
 
 /usr/include/c++/15/deque:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TString.h:
+
+/usr/include/c++/15/atomic:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Vector/RotationInterfaces.h:
 
@@ -4908,9 +5020,11 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/c++/15/bits/unique_lock.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTBaseHnManager.hh:
+/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandPoisson.icc:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisVerbose.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTHnFileManager.hh:
 
 /usr/include/c++/15/tr1/poly_hermite.tcc:
 
@@ -4922,6 +5036,8 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/c++/15/bits/chrono.h:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h2:
+
 /usr/include/c++/15/bits/stl_multimap.h:
 
 /usr/include/c++/15/bits/stl_map.h:
@@ -4929,6 +5045,8 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ParameterisedNavigation.icc:
 
 /usr/include/c++/15/bits/align.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ToolsAnalysisManager.hh:
 
 /usr/include/libintl.h:
 
@@ -4956,8 +5074,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4MaterialCutsCouple.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/RConfigure.h:
-
 /usr/include/c++/15/bits/basic_ios.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
@@ -4967,8 +5083,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SmartVoxelNode.hh:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TH1F.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
@@ -4992,6 +5106,8 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/TripleRand.h:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnManager.hh:
+
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AllocatorPool.hh:
 
 /usr/include/c++/15/pstl/execution_defs.h:
@@ -5007,6 +5123,10 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RanluxEngine.h:
 
 /usr/include/c++/15/bits/uniform_int_dist.h:
+
+/usr/include/c++/15/cstdarg:
+
+/usr/include/c++/15/iostream:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SDManager.hh:
 
@@ -5040,11 +5160,7 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UserRunAction.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/ROOT/TypeTraits.hxx:
-
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Vector/RotationY.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TAxis.h:
 
 /usr/include/c++/15/bits/uses_allocator.h:
 
@@ -5053,6 +5169,10 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /usr/include/c++/15/bits/memory_resource.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/Stat.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArrayS.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4PolyhedraSide.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -5090,8 +5210,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/include/B2ActionInitialization.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/snprintf.h:
-
 /usr/include/c++/15/bits/allocated_ptr.h:
 
 /usr/include/c++/15/iomanip:
@@ -5110,23 +5228,29 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TH3ToolsManager.hh:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/c++/15/bits/ptr_traits.h:
 
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/ROOT/RVersion.hxx:
+
+/usr/include/c++/15/bits/utility.h:
+
 /usr/include/c++/15/vector:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4NtupleBookingManager.icc:
 
 /usr/include/c++/15/unordered_set:
 
 /usr/include/c++/15/bits/cxxabi_forced.h:
 
 /usr/include/c++/15/bits/stl_iterator_base_funcs.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TVersionCheck.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/geomdefs.hh:
 
@@ -5158,14 +5282,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericAnalysisManager.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4MaterialPropertiesTable.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4PrimaryTransformer.hh:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/basic_file.h:
@@ -5194,8 +5310,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VSDFilter.hh:
-
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4StackedTrack.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TDataType.h:
@@ -5203,10 +5317,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Geometry/Normal3D.h:
-
-/usr/include/c++/15/atomic:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TString.h:
 
 /usr/include/c++/15/cstdio:
 
@@ -5244,15 +5354,9 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4PolyconeHistorical.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/axis:
-
-/usr/include/c++/15/bits/sstream.tcc:
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnToolsManager.hh:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VNtupleManager.hh:
-
-/usr/include/c++/15/bits/stl_uninitialized.h:
 
 /usr/include/c++/15/bits/version.h:
 
@@ -5279,6 +5383,8 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandGaussZiggurat.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HepRepFileXMLWriter.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/cids:
 
 /home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TDirectoryFile.h:
 
@@ -5352,10 +5458,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UIparameter.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h2d:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ios.hh:
-
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
@@ -5371,8 +5473,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /usr/include/c++/15/bits/string_view.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-macros.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/ROOT/RRangeCast.hxx:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VUserEventInformation.hh:
 
@@ -5394,9 +5494,9 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/c++/15/bits/exception_ptr.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h:
-
 /home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArrayD.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Vector/ZMxpv.h:
 
@@ -5418,6 +5518,10 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UnitsTable.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4IsotopeVector.hh:
+
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VRML2File.hh:
 
 /usr/include/c++/15/bits/atomic_base.h:
@@ -5436,9 +5540,19 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/c++/15/bits/stl_algo.h:
 
+/home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/include/B2TrackerSD.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisManager.hh:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/ROOT/RConfig.hxx:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/15/bits/cpp_type_traits.h:
 
 /usr/include/string.h:
 
@@ -5452,10 +5566,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/trkdefs.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VSolid.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TH1.h:
-
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4NavigationLevelRep.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Threading.hh:
@@ -5463,6 +5573,10 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /usr/include/c++/15/istream:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TSeqCollection.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/c++/15/bits/memoryfwd.h:
 
@@ -5475,10 +5589,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Cons.hh:
 
 /usr/include/stdlib.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4IsotopeVector.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UnitsTable.hh:
 
 /usr/include/c++/15/tr1/bessel_function.tcc:
 
@@ -5508,8 +5618,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/c++/15/tr1/legendre_function.tcc:
 
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TIterator.h:
-
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/templates.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Vector/ThreeVector.icc:
@@ -5530,10 +5638,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Utility/noncopyable.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/forit:
-
-/usr/include/c++/15/tr1/poly_laguerre.tcc:
-
 /usr/include/c++/15/bits/stl_queue.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Geometry/Vector3D.h:
@@ -5552,11 +5656,13 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TAttFill.h:
-
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4RNGHelper.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/15/bits/sstream.tcc:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/axis:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
@@ -5573,6 +5679,8 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Ellipsoid.hh:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisUtilities.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VStoreNotifier.hh:
 
@@ -5610,8 +5718,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TDirectory.h:
-
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VPhysicsConstructor.hh:
@@ -5634,6 +5740,8 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/c++/15/bits/stl_construct.h:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h3:
+
 /usr/include/x86_64-linux-gnu/c++/15/bits/messages_members.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
@@ -5647,6 +5755,8 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandBinomial.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h1:
 
 /usr/include/c++/15/debug/assertions.h:
 
@@ -5692,9 +5802,7 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/c++/15/bits/localefwd.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/base_histo:
-
-/usr/include/c++/15/bits/locale_classes.h:
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p2d:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Vector/RotationZ.icc:
 
@@ -5702,9 +5810,17 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /usr/include/c++/15/bits/atomic_lockfree_defines.h:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4RayTracerX.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TH1ToolsManager.hh:
+
 /usr/include/c++/15/bits/hash_bytes.h:
 
 /usr/include/c++/15/bits/streambuf_iterator.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VReadOutGeometry.hh:
+
+/usr/include/c++/15/bits/range_access.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -5727,8 +5843,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /usr/include/c++/15/bits/locale_conv.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandPoissonT.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TDictionary.h:
 
 /usr/include/c++/15/bits/basic_string.h:
 
@@ -5759,8 +5873,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AffineTransform.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VisAttributes.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VSensitiveDetector.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Transform3D.hh:
 
@@ -5796,13 +5908,11 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Material.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisManager.hh:
-
-/home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/include/B2TrackerSD.hh:
-
 /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Element.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnToolsManager.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ElementVector.hh:
 
@@ -5814,6 +5924,12 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4MaterialPropertiesIndex.hh:
 
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TVirtualRWMutex.h:
+
+/usr/include/c++/15/bits/move.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4MaterialPropertyVector.hh:
+
 /usr/include/c++/15/fstream:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UIcommandStatus.hh:
@@ -5823,6 +5939,10 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /usr/include/c++/15/bits/fstream.tcc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ProcessType.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TAttAxis.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/axes:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ProductionCutsTable.hh:
 
@@ -5870,15 +5990,17 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4StepPoint.icc:
 
-/usr/include/c++/15/bits/move.h:
+/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Vector/Rotation.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4MaterialPropertyVector.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TVirtualRWMutex.h:
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnMessenger.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Step.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ParticleTable.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4CollectionNameVector.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ParticleTableIterator.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ParticleTable.icc:
 
@@ -5886,11 +6008,15 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TrackingManager.hh:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b1:
+
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SteppingManager.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4NavigationHistory.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Navigator.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THnManager.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4PhysicsTable.hh:
 
@@ -5920,8 +6046,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ToolsSGOffscreen.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Circle.hh:
-
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VoxelNavigation.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Vector/TwoVector.icc:
@@ -5941,6 +6065,10 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SmartVoxelNode.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/Randomize.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArrayC.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/DRand48Engine.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SubEvent.hh:
 
@@ -5962,9 +6090,15 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/Hurd160Engine.h:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BaseAnalysisManager.hh:
+
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/Hurd288Engine.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/MixMaxRng.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SensitiveVolumeList.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/MTwistEngine.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Geometry/Point3D.h:
 
@@ -5974,9 +6108,11 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/Ranlux64Engine.h:
 
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TSchemaRule.h:
-
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RanshiEngine.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TCollection.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VSceneHandler.hh:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -5986,15 +6122,25 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Utility/memory.h:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4PVPlacement.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TAttMarker.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4PhysicsTable.icc:
+
+/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandBinomial.icc:
+
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4CSGSolid.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Utility/thread_local.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandBreitWigner.icc:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b3:
 
 /home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/DllImport.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VGraphicsScene.hh:
 
@@ -6002,13 +6148,23 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandExpZiggurat.h:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Event.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Tokenizer.hh:
+
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandBit.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandBit.icc:
 
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TObjArray.h:
-
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandGamma.h:
+
+/usr/include/c++/15/bits/locale_classes.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/base_histo:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TAttLine.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandGauss.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandGaussQ.h:
 
@@ -6086,10 +6242,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VUserPrimaryGeneratorAction.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/typedefs:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ProcessVector.hh:
-
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ProcessVector.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VMarker.hh:
@@ -6124,6 +6276,12 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ThreadLocalSingleton.hh:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BaseFileManager.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/strlcpy.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Cache.hh:
+
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4CacheDetails.hh:
 
 /usr/include/c++/15/functional:
@@ -6146,9 +6304,7 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VisExecutive.hh:
 
-/usr/include/c++/15/bits/range_access.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VReadOutGeometry.hh:
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/eqT:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SmartVoxelHeader.icc:
 
@@ -6174,6 +6330,10 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Trajectory.hh:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ProcessVector.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/typedefs:
+
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VisAttributes.icc:
 
 /usr/include/c++/15/bits/stl_relops.h:
@@ -6185,10 +6345,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SceneHandlerList.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VViewer.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VUIshell.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TVirtualIsAProxy.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SceneTreeItem.hh:
 
@@ -6203,6 +6359,12 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Ellipsoid.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Vector3D.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArray.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UserStackingAction.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Plane3D.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Visible.hh:
 
@@ -6234,11 +6396,17 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Orb.icc:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4MaterialPropertiesTable.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4PrimaryTransformer.hh:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericAnalysisManager.hh:
+
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericFileManager.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Para.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/strtok.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Sphere.icc:
 
@@ -6270,12 +6438,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/windefs.hh:
 
-/usr/include/linux/errno.h:
-
-/usr/include/c++/15/bits/cpp_type_traits.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/ROOT/RConfig.hxx:
-
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Voxelizer.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THitsCollection.hh:
@@ -6288,25 +6450,17 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Scene.icc:
 
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/ntuple_booking:
+
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TrajectoriesModel.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VisManager.hh:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VisManager.icc:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/profile_data:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VModelFactory.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/Rtypes.h:
-
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/Random.icc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VHit.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/DRand48Engine.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArrayC.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandExponential.h:
 
@@ -6324,10 +6478,6 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4OpenGLImmediateQt.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandGauss.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TAttLine.h:
-
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4OpenGLQt.hh:
@@ -6336,13 +6486,7 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4OpenGLStoredQt.hh:
 
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4PVPlacement.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4PhysicsTable.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/RandBinomial.icc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TAttMarker.h:
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/histo_data:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
@@ -6356,6 +6500,62 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTrajectoryPoint.hh:
 
+/usr/include/c++/15/tr1/poly_laguerre.tcc:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/forit:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VAnalysisManager.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AnalysisManagerState.hh:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTBaseHnManager.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HnInformation.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4BinScheme.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Fcn.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VAnalysisManager.icc:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HnManager.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4NtupleBookingManager.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/cid:
+
+/usr/include/c++/15/bits/stl_uninitialized.h:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VNtupleManager.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VFileManager.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TP1ToolsManager.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h1d:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ios.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h2d:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/b2:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/h3d:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VModelFactory.hh:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/profile_data:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p2:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ToolsAnalysisManager.icc:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericAnalysisManager.icc:
+
+/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GenericFileManager.icc:
+
 /home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/src/B2PrimaryGeneratorAction.cc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GeomConfig.hh:
@@ -6365,79 +6565,3 @@ CMakeFiles/exampleB2a.dir/src/B2aDetectorMessenger.cc.o: /home/javier/Documents/
 /home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/src/B2RunAction.cc:
 
 /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Run.hh:
-
-/home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/src/B2TrackerHit.cc:
-
-/home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/include/B2TrackerHit.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UnitsTable.icc:
-
-/home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a/src/B2TrackerSD.cc:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ParticleTableIterator.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4CollectionNameVector.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/clhep-2.4.7.1-zlxzqgmvaf3plndrvmmmqgsvpiglrgwb/include/CLHEP/Random/MTwistEngine.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SensitiveVolumeList.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TNamed.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/RtypesCore.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/RVersion.h:
-
-/usr/include/c++/15/bits/utility.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/ROOT/RVersion.hxx:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Cache.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/strlcpy.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TGenericClassInfo.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TSchemaHelper.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TIsAProxy.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/p1:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TMathBase.h:
-
-/usr/include/c++/15/iostream:
-
-/usr/include/c++/15/cstdarg:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tools/histo/axes:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TAttAxis.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UserStackingAction.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Plane3D.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArray.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4PolyhedraSide.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArrayS.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArrayI.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArrayL64.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TArrayF.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TClass.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/ESTLType.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TSeqCollection.h:
-
-/home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VSceneHandler.hh:
-
-/home/javier/spack/opt/spack/linux-sandybridge/root-6.36.00-lyqsqtfifo257mnwmsxlylvvlvcjubty/include/root/TCollection.h:

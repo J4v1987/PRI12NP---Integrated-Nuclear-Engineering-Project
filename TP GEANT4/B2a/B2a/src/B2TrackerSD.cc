@@ -129,7 +129,7 @@ void B2TrackerSD::Initialize(G4HCofThisEvent* hce)
 /*j25romol: prefer the following revisions*/
 //G4bool B2TrackerSD::ProcessHits(G4Step* aStep,            //j25romol: superseding
 //                                     G4TouchableHistory*) //j25romol: superseding
-G4bool B2TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*, EventAction* fB2EventAction) //j25romol: preferred revision
+G4bool B2TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*, B2EventAction* fB2EventAction) //j25romol: preferred revision
 /*j25romol: end of advised revisions*/
 {  
   // energy deposit
