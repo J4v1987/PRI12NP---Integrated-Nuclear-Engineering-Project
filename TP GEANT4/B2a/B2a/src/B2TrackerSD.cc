@@ -28,7 +28,7 @@
 /// \file B2TrackerSD.cc
 /// \brief Implementation of the B2TrackerSD class
 
-#include "B2TrackerSD.hh"
+#include "B2TrackerSD.hh" //j25romol: found in 'TP GEANT4/B2a/B2a/include/B2TrackerSD.hh'
 #include "G4HCofThisEvent.hh"
 #include "G4Step.hh"
 #include "G4ThreeVector.hh"
@@ -126,11 +126,17 @@ void B2TrackerSD::Initialize(G4HCofThisEvent* hce)
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-G4bool B2TrackerSD::ProcessHits(G4Step* aStep, 
-                                     G4TouchableHistory*)
+/*j25romol: prefer the following revisions*/
+//G4bool B2TrackerSD::ProcessHits(G4Step* aStep,            //j25romol: superseding
+//                                     G4TouchableHistory*) //j25romol: superseding
+G4bool B2TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*, EventAction* fB2EventAction) //j25romol: preferred revision
+/*j25romol: end of advised revisions*/
 {  
   // energy deposit
   G4double edep = aStep->GetTotalEnergyDeposit();
+  /*j25romol: prefer the following revisions*/
+  fB2EventAction->AddEdep(edep);
+  /*j25romol: end of advised revisions*/
 
   if (edep==0.) return false;
 

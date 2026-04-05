@@ -45,6 +45,10 @@ class B2EventAction : public G4UserEventAction
 
     virtual void  BeginOfEventAction(const G4Event* );
     virtual void    EndOfEventAction(const G4Event* );
+/*j25romol: prefer the following revisions*/
+    G4double fEdep; //
+/*j25romol: end of advised revisions*/
+    
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

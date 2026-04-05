@@ -33,6 +33,10 @@
 #include "G4Run.hh"
 #include "G4RunManager.hh"
 
+/*j25romol: prefer the following revisions*/
+#include "G4AnalysisManager.hh"
+/*j25romol: end of advised revisions*/
+
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 B2RunAction::B2RunAction()
@@ -53,11 +57,28 @@ void B2RunAction::BeginOfRunAction(const G4Run*)
 { 
   //inform the runManager to save random number seed
   G4RunManager::GetRunManager()->SetRandomNumberStore(false);
+  
+/*j25romol: prefer the following revisions*/
+  auto analysisManager = G4AnalysisManager::Instance();
+
+  analysisManager->SetDefaultFileType("root");
+  analysisManager->OpenFile("simulation");
+
+  // Create histogram
+  analysisManager->CreateH1("Edep", "Deposited energy (MeV)", 100, 0., 5.);
+/*j25romol: end of advised revisions*/
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void B2RunAction::EndOfRunAction(const G4Run* )
-{}
+{
+/*j25romol: prefer the following revisions*/
+  auto analysisManager = G4AnalysisManager::Instance();
+
+  analysisManager->Write();
+  analysisManager->CloseFile();
+/*j25romol: end of advised revisions*/
+}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

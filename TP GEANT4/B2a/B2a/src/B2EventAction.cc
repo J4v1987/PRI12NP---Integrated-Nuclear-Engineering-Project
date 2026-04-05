@@ -35,6 +35,9 @@
 #include "G4TrajectoryContainer.hh"
 #include "G4Trajectory.hh"
 #include "G4ios.hh"
+/*j25romol: prefer the following revisions*/
+#include "G4AnalysisManager.hh"
+/*j25romol: end of advised revisions*/
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -50,7 +53,18 @@ B2EventAction::~B2EventAction()
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void B2EventAction::BeginOfEventAction(const G4Event*)
-{}
+{
+/*j25romol: prefer the following revisions*/
+  fEdep = 0.;
+/*j25romol: end of advised revisions*/
+}
+
+/*j25romol: prefer the following revisions*/
+void B2EventAction::AddEdep(G4double edep)
+{
+  fEdep += edep;
+}
+/*j25romol: end of advised revisions*/
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -75,6 +89,10 @@ void B2EventAction::EndOfEventAction(const G4Event* event)
     G4cout << "    "  
            << hc->GetSize() << " hits stored in this event" << G4endl;
   }
+  /*j25romol: prefer the following revisions*/
+  auto analysisManager = G4AnalysisManager::Instance();
+  analysisManager->FillH1(0, fEdep);
+  /*j25romol: end of advised revisions*/
 }  
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

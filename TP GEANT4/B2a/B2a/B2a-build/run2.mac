@@ -3,6 +3,7 @@
 # To be run preferably in batch, without graphics:
 # % exampleB2[a,b] run2.mac
 #
-#/run/numberOfWorkers 4
+#/run/numberOfWorkers 4 #j25romol: seemingly superseded as of GEANT4 with /run/numberOfThreads, based on its GUI usage.
+#/run/numberOfThreads 7 #j25romol: present hardware allows up to eight threads, suggested to use 7 to attain optimal processing, reserving 1.
 /run/initialize
 /run/beamOn 500
