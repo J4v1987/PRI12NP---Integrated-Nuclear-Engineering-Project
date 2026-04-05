@@ -16,6 +16,7 @@ void Edep_export() {
         if (y > 0) {  // optional: skip empty bins
             out << x << "," << y << "\n";
         }*/
+        out << x << "," << y << "\n";
     }
 
     out.close();
