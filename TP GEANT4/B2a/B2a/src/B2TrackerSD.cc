@@ -139,25 +139,23 @@ void B2TrackerSD::Initialize(G4HCofThisEvent* hce)
 G4bool B2TrackerSD::ProcessHits(G4Step* aStep,            
                                      G4TouchableHistory*)
 { 
+  /*j25romol: suppress this block
   // energy deposit
   G4double edep = aStep->GetTotalEnergyDeposit();
+  */
 /*j25romol: prefer the following revisions*/
-  if (edep <= 0.) return false;
+  G4double edep = step->GetTotalEnergyDeposit();
 
-  auto event = G4RunManager::GetRunManager()->GetCurrentEvent();
+  if (edep == 0.) return false;
 
-  auto eventAction = (B2EventAction*) G4EventManager::GetEventManager()
-    ->GetUserEventAction();
+  // Store in hit
+  auto newHit = new B2TrackerHit();
+  newHit->SetEdep(edep);
 
-  if (eventAction) {
-      eventAction->AddEdep(edep);
-  }
-  //if (!eventAction) return false; //j25romol: replace with the following
-  if (!eventAction) {
-    G4cout << "ERROR: eventAction is null!" << G4endl;
-    return false;
+  fHitsCollection->insert(newHit);
+
+  return true;
 /*j25romol: end of advised revisions*/
-  }
 
   B2TrackerHit* newHit = new B2TrackerHit();
 
