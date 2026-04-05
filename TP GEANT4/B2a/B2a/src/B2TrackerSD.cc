@@ -179,6 +179,11 @@ void B2TrackerSD::EndOfEvent(G4HCofThisEvent*)
   // fill histograms
   analysisManager->FillH1(0, eDepTot);
   G4cout << "eDepTot" << eDepTot <<G4endl;
+
+  /*j25romol: additional outputs*/
+  G4cout << "Hit edep: " << edep << G4endl;
+  /*j25romol: end of additional outputs*/
+  
   // fRoot->Write();
   // fRoot->Close();
 }

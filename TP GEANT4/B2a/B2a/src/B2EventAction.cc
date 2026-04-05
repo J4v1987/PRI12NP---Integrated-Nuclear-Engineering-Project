@@ -92,6 +92,7 @@ void B2EventAction::EndOfEventAction(const G4Event* event)
   /*j25romol: prefer the following revisions*/
   auto analysisManager = G4AnalysisManager::Instance();
   analysisManager->FillH1(0, fEdep);
+  G4cout << "Total event edep: " << fEdep << G4endl;
   /*j25romol: end of advised revisions*/
 }  
 
