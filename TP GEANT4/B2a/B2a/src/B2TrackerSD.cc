@@ -131,16 +131,14 @@ void B2TrackerSD::Initialize(G4HCofThisEvent* hce)
 G4bool B2TrackerSD::ProcessHits(G4Step* aStep,            
                                      G4TouchableHistory*)
 { 
-  
+  // energy deposit
+  G4double edep = aStep->GetTotalEnergyDeposit();
 /*j25romol: prefer the following revisions*/
   auto fB2EventAction = static_cast<B2EventAction*>(G4RunManager::GetRunManager()->GetUserEventAction());
   if (B2EventAction) {
-  fB2EventAction->AddEdep(edep);
+    fB2EventAction->AddEdep(edep);
   }
 /*j25romol: end of advised revisions*/
-  // energy deposit
-  G4double edep = aStep->GetTotalEnergyDeposit();
-
 
   if (edep==0.) return false;
 
