@@ -143,15 +143,19 @@ G4bool B2TrackerSD::ProcessHits(G4Step* aStep,
   auto eventAction = const_cast<B2EventAction*>(
       dynamic_cast<const B2EventAction*>(baseEventAction)
   );
-/*j25romol: prefer the following revisions*/
+
   //if (!eventAction) return false; //j25romol: replace with the following
   if (!eventAction) {
     G4cout << "ERROR: eventAction is null!" << G4endl;
     return false;
 /*j25romol: end of advised revisions*/
-}
+  }
+  elseif (eventAction) {
+    eventAction->AddEdep(edep);
+    G4cout << "eventAction is valid." << G4endl;
+  }
 
-  eventAction->AddEdep(edep);
+  //eventAction->AddEdep(edep);
 
 
   //if (edep==0.) return false;

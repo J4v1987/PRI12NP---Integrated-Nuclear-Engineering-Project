@@ -48,6 +48,10 @@ B2EventAction::B2EventAction()
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 B2EventAction::~B2EventAction()
+/*j25romol: prefer the following revisions*/
+: G4UserEventAction(),
+  fEdep(0.)
+/*j25romol: end of advised revisions*/
 {}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

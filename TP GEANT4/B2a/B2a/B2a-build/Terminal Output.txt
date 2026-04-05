@@ -1,34 +1,12 @@
-javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/B2a-build$ make clean
-javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/B2a-build$ cmake ..
-CMake Deprecation Warning at CMakeLists.txt:6 (cmake_minimum_required):
-  Compatibility with CMake < 2.8.12 will be removed from a future version of
-  CMake.
-
-  Update the VERSION argument <min> value or use a ...<max> suffix to tell
-  CMake that the project does not need compatibility with older versions.
-
-
--- Configuring done (0.5s)
--- Generating done (0.0s)
--- Build files have been written to: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/B2a-build
 javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/B2a-build$ make
 [ 10%] Building CXX object CMakeFiles/exampleB2a.dir/exampleB2a.cc.o
 [ 20%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2ActionInitialization.cc.o
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc: In member function ‘virtual void B2ActionInitialization::Build() const’:
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc:71:49: error: no matching function for call to ‘B2EventAction::B2EventAction(B2RunAction*&)’
-   71 |   auto eventAction = new B2EventAction(runAction);
-      |                                                 ^
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc:71:49: note: there are 2 candidates
-In file included from /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2ActionInitialization.cc:34:
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2EventAction.hh:43:5: note: candidate 1: ‘B2EventAction::B2EventAction()’
-   43 |     B2EventAction();
-      |     ^~~~~~~~~~~~~
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2EventAction.hh:43:5: note: candidate expects 0 arguments, 1 provided
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2EventAction.hh:40:7: note: candidate 2: ‘constexpr B2EventAction::B2EventAction(const B2EventAction&)’
-   40 | class B2EventAction : public G4UserEventAction
-      |       ^~~~~~~~~~~~~
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/include/B2EventAction.hh:40:7: note: no known conversion for argument 1 from ‘B2RunAction*’ to ‘const B2EventAction&’
-make[2]: *** [CMakeFiles/exampleB2a.dir/build.make:90: CMakeFiles/exampleB2a.dir/src/B2ActionInitialization.cc.o] Error 1
+[ 30%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o
+/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2EventAction.cc: In destructor ‘virtual B2EventAction::~B2EventAction()’:
+/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a/src/B2EventAction.cc:52:3: error: only constructors take member initializers
+   52 | : G4UserEventAction(),
+      |   ^~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/exampleB2a.dir/build.make:104: CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o] Error 1
 make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/exampleB2a.dir/all] Error 2
 make: *** [Makefile:136: all] Error 2
 

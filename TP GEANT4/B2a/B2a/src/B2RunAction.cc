@@ -75,6 +75,8 @@ void B2RunAction::EndOfRunAction(const G4Run* )
 {
 /*j25romol: prefer the following revisions*/
   auto analysisManager = G4AnalysisManager::Instance();
+  analysisManager->OpenFile("simulation.root");
+  analysisManager->CreateH1("Edep", "Deposited energy (MeV)", 100, 0., 5.);
   if (analysisManager){
     analysisManager->Write();
     analysisManager->CloseFile();
