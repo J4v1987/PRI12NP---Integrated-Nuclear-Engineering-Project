@@ -31,3 +31,4 @@ In file included from /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Si
 make[2]: *** [CMakeFiles/exampleB2a.dir/build.make:90: CMakeFiles/exampleB2a.dir/src/B2ActionInitialization.cc.o] Error 1
 make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/exampleB2a.dir/all] Error 2
 make: *** [Makefile:136: all] Error 2
+

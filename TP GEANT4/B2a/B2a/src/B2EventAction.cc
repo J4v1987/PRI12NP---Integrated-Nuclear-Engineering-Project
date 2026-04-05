@@ -56,7 +56,14 @@ B2EventAction::~B2EventAction()
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void B2EventAction::BeginOfEventAction(const G4Event*)
-{}
+{
+  /*j25romol: prefer the following revisions*/
+  if (fHCID == -1) {
+    fHCID = G4SDManager::GetSDMpointer()->GetCollectionID("TrackerHitsCollection");
+    G4cout << "Initialized HCID = " << fHCID << G4endl;
+  }
+  /*j25romol: end of advised revisions*/
+}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
