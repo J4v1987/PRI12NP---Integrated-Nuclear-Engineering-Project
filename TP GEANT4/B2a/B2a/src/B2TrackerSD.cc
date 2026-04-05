@@ -54,9 +54,13 @@ B2TrackerSD::B2TrackerSD(const G4String& name,
                          B2EventAction* eventAction)
  : G4VSensitiveDetector(name),
    fEventAction(eventAction)
-   /*j25romol: end of advised revisions*/
+   
 {
+  /*j25romol: suppress this block
   collectionName.insert(hitsCollectionName);
+  */
+  collectionName.insert("TrackerHitsCollection");
+/*j25romol: end of advised revisions*/
   // fRoot = new TFile("simulation.root","RECREATE");
   ///  fRoot = TFile::Open("simulation.root","RECREATE");
   // std::unique_ptr<TFile> fRoot(TFile::Open("simulation.root","RECREATE"));
@@ -124,14 +128,13 @@ void B2TrackerSD::Initialize(G4HCofThisEvent* hce)
   //G4cout << "Using " << analysisManager->GetType() << G4endl;
   // Create hits collection
 
-  fHitsCollection 
-    = new B2TrackerHitsCollection(SensitiveDetectorName, collectionName[0]); 
+  fHitsCollection = new B2TrackerHitsCollection(SensitiveDetectorName, collectionName[0]); 
 
   // Add this collection in hce
 
   G4int hcID 
     = G4SDManager::GetSDMpointer()->GetCollectionID(collectionName[0]);
-  hce->AddHitsCollection( hcID, fHitsCollection ); 
+  hce->AddHitsCollection(hcID, fHitsCollection); 
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

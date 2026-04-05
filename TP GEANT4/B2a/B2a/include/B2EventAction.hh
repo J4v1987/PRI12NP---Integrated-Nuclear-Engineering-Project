@@ -37,6 +37,8 @@
 
 /// Event action class
 
+G4int fHCID = -1; //j25romol: added to avoid "undefined reference to `fHCID'" error
+
 class B2EventAction : public G4UserEventAction
 {
   public:

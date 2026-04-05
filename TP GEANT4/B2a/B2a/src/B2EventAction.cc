@@ -86,22 +86,24 @@ void B2EventAction::EndOfEventAction(const G4Event* event)
   G4double totalEdep = 0.;
 
   auto hcID = G4SDManager::GetSDMpointer()->GetCollectionID("TrackerHitsCollection");
-  auto hce = event->GetHCofThisEvent();
-
-  if (!hce) return;
-
-  auto hitsCollection = static_cast<B2TrackerHitsCollection*>(hce->GetHC(hcID));
-
-  if (!hitsCollection) return;
-
-  for (size_t i = 0; i < hitsCollection->entries(); ++i) {
-      totalEdep += (*hitsCollection)[i]->GetEdep();
+  if (fHCID == -1) {
+    fHCID = G4SDManager::GetSDMpointer()->GetCollectionID("TrackerHitsCollection");
+    G4cout << "HCID = " << fHCID << G4endl;
   }
 
-  // Fill histogram
+  auto hce = event->GetHCofThisEvent();
+  if (!hce) return;
+
+  auto hitsCollection = static_cast<B2TrackerHitsCollection*>(hce->GetHC(fHCID));
+  if (!hitsCollection) return;
+
+  G4double totalEdep = 0.;
+
+  for (size_t i = 0; i < hitsCollection->entries(); ++i) {
+    totalEdep += (*hitsCollection)[i]->GetEdep();
+  }
+
   analysisManager->FillH1(0, totalEdep);
-  //analysisManager->FillH1(0, fEdep); //j25romol: line superseded
-  //G4cout << "Total event edep: " << fEdep << G4endl; //j25romol: line superseded
   /*j25romol: end of advised revisions*/
 }  
 
