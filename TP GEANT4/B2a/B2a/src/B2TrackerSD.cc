@@ -38,6 +38,8 @@
 #include "TH1F.h"
 #include "TFile.h"
 #include "G4AnalysisManager.hh"
+#include "G4RunManager.hh"
+#include "B2EventAction.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -126,17 +128,19 @@ void B2TrackerSD::Initialize(G4HCofThisEvent* hce)
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
+G4bool B2TrackerSD::ProcessHits(G4Step* aStep,            
+                                     G4TouchableHistory*)
+{ 
+  
 /*j25romol: prefer the following revisions*/
-//G4bool B2TrackerSD::ProcessHits(G4Step* aStep,            //j25romol: superseding
-//                                     G4TouchableHistory*) //j25romol: superseding
-G4bool B2TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*, B2EventAction* fB2EventAction) //j25romol: preferred revision
+  auto fB2EventAction = static_cast<B2EventAction*>(G4RunManager::GetRunManager()->GetUserEventAction());
+  if (B2EventAction) {
+  fB2EventAction->AddEdep(edep);
+  }
 /*j25romol: end of advised revisions*/
-{  
   // energy deposit
   G4double edep = aStep->GetTotalEnergyDeposit();
-  /*j25romol: prefer the following revisions*/
-  fB2EventAction->AddEdep(edep);
-  /*j25romol: end of advised revisions*/
+
 
   if (edep==0.) return false;
 
@@ -149,6 +153,10 @@ G4bool B2TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*, B2EventActio
   newHit->SetPos (aStep->GetPostStepPoint()->GetPosition());
 
   fHitsCollection->insert( newHit );
+
+  /*j25romol: additional outputs*/
+  //G4cout << "Hit edep: " << edep << G4endl;
+  /*j25romol: end of additional outputs*/
 
   //newHit->Print();
 
@@ -179,10 +187,6 @@ void B2TrackerSD::EndOfEvent(G4HCofThisEvent*)
   // fill histograms
   analysisManager->FillH1(0, eDepTot);
   G4cout << "eDepTot" << eDepTot <<G4endl;
-
-  /*j25romol: additional outputs*/
-  G4cout << "Hit edep: " << edep << G4endl;
-  /*j25romol: end of additional outputs*/
   
   // fRoot->Write();
   // fRoot->Close();
