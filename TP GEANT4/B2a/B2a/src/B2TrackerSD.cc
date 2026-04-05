@@ -43,10 +43,18 @@
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
+/*j25romol: prefer the following revisions*/
+/*j25romol: advise to suppress this block
 B2TrackerSD::B2TrackerSD(const G4String& name,
                          const G4String& hitsCollectionName) 
  : G4VSensitiveDetector(name),
    fHitsCollection(NULL)
+*/
+B2TrackerSD::B2TrackerSD(const G4String& name,
+                         B2EventAction* eventAction)
+ : G4VSensitiveDetector(name),
+   fEventAction(eventAction)
+   /*j25romol: end of advised revisions*/
 {
   collectionName.insert(hitsCollectionName);
   // fRoot = new TFile("simulation.root","RECREATE");
@@ -150,13 +158,11 @@ G4bool B2TrackerSD::ProcessHits(G4Step* aStep,
     return false;
 /*j25romol: end of advised revisions*/
   }
-  elseif (eventAction) {
-    eventAction->AddEdep(edep);
-    G4cout << "eventAction is valid." << G4endl;
+/*j25romol: prefer the following revisions*/
+  if (fEventAction) {
+      fEventAction->AddEdep(edep);
   }
-
   //eventAction->AddEdep(edep);
-
 
   //if (edep==0.) return false;
 /*j25romol: end of advised revisions*/

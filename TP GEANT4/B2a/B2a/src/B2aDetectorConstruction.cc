@@ -259,10 +259,18 @@ void B2aDetectorConstruction::ConstructSDandField()
   G4String trackerChamberSDname = "B2/TrackerChamberSD";
   B2TrackerSD* aTrackerSD = new B2TrackerSD(trackerChamberSDname,
                                             "TrackerHitsCollection");
+                                            
+/*j25romo: prefer the following revisions*/
+/*j25romol: advise to suppress this block
   G4SDManager::GetSDMpointer()->AddNewDetector(aTrackerSD);
   // Setting aTrackerSD to all logical volumes with the same name 
   // of "Tracker".
   SetSensitiveDetector("Tracker", aTrackerSD, true);
+  */
+  auto sdManager = G4SDManager::GetSDMpointer();
+  sdManager->AddNewDetector(trackerSD);
+  logicTracker->SetSensitiveDetector(trackerSD);
+/*j25romol: end of advised revisions*/
 
   // Create global magnetic field messenger.
   // Uniform magnetic field is then created automatically if

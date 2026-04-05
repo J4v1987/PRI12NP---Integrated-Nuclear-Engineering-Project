@@ -43,6 +43,9 @@
 
 class G4Step;
 class G4HCofThisEvent;
+/*j25romol: prefer the following revisions*/
+class B2EventAction;
+/*j25romol: end of advised revisions*/
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -55,8 +58,13 @@ class G4HCofThisEvent;
 class B2TrackerSD : public G4VSensitiveDetector
 {
   public:
-    B2TrackerSD(const G4String& name, 
+  /*j25romol: prefer the following revisions*/  
+  /*j25romol: advise to suppress this block
+  B2TrackerSD(const G4String& name, 
                 const G4String& hitsCollectionName);
+  */
+  /*j25romol: end of advised revisions*/
+  B2TrackerSD(const G4String& name, B2EventAction* eventAction);
     virtual ~B2TrackerSD();
   
     // methods from base class
@@ -66,6 +74,9 @@ class B2TrackerSD : public G4VSensitiveDetector
 
   private:
     B2TrackerHitsCollection* fHitsCollection;
+    /*j25romol: prefer the following revisions*/
+    B2EventAction* fEventAction;
+    /*j25romo: end of advised revisions*/
   
   TFile *fRoot;
   //std::unique_ptr<TFile> *fRoot;
