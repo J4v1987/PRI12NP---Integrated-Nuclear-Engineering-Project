@@ -1,10 +1,8 @@
-CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o: \
- /home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a-2/src/B2EventAction.cc \
+CMakeFiles/exampleB2a.dir/src/B2RunAction.cc.o: \
+ /home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a-2/src/B2RunAction.cc \
  /usr/include/stdc-predef.h \
- /home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a-2/include/B2EventAction.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UserEventAction.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/globals.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ios.hh \
+ /home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a-2/include/B2RunAction.hh \
+ /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UserRunAction.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Types.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/15/complex \
@@ -193,6 +191,8 @@ CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o: \
  /usr/include/c++/15/bits/istream.tcc \
  /usr/include/c++/15/bits/sstream.tcc \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tls.hh \
+ /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/globals.hh \
+ /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ios.hh \
  /usr/include/c++/15/iostream /usr/include/c++/15/algorithm \
  /usr/include/c++/15/bits/stl_algo.h \
  /usr/include/c++/15/bits/algorithmfwd.h \
@@ -239,10 +239,16 @@ CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o: \
  /usr/include/c++/15/bits/parse_numbers.h \
  /usr/include/c++/15/bits/std_mutex.h \
  /usr/include/c++/15/bits/unique_lock.h \
+ /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Run.hh \
+ /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/globals.hh \
+ /usr/include/c++/15/vector /usr/include/c++/15/bits/stl_uninitialized.h \
+ /usr/include/c++/15/bits/stl_vector.h \
+ /usr/include/c++/15/bits/stl_bvector.h \
+ /usr/include/c++/15/bits/vector.tcc \
+ /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4RunManager.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Event.hh \
  /usr/include/c++/15/set /usr/include/c++/15/bits/stl_set.h \
  /usr/include/c++/15/bits/stl_multiset.h \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/globals.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/evtdefs.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Allocator.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4AllocatorPool.hh \
@@ -255,10 +261,6 @@ CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o: \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/pwdefs.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HCofThisEvent.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VHitsCollection.hh \
- /usr/include/c++/15/vector /usr/include/c++/15/bits/stl_uninitialized.h \
- /usr/include/c++/15/bits/stl_vector.h \
- /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4DCofThisEvent.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VDigiCollection.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TrajectoryContainer.hh \
@@ -396,7 +398,6 @@ CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o: \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ParticleTable.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ParticleTableIterator.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ParticleTable.icc \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Event.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TrackingManager.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SteppingManager.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Navigator.hh \
@@ -514,24 +515,7 @@ CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o: \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ApplicationState.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UIparameter.hh \
  /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4UserTrackingAction.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TrajectoryContainer.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Trajectory.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4TrajectoryPoint.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VTrajectoryPoint.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VHitsCollection.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SDManager.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4HCtable.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SDStructure.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VSensitiveDetector.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4CollectionNameVector.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VHit.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VReadOutGeometry.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4SensitiveVolumeList.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VSDFilter.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ios.hh \
- /home/javier/Documents/C++/M1S2\ projects/PRI12NP\ -\ 02\ -\ Simulation\ of\ an\ experimental\ setup/TP\ GEANT4/B2a/B2a-2/include/B2TrackerHit.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4VHit.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4THitsCollection.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4Allocator.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4ThreeVector.hh \
- /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/tls.hh
+ /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/G4RunManagerKernel.hh \
+ /home/javier/spack/opt/spack/linux-sandybridge/geant4-11.3.2-7bzyo7zwespwru2nbtmajwt65xq5m3je/include/Geant4/rundefs.hh \
+ /usr/include/c++/15/list /usr/include/c++/15/bits/stl_list.h \
+ /usr/include/c++/15/bits/list.tcc
