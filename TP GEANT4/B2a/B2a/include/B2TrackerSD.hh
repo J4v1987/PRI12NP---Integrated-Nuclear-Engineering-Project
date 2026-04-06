@@ -57,6 +57,10 @@ class B2EventAction;
 
 class B2TrackerSD : public G4VSensitiveDetector
 {
+  /*j25romol: prefer the following revisions*/  
+  G4int fHCID = -1;
+  /*j25romol: end of advised revisions*/
+  
   public:
   /*j25romol: prefer the following revisions*/  
   /*j25romol: advise to suppress this block

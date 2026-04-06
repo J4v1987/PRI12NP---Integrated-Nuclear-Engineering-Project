@@ -133,13 +133,13 @@ void B2TrackerSD::Initialize(G4HCofThisEvent* hce)
 
   // Add this collection in hce
 /*j25romol: prefer the following revisions*/
-  /*j25romol: suppress this block
-  G4int hcID 
-    = G4SDManager::GetSDMpointer()->GetCollectionID(collectionName[0]);
-  */
-    auto hcID = G4SDManager::GetSDMpointer()->GetCollectionID(collectionName[0]);
-/*j25romol: end of advised revisions*/  
-  hce->AddHitsCollection(hcID, fHitsCollection); 
+  /*j25romol: suppress this block*/
+  if (fHCID < 0) {
+    fHCID = G4SDManager::GetSDMpointer()->GetCollectionID(collectionName[0]);
+    G4cout << "TrackerSD HCID = " << fHCID << G4endl;
+  } 
+  //hce->AddHitsCollection(hcID, fHitsCollection); //j25romol: suppress this line
+/*j25romol: end of advised revisions*/ 
 }
 
 
