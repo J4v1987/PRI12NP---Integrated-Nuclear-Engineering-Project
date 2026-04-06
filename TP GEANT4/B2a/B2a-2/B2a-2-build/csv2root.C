@@ -57,13 +57,14 @@ void csv2root() {
 
     tree->Write();
 
-    int nbinsHits = static_cast<int>(std::sqrt(tree->GetEntries()));
-    int nbinsEDep = static_cast<int>(std::sqrt(tree->GetEntries()));
+    int nEntries = tree->GetEntries();
+    int nbins = std::max(10, static_cast<int>(std::sqrt(nEntries)));
+    double eDepMaxRounded = std::ceil(eDepMax / 1e5) * 1e5;
 
     TH1D *hHits = new TH1D("hHits", "Number of Hits;Hits;Events",
-                           nbinsHits, 0, 2000);
+                           nbins, 0, 2000);
     TH1D *hEDep = new TH1D("hEDep", "Total Deposited Energy;E_dep [keV];Events",
-                           nbinsEDep, 0, eDepMax*1.05);// j25romol: last three variable or numeric arguments mean respectively number of bins based on sqrt(data points), minimum energy value (starts at 0), maximum energy value with 5% margin. See: https://root.cern/doc/v636/classTH1D.html
+                           nbins, 0, eDepMaxRounded);// j25romol: last three variable or numeric arguments mean respectively number of bins based on sqrt(data points), minimum energy value (starts at 0), maximum energy rounded to nearest 1e5 keV for clean axis scaling. See: https://root.cern/doc/v636/classTH1D.html
 
     // Fill histograms from TTree
     for (Long64_t i = 0; i < tree->GetEntries(); ++i) {
@@ -81,10 +82,31 @@ void csv2root() {
     c1.Update();
     c1.SaveAs("hits_hist.pdf"); // Works in batch mode
 
-    TCanvas c2("c2", "Deposited Energy Histogram", 800, 600);
-    hEDep->Draw(); // Draw into canvas
+    // Natural scale
+    hEDep->SetTitle("Total Deposited Energy;E_dep [keV];Events");
+    TCanvas c2("c2", "Total Deposited Energy (Natural Scale)", 800, 600);
+    hEDep->Draw();
     c2.Update();
-    c2.SaveAs("edep_hist.pdf"); // Works in batch mode
+    c2.SaveAs("edep_hist_nat.pdf");
+
+    // Log scale
+    hEDep->SetTitle("Total Deposited Energy (Log scale);E_dep [keV];Events");
+    TCanvas c3("c3", "Total Deposited Energy (Log scale)", 800, 600);
+    c3.SetLogy();
+    hEDep->Draw();
+    c3.Update();
+    c3.SaveAs("edep_hist_log.pdf");
+
+    // Normalized log scale
+    double integral = hEDep->Integral();
+    if (integral > 0)
+        hEDep->Scale(1.0 / integral);
+    hEDep->SetTitle("Total Deposited Energy (Normalized, Log scale);E_dep [keV];Probability");
+    TCanvas c4("c4", "Total Deposited Energy (Normalized, Log scale)", 800, 600);
+    c4.SetLogy();
+    hEDep->Draw();
+    c4.Update();
+    c4.SaveAs("edep_hist_norm_log.pdf");
 
     file->Close();
 

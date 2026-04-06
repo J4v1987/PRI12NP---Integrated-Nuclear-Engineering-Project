@@ -33,6 +33,12 @@
 #include "G4Run.hh"
 #include "G4RunManager.hh"
 
+/*j25romol: temporary troubleshooting headers*/
+//#include "g4analysis.hh" // requires rebuilding local GEANT4 with analysis support. CONV2: 🚨 This explains EVERYTHING (2026.04.06)
+#include <fstream>
+
+/*j25romol: end of temporary troubleshooting headers*/
+
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 B2RunAction::B2RunAction()
@@ -53,6 +59,13 @@ void B2RunAction::BeginOfRunAction(const G4Run*)
 { 
   //inform the runManager to save random number seed
   G4RunManager::GetRunManager()->SetRandomNumberStore(false);
+
+  /*j25romol: temporary troubleshooting asset*/
+  std::ofstream out("edep_hits.csv");
+  out << "eventID,hits,eDepTot_keV" << std::endl;
+  out.close();
+  /*j25romol: end of temporary troubleshooting asset*/
+
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
