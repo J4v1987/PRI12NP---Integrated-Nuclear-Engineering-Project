@@ -1,4 +1,4 @@
-void Edep_export() {
+void fH1_export() {
 
     TFile *f = new TFile("simulation.root");
 
