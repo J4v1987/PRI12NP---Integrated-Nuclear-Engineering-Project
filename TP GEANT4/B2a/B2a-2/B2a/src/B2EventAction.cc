@@ -35,9 +35,6 @@
 #include "G4TrajectoryContainer.hh"
 #include "G4Trajectory.hh"
 #include "G4ios.hh"
-/*j25romol: prefer the following revisions*/
-#include "G4AnalysisManager.hh"
-/*j25romol: end of advised revisions*/
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -48,26 +45,15 @@ B2EventAction::B2EventAction()
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 B2EventAction::~B2EventAction()
-/*j25romol: prefer the following revisions*/
-: G4UserEventAction(),
-/*j25romol: end of advised revisions*/
 {}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void B2EventAction::BeginOfEventAction(const G4Event*)
-{
-  /*j25romol: prefer the following revisions*/
-  if (fHCID == -1) {
-    fHCID = G4SDManager::GetSDMpointer()->GetCollectionID("TrackerHitsCollection");
-    G4cout << "Initialized HCID = " << fHCID << G4endl;
-  }
-  /*j25romol: end of advised revisions*/
-}
+{}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-/*j25romol: prefer the following revisions*/
-/*j25romol: advise to suppress this block
+
 void B2EventAction::EndOfEventAction(const G4Event* event)
 {
   // get number of stored trajectories
@@ -89,32 +75,6 @@ void B2EventAction::EndOfEventAction(const G4Event* event)
     G4cout << "    "  
            << hc->GetSize() << " hits stored in this event" << G4endl;
   }
-} 
-*/
-void B2EventAction::EndOfEventAction(const G4Event* event)
-{
-  G4HCofThisEvent* hce = event->GetHCofThisEvent();
-  if (!hce) return;
-
-  if (fHCID == -1) {
-    fHCID = G4SDManager::GetSDMpointer()->GetCollectionID("TrackerHitsCollection");
-  }
-
-  auto hitsCollection =
-    static_cast<B2TrackerHitsCollection*>(hce->GetHC(fHCID));
-
-  if (!hitsCollection) return;
-
-  G4double edep = 0.;
-
-  for (size_t i = 0; i < hitsCollection->GetSize(); i++) {
-    edep += (*hitsCollection)[i]->GetEdep();
-  }
-
-  // Fill histogram
-  auto analysisManager = G4AnalysisManager::Instance();
-  analysisManager->FillH1(0, edep);
-}
-/*j25romol: end of advised revisions*/ 
+}  
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
