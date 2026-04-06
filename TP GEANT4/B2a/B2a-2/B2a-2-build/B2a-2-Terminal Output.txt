@@ -1,31 +1,22 @@
-javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/B2a-2-build$ make clean
-javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/B2a-2-build$ cmake ..
-CMake Deprecation Warning at CMakeLists.txt:6 (cmake_minimum_required):
-  Compatibility with CMake < 2.8.12 will be removed from a future version of
-  CMake.
+javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/B2a-2-build$ dir
+B2a-2-Terminal\ Output.txt  Check_this_out.txt	   Makefile		edep_hits.csv  exampleB2a.out	 gui.mac       run2.mac
+CMakeCache.txt		    Core_project_raws.txt  cmake_install.cmake	exampleB2.in   fH1_export.C	 init_vis.mac  vis.mac
+CMakeFiles		    G4History.macro	   csv2root.C		exampleB2a     get_raw_links.sh	 run1.mac
+javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/B2a-2-build$ root -b -q csv2root.C
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.36.000                       https://root.cern |
+  | (c) 1995-2025, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Apr 01 2026, 14:57:33                 |
+  | From tags/6-36-000@6-36-000                                      |
+  | With g++ (Ubuntu 15.2.0-4ubuntu4) 15.2.0                         |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
 
-  Update the VERSION argument <min> value or use a ...<max> suffix to tell
-  CMake that the project does not need compatibility with older versions.
 
-
--- Configuring done (0.5s)
--- Generating done (0.0s)
--- Build files have been written to: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/B2a-2-build
-javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/B2a-2-build$ make
-[ 10%] Building CXX object CMakeFiles/exampleB2a.dir/exampleB2a.cc.o
-[ 20%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2ActionInitialization.cc.o
-[ 30%] Building CXX object CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/src/B2EventAction.cc: In member function ‘virtual void B2EventAction::EndOfEventAction(const G4Event*)’:
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/src/B2EventAction.cc:94:17: error: ‘B2TrackerHitsCollection’ does not name a type
-   94 |     static_cast<B2TrackerHitsCollection*>(hce->GetHC(0));
-      |                 ^~~~~~~~~~~~~~~~~~~~~~~
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/src/B2EventAction.cc:94:40: error: expected ‘>’ before ‘*’ token
-   94 |     static_cast<B2TrackerHitsCollection*>(hce->GetHC(0));
-      |                                        ^
-/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/src/B2EventAction.cc:122:26: error: ‘G4AnalysisManager’ has not been declared
-  122 |   auto analysisManager = G4AnalysisManager::Instance();
-      |                          ^~~~~~~~~~~~~~~~~
-make[2]: *** [CMakeFiles/exampleB2a.dir/build.make:104: CMakeFiles/exampleB2a.dir/src/B2EventAction.cc.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/exampleB2a.dir/all] Error 2
-make: *** [Makefile:136: all] Error 2
-
+Processing csv2root.C...
+ROOT file simulation.root created successfully!
+javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/B2a-2-build$ dir
+B2a-2-Terminal\ Output.txt  Check_this_out.txt	   Makefile		edep_hits.csv  exampleB2a.out	 gui.mac       run2.mac
+CMakeCache.txt		    Core_project_raws.txt  cmake_install.cmake	exampleB2.in   fH1_export.C	 init_vis.mac  simulation.root
+CMakeFiles		    G4History.macro	   csv2root.C		exampleB2a     get_raw_links.sh	 run1.mac      vis.mac
+javier@javier-ThinkPad-W520:~/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-2/B2a-2-build$
