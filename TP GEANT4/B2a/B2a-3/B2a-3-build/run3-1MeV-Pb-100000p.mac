@@ -1,7 +1,7 @@
 # Macro file for example B2
 # 
 # To be run preferably in batch, without graphics:
-# % exampleB2[a,b] run3-1MeV-Pb-100000p.mac
+# % exampleB2[a,b] run3-1MeV-noPb-100000p.mac
 #
 #/run/numberOfWorkers 4
 
