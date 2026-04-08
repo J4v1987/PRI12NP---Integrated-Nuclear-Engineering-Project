@@ -114,10 +114,11 @@ void B2aDetectorConstruction::DefineMaterials()
   // Xenon liquid
 
   // Liquid xenon defined using class G4Material
-  fTrackerMaterial = 
+  fTrackerMaterial =
   new G4Material("XenonLiquid", z=54., a=131.29*g/mole, density= 3.06*g/cm3,
                  kStateLiquid, temperature= 293.15*kelvin, pressure= 1*atmosphere);
-
+  //Here you have to redefine the tracker material to have the liquid scintillator (composition in mass percentage : H 11,45%, Gd 0,2 %, C 88,35 %, density 0,88 g/cm3)
+//refer to the GEANT4 slides to see how to define a material composed by different elements
 
   // Print materials
   G4cout << *(G4Material::GetMaterialTable()) << G4endl;
@@ -134,12 +135,12 @@ G4VPhysicalVolume* B2aDetectorConstruction::DefineVolumes()
 
   // Sizes of the principal geometrical components (solids)
   
-  G4double worldLength = 100*cm;
+  G4double worldLength = 4*m;
   
   G4double targetLength = 1.0*cm; // full length of Target (1 cm)
   G4double targetRadius  = 20*cm;   // Radius of Target
   
-  G4double trackerLength = 20*cm;//20*cm;
+  G4double trackerLength = 20*cm;
   G4double trackerRadius = 20*cm;
 
 
@@ -173,8 +174,10 @@ G4VPhysicalVolume* B2aDetectorConstruction::DefineVolumes()
                  false,           // no boolean operations
                  0,               // copy number
                  fCheckOverlaps); // checking overlaps 
-
-  // Target
+ //
+    
+    
+  // You can put here your shielding
   
   G4ThreeVector positionTarget = G4ThreeVector(0,0,-(targetLength/2.+trackerLength/2.));
 
@@ -182,25 +185,25 @@ G4VPhysicalVolume* B2aDetectorConstruction::DefineVolumes()
     = new G4Tubs("target",0.,targetRadius,targetLength/2.,0.*deg,360.*deg);
   fLogicTarget
     = new G4LogicalVolume(targetS, fTargetMaterial,"Target",0,0,0);
-   
-   new G4PVPlacement(0,               // no rotation
-                   positionTarget,  // at (x,y,z)
-                    fLogicTarget,    // its logical volume
-                  "Target",        // its name
-                  worldLV,         // its mother volume
-                  false,           // no boolean operations
-                  0,               // copy number
-                  fCheckOverlaps); // checking overlaps 
-  
+  //   new G4PVPlacement(0,               // no rotation
+  //                 positionTarget,  // at (x,y,z)
+  //                  fLogicTarget,    // its logical volume
+  //                "Target",        // its name
+  //                worldLV,         // its mother volume
+  //                false,           // no boolean operations
+  //                0,               // copy number
+  //                fCheckOverlaps); // checking overlaps 
+
   G4cout << "Target is " << targetLength/cm << " cm of "
          << fTargetMaterial->GetName() << G4endl;
 
-  // Tracker
+  // this is you target in Nucifer
  
   G4ThreeVector positionTracker = G4ThreeVector(0,0,0);
 
-  G4Tubs* trackerS
-    = new G4Tubs("tracker",0,trackerRadius,trackerLength/2., 0.*deg, 360.*deg);
+ // G4Tubs* trackerS
+   // = new G4Tubs("tracker",0,trackerRadius,trackerLength/2., 0.*deg, 360.*deg);
+    G4Box* trackerS = new G4Box("tracker",2220*mm/2,889*mm/2,918*mm/2);
   G4LogicalVolume* trackerLV
     = new G4LogicalVolume(trackerS, fTrackerMaterial, "Tracker",0,0,0);  
   new G4PVPlacement(0,               // no rotation

@@ -52,7 +52,6 @@ set(EXAMPLEB2A_SCRIPTS
   gui.mac
   run1.mac
   run2.mac
-  run3-1MeV-Pb-100000p.mac
   init_vis.mac
   vis.mac
   )

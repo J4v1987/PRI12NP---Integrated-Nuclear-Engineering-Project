@@ -18,15 +18,13 @@ else()
   find_package(Geant4 REQUIRED)
 endif()
 
- find_package(ROOT REQUIRED COMPONENTS Hist RIO )
-
 #----------------------------------------------------------------------------
 # Setup Geant4 include directories and compile definitions
 # Setup include directory for this project
 #
 include(${Geant4_USE_FILE})
 include_directories(${PROJECT_SOURCE_DIR}/include)
-include(${ROOT_USE_FILE})
+include_directories(${ROOTSYS}/include)
 
 #----------------------------------------------------------------------------
 # Locate sources and headers for this project
@@ -34,12 +32,13 @@ include(${ROOT_USE_FILE})
 #
 file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
 file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
+file(GLOB headers ${ROOTSYS}/include/*.hh)
 
 #----------------------------------------------------------------------------
 # Add the executable, and link it to the Geant4 libraries
 #
-add_executable(exampleB2a exampleB2a.cc ${sources} ${headers} )
-target_link_libraries(exampleB2a ${Geant4_LIBRARIES} ${ROOT_LIBRARIES} )
+add_executable(exampleB2a exampleB2a.cc ${sources} ${headers})
+target_link_libraries(exampleB2a ${Geant4_LIBRARIES} ${ROOTSYS/lib} )
 
 #----------------------------------------------------------------------------
 # Copy all scripts to the build directory, i.e. the directory in which we
@@ -52,7 +51,6 @@ set(EXAMPLEB2A_SCRIPTS
   gui.mac
   run1.mac
   run2.mac
-  run3-1MeV-Pb-100000p.mac
   init_vis.mac
   vis.mac
   )
