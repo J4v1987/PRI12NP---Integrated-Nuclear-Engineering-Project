@@ -1,0 +1,19 @@
+# Macro file for the initialization of example B2 
+# in interactive session
+#
+# Set some default verbose
+/control/verbose 2
+/control/saveHistory
+/run/verbose 2
+#
+# Change the default number of threads (in multi-threaded mode)
+#/run/numberOfThreads 4
+#
+# Initialize kernel
+/run/initialize
+#
+# Visualization setting
+/control/execute vis.mac
+# j25romol: it is suggested to add the following:
+# Set visualization parameters, to keep visual track of Pb sheet thickness Change
+#/vis/viewer/set/viewpointThetaPhi 90 0 #j25romol

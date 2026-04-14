@@ -136,7 +136,7 @@ G4VPhysicalVolume* B2aDetectorConstruction::DefineVolumes()
   
   G4double worldLength = 100*cm;
   
-  G4double targetLength = 1.0*cm; // full length of Target (1 cm)
+  G4double targetLength = 0.6*cm; // full length of Target (1 cm)
   G4double targetRadius  = 20*cm;   // Radius of Target
   
   G4double trackerLength = 20*cm;//20*cm;

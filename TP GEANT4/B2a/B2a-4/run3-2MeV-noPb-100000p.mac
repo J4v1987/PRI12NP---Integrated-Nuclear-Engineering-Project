@@ -1,0 +1,16 @@
+# Macro file for example B2
+# 
+# To be run preferably in batch, without graphics:
+# % exampleB2[a,b] run3-2MeV-noPb-100000p.mac
+#
+#/run/numberOfWorkers 4
+
+#Initialize the G4 Kernel
+/run/initialize
+#Define level of verbosity
+/tracking/verbose 0
+# Define particle type
+/gun/particle e- #electrons
+# Define particle energy
+/gun/energy 2 MeV
+#/run/beamOn 100000
