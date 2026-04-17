@@ -13,4 +13,4 @@
 /gun/particle e- #electrons
 # Define particle energy
 /gun/energy 2 MeV
-#/run/beamOn 100000
+/run/beamOn 100000

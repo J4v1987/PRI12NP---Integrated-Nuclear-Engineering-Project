@@ -1,9 +1,0 @@
-# Macro file for example B2
-# 
-# To be run preferably in batch, without graphics:
-# % exampleB2[a,b] run2.mac
-#
-#/run/numberOfWorkers 4
-/run/numberOfThreads 1 #j25romol: use minimum processing capacity to ensure functionality of onboard legacy hardware
-/run/initialize
-/run/beamOn 1000 #j25romol: Originally 500

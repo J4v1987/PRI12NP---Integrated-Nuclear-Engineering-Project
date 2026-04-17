@@ -136,10 +136,10 @@ G4VPhysicalVolume* B2aDetectorConstruction::DefineVolumes()
   
   G4double worldLength = 100*cm;
   
-  G4double targetLength = 0.6*cm; // full length of Target (1 cm)
+  G4double targetLength = 1.0*cm; // full length of Target (1 cm)
   G4double targetRadius  = 20*cm;   // Radius of Target
   
-  G4double trackerLength = 15*cm;//20*cm;
+  G4double trackerLength = 1*cm;//20*cm;
   G4double trackerRadius = 20*cm;
 
 
@@ -182,7 +182,7 @@ G4VPhysicalVolume* B2aDetectorConstruction::DefineVolumes()
     = new G4Tubs("target",0.,targetRadius,targetLength/2.,0.*deg,360.*deg);
   fLogicTarget
     = new G4LogicalVolume(targetS, fTargetMaterial,"Target",0,0,0);
-   /*
+  /* 
    new G4PVPlacement(0,               // no rotation
                    positionTarget,  // at (x,y,z)
                     fLogicTarget,    // its logical volume
@@ -191,7 +191,7 @@ G4VPhysicalVolume* B2aDetectorConstruction::DefineVolumes()
                   false,           // no boolean operations
                   0,               // copy number
                   fCheckOverlaps); // checking overlaps 
-*/
+  */
   G4cout << "Target is " << targetLength/cm << " cm of "
          << fTargetMaterial->GetName() << G4endl;
 

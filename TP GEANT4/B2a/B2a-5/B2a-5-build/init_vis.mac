@@ -16,4 +16,4 @@
 /control/execute vis.mac
 # j25romol: it is suggested to add the following:
 # Set visualization parameters, to keep visual track of Pb sheet thickness Change
-#/vis/viewer/set/viewpointThetaPhi 90 0 #j25romol
+/vis/viewer/set/viewpointThetaPhi 90 0 #j25romol

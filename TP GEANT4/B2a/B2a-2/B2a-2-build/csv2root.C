@@ -61,11 +61,12 @@ void csv2root() {
     int nbins = std::max(10, static_cast<int>(std::sqrt(nEntries)));
     double eDepMaxRounded = std::ceil(eDepMax / 1e5) * 1e5;
 
-    TH1D *hHits = new TH1D("hHits", "Number of Hits;Hits;Events",
-                           nbins, 0, 2000);
-    TH1D *hEDep = new TH1D("hEDep", "Total Deposited Energy;E_dep [keV];Events",
-                           nbins, 0, eDepMaxRounded);// j25romol: last three variable or numeric arguments mean respectively number of bins based on sqrt(data points), minimum energy value (starts at 0), maximum energy rounded to nearest 1e5 keV for clean axis scaling. See: https://root.cern/doc/v636/classTH1D.html
+    TH1D *hHits = new TH1D("hHits", "Number of Hits;Hits;Events", nbins, 0, 1200);
+    TH1D *hEDep = new TH1D("hEDep", "Total Deposited Energy;E_dep [keV];Events", nbins, 0, 1200);
+    //TH1D *hEDep = new TH1D("hEDep", "Total Deposited Energy;E_dep [keV];Events", nbins, 0, eDepMaxRounded);// j25romol: last three variable or numeric arguments mean respectively number of bins based on sqrt(data points), minimum energy value (starts at 0), maximum energy rounded to nearest 1e5 keV for clean axis scaling. See: https://root.cern/doc/v636/classTH1D.html
 
+    //TH1D *hEDep = new TH1D("hEDep", "Total Deposited Energy;E_dep [keV];Events", nbins, 0, 2000);    
+    
     // Fill histograms from TTree
     for (Long64_t i = 0; i < tree->GetEntries(); ++i) {
         tree->GetEntry(i);

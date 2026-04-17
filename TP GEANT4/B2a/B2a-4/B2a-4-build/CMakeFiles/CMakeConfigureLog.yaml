@@ -7,7 +7,7 @@ events:
       - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
       - "CMakeLists.txt:7 (project)"
     message: |
-      The system is: Linux - 6.17.0-20-generic - x86_64
+      The system is: Linux - 6.17.0-22-generic - x86_64
   -
     kind: "message-v1"
     backtrace:
@@ -61,20 +61,20 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-b3FxQP"
-      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-b3FxQP"
+      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-sgCQZU"
+      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-sgCQZU"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-b3FxQP
+        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-sgCQZU
         
-        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cf751/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cf751.dir/build.make CMakeFiles/cmTC_cf751.dir/build
-        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-b3FxQP'
-        Building C object CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_edd7d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_edd7d.dir/build.make CMakeFiles/cmTC_edd7d.dir/build
+        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-sgCQZU'
+        Building C object CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -84,8 +84,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-4ubuntu4) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cf751.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cf751.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccGQnS4Q.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edd7d.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_edd7d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccNyQN5L.s
         GNU C23 (Ubuntu 15.2.0-4ubuntu4) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -102,15 +102,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 0221f9d323e9ceb852d229511dac4b77
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cf751.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o /tmp/ccGQnS4Q.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edd7d.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o /tmp/ccNyQN5L.s
         GNU assembler version 2.45 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.45
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_cf751
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf751.dir/link.txt --verbose=1
-        /usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o -o cmTC_cf751 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_edd7d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edd7d.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o -o cmTC_edd7d 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -123,10 +123,10 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-4ubuntu4) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf751' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cf751.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJDbQB2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cf751 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf751' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cf751.'
-        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-b3FxQP'
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_edd7d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_edd7d.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBnYn8o.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_edd7d /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_edd7d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_edd7d.'
+        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-sgCQZU'
         
       exitCode: 0
   -
@@ -160,12 +160,12 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-b3FxQP]
+        ignore line: [Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-sgCQZU]
         ignore line: []
-        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cf751/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cf751.dir/build.make CMakeFiles/cmTC_cf751.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-b3FxQP']
-        ignore line: [Building C object CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_edd7d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_edd7d.dir/build.make CMakeFiles/cmTC_edd7d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-sgCQZU']
+        ignore line: [Building C object CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -175,8 +175,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-4ubuntu4) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cf751.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cf751.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccGQnS4Q.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edd7d.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_edd7d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccNyQN5L.s]
         ignore line: [GNU C23 (Ubuntu 15.2.0-4ubuntu4) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -193,15 +193,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 0221f9d323e9ceb852d229511dac4b77]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cf751.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o /tmp/ccGQnS4Q.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edd7d.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o /tmp/ccNyQN5L.s]
         ignore line: [GNU assembler version 2.45 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.45]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_cf751]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf751.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o -o cmTC_cf751 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_edd7d]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edd7d.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o -o cmTC_edd7d ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -214,13 +214,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-4ubuntu4) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf751' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cf751.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJDbQB2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cf751 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_edd7d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_edd7d.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBnYn8o.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_edd7d /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccJDbQB2.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccBnYn8o.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -239,7 +239,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_cf751] ==> ignore
+          arg [cmTC_edd7d] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -253,7 +253,7 @@ events:
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..]
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
-          arg [CMakeFiles/cmTC_cf751.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_edd7d.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -295,20 +295,20 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-6iflCS"
-      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-6iflCS"
+      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KP1Xlr"
+      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KP1Xlr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-6iflCS
+        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KP1Xlr
         
-        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4b593/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b593.dir/build.make CMakeFiles/cmTC_4b593.dir/build
-        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-6iflCS'
-        Building CXX object CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2d97b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d97b.dir/build.make CMakeFiles/cmTC_2d97b.dir/build
+        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KP1Xlr'
+        Building CXX object CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -318,8 +318,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-4ubuntu4) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b593.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4b593.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccv2VeCo.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d97b.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2d97b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccXjLzOa.s
         GNU C++17 (Ubuntu 15.2.0-4ubuntu4) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -340,15 +340,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 303b1f6d80e10fe55145457c37243669
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b593.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccv2VeCo.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d97b.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXjLzOa.s
         GNU assembler version 2.45 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.45
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_4b593
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b593.dir/link.txt --verbose=1
-        /usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4b593 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_2d97b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d97b.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2d97b 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -361,10 +361,10 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-4ubuntu4) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4b593' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b593.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbzDygM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4b593 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4b593' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b593.'
-        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-6iflCS'
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2d97b' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d97b.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRFtdWQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2d97b /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2d97b' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d97b.'
+        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KP1Xlr'
         
       exitCode: 0
   -
@@ -404,12 +404,12 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-6iflCS]
+        ignore line: [Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KP1Xlr]
         ignore line: []
-        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4b593/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b593.dir/build.make CMakeFiles/cmTC_4b593.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-6iflCS']
-        ignore line: [Building CXX object CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2d97b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d97b.dir/build.make CMakeFiles/cmTC_2d97b.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KP1Xlr']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -419,8 +419,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-4ubuntu4) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b593.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4b593.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccv2VeCo.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d97b.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2d97b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccXjLzOa.s]
         ignore line: [GNU C++17 (Ubuntu 15.2.0-4ubuntu4) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -441,15 +441,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 303b1f6d80e10fe55145457c37243669]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b593.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccv2VeCo.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d97b.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXjLzOa.s]
         ignore line: [GNU assembler version 2.45 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.45]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_4b593]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b593.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4b593 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_2d97b]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d97b.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2d97b ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -462,13 +462,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-4ubuntu4) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4b593' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b593.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbzDygM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4b593 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2d97b' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d97b.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRFtdWQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2d97b /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccbzDygM.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccRFtdWQ.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -487,7 +487,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_4b593] ==> ignore
+          arg [cmTC_2d97b] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -501,7 +501,7 @@ events:
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..]
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
-          arg [CMakeFiles/cmTC_4b593.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_2d97b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -545,8 +545,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jFzec7"
-      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jFzec7"
+      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-hS9WKR"
+      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-hS9WKR"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -556,16 +556,16 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jFzec7
+        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-hS9WKR
         
-        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ece53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ece53.dir/build.make CMakeFiles/cmTC_ece53.dir/build
-        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jFzec7'
-        Building C object CMakeFiles/cmTC_ece53.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ece53.dir/src.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jFzec7/src.c"
-        Linking C executable cmTC_ece53
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ece53.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_ece53.dir/src.c.o -o cmTC_ece53 
-        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jFzec7'
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c59dd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c59dd.dir/build.make CMakeFiles/cmTC_c59dd.dir/build
+        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-hS9WKR'
+        Building C object CMakeFiles/cmTC_c59dd.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c59dd.dir/src.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-hS9WKR/src.c"
+        Linking C executable cmTC_c59dd
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c59dd.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c59dd.dir/src.c.o -o cmTC_c59dd 
+        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-hS9WKR'
         
       exitCode: 0
   -
@@ -579,8 +579,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /home/javier/spack/opt/spack/linux-sandybridge/libx11-1.8.11-phdpamz5dcmfrw4lmkauzow32dvbsibz/lib/libX11.so;/home/javier/spack/opt/spack/linux-sandybridge/libxext-1.3.6-gnes2ehuiwnf6notmtkpgl3ywax5iyoq/lib/libXext.so"
     directories:
-      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-5VVYGL"
-      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-5VVYGL"
+      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-96LPvX"
+      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-96LPvX"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -590,16 +590,16 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-5VVYGL
+        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-96LPvX
         
-        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_91fb8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91fb8.dir/build.make CMakeFiles/cmTC_91fb8.dir/build
-        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-5VVYGL'
-        Building C object CMakeFiles/cmTC_91fb8.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_91fb8.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-5VVYGL/CheckFunctionExists.c"
-        Linking C executable cmTC_91fb8
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91fb8.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_91fb8.dir/CheckFunctionExists.c.o -o cmTC_91fb8   -L/home/javier/spack/opt/spack/linux-sandybridge/libx11-1.8.11-phdpamz5dcmfrw4lmkauzow32dvbsibz/lib  -Wl,-rpath,/home/javier/spack/opt/spack/linux-sandybridge/libx11-1.8.11-phdpamz5dcmfrw4lmkauzow32dvbsibz/lib:/home/javier/spack/opt/spack/linux-sandybridge/libxext-1.3.6-gnes2ehuiwnf6notmtkpgl3ywax5iyoq/lib /home/javier/spack/opt/spack/linux-sandybridge/libx11-1.8.11-phdpamz5dcmfrw4lmkauzow32dvbsibz/lib/libX11.so /home/javier/spack/opt/spack/linux-sandybridge/libxext-1.3.6-gnes2ehuiwnf6notmtkpgl3ywax5iyoq/lib/libXext.so 
-        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-5VVYGL'
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c4e06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4e06.dir/build.make CMakeFiles/cmTC_c4e06.dir/build
+        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-96LPvX'
+        Building C object CMakeFiles/cmTC_c4e06.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_c4e06.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-96LPvX/CheckFunctionExists.c"
+        Linking C executable cmTC_c4e06
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4e06.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_c4e06.dir/CheckFunctionExists.c.o -o cmTC_c4e06   -L/home/javier/spack/opt/spack/linux-sandybridge/libx11-1.8.11-phdpamz5dcmfrw4lmkauzow32dvbsibz/lib  -Wl,-rpath,/home/javier/spack/opt/spack/linux-sandybridge/libx11-1.8.11-phdpamz5dcmfrw4lmkauzow32dvbsibz/lib:/home/javier/spack/opt/spack/linux-sandybridge/libxext-1.3.6-gnes2ehuiwnf6notmtkpgl3ywax5iyoq/lib /home/javier/spack/opt/spack/linux-sandybridge/libx11-1.8.11-phdpamz5dcmfrw4lmkauzow32dvbsibz/lib/libX11.so /home/javier/spack/opt/spack/linux-sandybridge/libxext-1.3.6-gnes2ehuiwnf6notmtkpgl3ywax5iyoq/lib/libXext.so 
+        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-96LPvX'
         
       exitCode: 0
   -
@@ -613,8 +613,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-68gRIv"
-      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-68gRIv"
+      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-zgjwEn"
+      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-zgjwEn"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -624,16 +624,16 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-68gRIv
+        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-zgjwEn
         
-        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50f9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_50f9b.dir/build.make CMakeFiles/cmTC_50f9b.dir/build
-        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-68gRIv'
-        Building C object CMakeFiles/cmTC_50f9b.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_50f9b.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-68gRIv/CheckFunctionExists.c"
-        Linking C executable cmTC_50f9b
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50f9b.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_50f9b.dir/CheckFunctionExists.c.o -o cmTC_50f9b 
-        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-68gRIv'
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f931f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f931f.dir/build.make CMakeFiles/cmTC_f931f.dir/build
+        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-zgjwEn'
+        Building C object CMakeFiles/cmTC_f931f.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_f931f.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-zgjwEn/CheckFunctionExists.c"
+        Linking C executable cmTC_f931f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f931f.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_f931f.dir/CheckFunctionExists.c.o -o cmTC_f931f 
+        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-zgjwEn'
         
       exitCode: 0
   -
@@ -647,8 +647,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KQcjbT"
-      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KQcjbT"
+      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-xJCiRm"
+      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-xJCiRm"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -658,16 +658,16 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KQcjbT
+        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-xJCiRm
         
-        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c12c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c12c7.dir/build.make CMakeFiles/cmTC_c12c7.dir/build
-        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KQcjbT'
-        Building C object CMakeFiles/cmTC_c12c7.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_c12c7.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KQcjbT/CheckFunctionExists.c"
-        Linking C executable cmTC_c12c7
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c12c7.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_c12c7.dir/CheckFunctionExists.c.o -o cmTC_c12c7 
-        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-KQcjbT'
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8a4c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8a4c5.dir/build.make CMakeFiles/cmTC_8a4c5.dir/build
+        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-xJCiRm'
+        Building C object CMakeFiles/cmTC_8a4c5.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_8a4c5.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-xJCiRm/CheckFunctionExists.c"
+        Linking C executable cmTC_8a4c5
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a4c5.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_8a4c5.dir/CheckFunctionExists.c.o -o cmTC_8a4c5 
+        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-xJCiRm'
         
       exitCode: 0
   -
@@ -681,8 +681,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-K7Y1Ql"
-      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-K7Y1Ql"
+      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-grfc3P"
+      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-grfc3P"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -692,16 +692,16 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-K7Y1Ql
+        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-grfc3P
         
-        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e756a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e756a.dir/build.make CMakeFiles/cmTC_e756a.dir/build
-        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-K7Y1Ql'
-        Building C object CMakeFiles/cmTC_e756a.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_e756a.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-K7Y1Ql/CheckFunctionExists.c"
-        Linking C executable cmTC_e756a
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e756a.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_e756a.dir/CheckFunctionExists.c.o -o cmTC_e756a 
-        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-K7Y1Ql'
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_99509/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_99509.dir/build.make CMakeFiles/cmTC_99509.dir/build
+        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-grfc3P'
+        Building C object CMakeFiles/cmTC_99509.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_99509.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-grfc3P/CheckFunctionExists.c"
+        Linking C executable cmTC_99509
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99509.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_99509.dir/CheckFunctionExists.c.o -o cmTC_99509 
+        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-grfc3P'
         
       exitCode: 0
   -
@@ -715,8 +715,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-kCkcmP"
-      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-kCkcmP"
+      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-FVwUvC"
+      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-FVwUvC"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -726,16 +726,16 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-kCkcmP
+        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-FVwUvC
         
-        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c40f6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c40f6.dir/build.make CMakeFiles/cmTC_c40f6.dir/build
-        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-kCkcmP'
-        Building C object CMakeFiles/cmTC_c40f6.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_c40f6.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-kCkcmP/CheckFunctionExists.c"
-        Linking C executable cmTC_c40f6
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c40f6.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_c40f6.dir/CheckFunctionExists.c.o -o cmTC_c40f6 
-        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-kCkcmP'
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_60e09/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_60e09.dir/build.make CMakeFiles/cmTC_60e09.dir/build
+        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-FVwUvC'
+        Building C object CMakeFiles/cmTC_60e09.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_60e09.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-FVwUvC/CheckFunctionExists.c"
+        Linking C executable cmTC_60e09
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60e09.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_60e09.dir/CheckFunctionExists.c.o -o cmTC_60e09 
+        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-FVwUvC'
         
       exitCode: 0
   -
@@ -749,8 +749,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-yQkMbs"
-      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-yQkMbs"
+      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-ACsKB4"
+      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-ACsKB4"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -760,16 +760,16 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-yQkMbs
+        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-ACsKB4
         
-        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e7bc8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7bc8.dir/build.make CMakeFiles/cmTC_e7bc8.dir/build
-        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-yQkMbs'
-        Building C object CMakeFiles/cmTC_e7bc8.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_e7bc8.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-yQkMbs/CheckFunctionExists.c"
-        Linking C executable cmTC_e7bc8
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7bc8.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_e7bc8.dir/CheckFunctionExists.c.o -o cmTC_e7bc8   -L/home/javier/spack/opt/spack/linux-sandybridge/libx11-1.8.11-phdpamz5dcmfrw4lmkauzow32dvbsibz/lib  -Wl,-rpath,/home/javier/spack/opt/spack/linux-sandybridge/libx11-1.8.11-phdpamz5dcmfrw4lmkauzow32dvbsibz/lib -lICE 
-        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-yQkMbs'
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4a816/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4a816.dir/build.make CMakeFiles/cmTC_4a816.dir/build
+        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-ACsKB4'
+        Building C object CMakeFiles/cmTC_4a816.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_4a816.dir/CheckFunctionExists.c.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-ACsKB4/CheckFunctionExists.c"
+        Linking C executable cmTC_4a816
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a816.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_4a816.dir/CheckFunctionExists.c.o -o cmTC_4a816   -L/home/javier/spack/opt/spack/linux-sandybridge/libx11-1.8.11-phdpamz5dcmfrw4lmkauzow32dvbsibz/lib  -Wl,-rpath,/home/javier/spack/opt/spack/linux-sandybridge/libx11-1.8.11-phdpamz5dcmfrw4lmkauzow32dvbsibz/lib -lICE 
+        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-ACsKB4'
         
       exitCode: 0
   -
@@ -788,8 +788,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-PwYOjm"
-      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-PwYOjm"
+      source: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jsHb74"
+      binary: "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jsHb74"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -799,16 +799,16 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-PwYOjm
+        Change Dir: /home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jsHb74
         
-        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_de2dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_de2dc.dir/build.make CMakeFiles/cmTC_de2dc.dir/build
-        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-PwYOjm'
-        Building CXX object CMakeFiles/cmTC_de2dc.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_de2dc.dir/src.cxx.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-PwYOjm/src.cxx"
-        Linking CXX executable cmTC_de2dc
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de2dc.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_de2dc.dir/src.cxx.o -o cmTC_de2dc 
-        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-PwYOjm'
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d59b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d59b7.dir/build.make CMakeFiles/cmTC_d59b7.dir/build
+        gmake[1]: Entering directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jsHb74'
+        Building CXX object CMakeFiles/cmTC_d59b7.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_d59b7.dir/src.cxx.o -c "/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jsHb74/src.cxx"
+        Linking CXX executable cmTC_d59b7
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d59b7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_d59b7.dir/src.cxx.o -o cmTC_d59b7 
+        gmake[1]: Leaving directory '/home/javier/Documents/C++/M1S2 projects/PRI12NP - 02 - Simulation of an experimental setup/TP GEANT4/B2a/B2a-4/B2a-4-build/CMakeFiles/CMakeScratch/TryCompile-jsHb74'
         
       exitCode: 0
 ...
