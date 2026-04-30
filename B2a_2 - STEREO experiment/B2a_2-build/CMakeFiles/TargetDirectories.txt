@@ -1,0 +1,7 @@
+/homes/s25hussa/geant4/B2a_2/B2a_2-build/CMakeFiles/exampleB2a.dir
+/homes/s25hussa/geant4/B2a_2/B2a_2-build/CMakeFiles/edit_cache.dir
+/homes/s25hussa/geant4/B2a_2/B2a_2-build/CMakeFiles/rebuild_cache.dir
+/homes/s25hussa/geant4/B2a_2/B2a_2-build/CMakeFiles/list_install_components.dir
+/homes/s25hussa/geant4/B2a_2/B2a_2-build/CMakeFiles/install.dir
+/homes/s25hussa/geant4/B2a_2/B2a_2-build/CMakeFiles/install/local.dir
+/homes/s25hussa/geant4/B2a_2/B2a_2-build/CMakeFiles/install/strip.dir

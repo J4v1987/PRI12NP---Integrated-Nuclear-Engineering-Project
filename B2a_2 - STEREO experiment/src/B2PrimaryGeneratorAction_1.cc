@@ -53,12 +53,12 @@ B2PrimaryGeneratorAction::B2PrimaryGeneratorAction()
 
   // default particle kinematic
 
-  G4ParticleDefinition* particleDefinition
-    = G4ParticleTable::GetParticleTable()->FindParticle("gamma");
+  G4ParticleDefinition* particleDefinition 
+    = G4ParticleTable::GetParticleTable()->FindParticle("gamma");
 
   fParticleGun->SetParticleDefinition(particleDefinition);
-  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(1.,0.,0.));
-  //fParticleGun->SetParticleEnergy(3.0*GeV);
+  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
+  fParticleGun->SetParticleEnergy(3.0*GeV);
 
 
 
@@ -103,7 +103,7 @@ if (myfile.is_open())
    }
     myfile.close();
   }
-  else G4cout << "Unable to open file";
+  else G4cout << "Unable to open file"; 
  for(int m=1;m<37;m++)Itot=Itot+I[m];
  rand=G4UniformRand();
  //cout<<"rand "<<rand<<endl;
@@ -118,28 +118,21 @@ for(int n=1;n<37;n++)
     else
       {
 	iratio=iratio+I[n]/Itot;
-	iratiom1=iratiom1+I[n-1]/Itot;   //doubt
+	iratiom1=iratiom1+I[n-1]/Itot;
 	//cout<<"iratio "<<iratio<<endl;
 	//	cout<<"iratiom1 "<<iratiom1<<endl;
-	if(rand<=iratio && rand>iratiom1)ene=E[n]*keV;  //doubt
+	if(rand<=iratio && rand>iratiom1)ene=E[n]*keV;
       }
   }
  // }
 //neutron generator
 // if(particle==2) { 
  // }
- G4double y= 60*cm * G4UniformRand();
- G4double z=-60*cm * G4UniformRand();
-
-
-  G4double randY =y * (G4UniformRand()-0.5);
-  G4double randZ =z * (G4UniformRand()-0.5);
-
 
 //G4cout<<ene<<G4endl;
   //G4double position = 0.*cm;
-  fParticleGun->SetParticlePosition(G4ThreeVector(-150.*cm,randY,randZ));
-  fParticleGun->SetParticleEnergy(ene*keV);
+  fParticleGun->SetParticlePosition(G4ThreeVector(0.*cm,0.*cm,0.*cm));
+  fParticleGun->SetParticleEnergy(ene);
   fParticleGun->GeneratePrimaryVertex(anEvent);
  /* G4double worldZHalfLength = 0;
   G4LogicalVolume* worldLV

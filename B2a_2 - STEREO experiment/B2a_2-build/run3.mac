@@ -1,0 +1,9 @@
+/run/initialize
+# Define level of verbosity
+/tracking/verbose 0
+# Define particle type
+/gun/particle gamma
+# Define particle energy
+#/gun/energy 2 MeV
+# start run with one particle generated
+/run/beamOn 1000000

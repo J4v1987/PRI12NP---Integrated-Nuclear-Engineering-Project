@@ -104,7 +104,7 @@ void B2aDetectorConstruction::DefineMaterials()
 
   // Air defined using NIST Manager
   nistManager->FindOrBuildMaterial("G4_AIR");
-  
+  nistManager->FindOrBuildMaterial("G4_POLYETHYLENE");
   // Lead defined using NIST Manager
   fTargetMaterial  = nistManager->FindOrBuildMaterial("G4_Pb");
 
@@ -114,9 +114,18 @@ void B2aDetectorConstruction::DefineMaterials()
   // Xenon liquid
 
   // Liquid xenon defined using class G4Material
+  //fTrackerMaterial =
+  //new G4Material("XenonLiquid", z=54., a=131.29*g/mole, density= 3.06*g/cm3,
+    //             kStateLiquid, temperature= 293.15*kelvin, pressure= 1*atmosphere);
+  G4Element* H = new G4Element("Hydrogen", "H", z=1 , a=1.00*g/mole);
+ G4Element* C = new G4Element("Carbon", "C", z=6 , a=12.00*g/mole);
+ G4Element* Gd = new G4Element("Gadolinium", "Gd", z=56 , a=157.00*g/mole);
   fTrackerMaterial =
-  new G4Material("XenonLiquid", z=54., a=131.29*g/mole, density= 3.06*g/cm3,
-                 kStateLiquid, temperature= 293.15*kelvin, pressure= 1*atmosphere);
+  //new G4Material("XenonLiquid", z=54., a=131.29*g/mole, density= 3.06*g/cm3,
+  new G4Material("GadoliniumLiquid", density= 0.88*g/cm3,nel=3);
+  fTrackerMaterial-> AddElement(H,11.45*perCent);
+   fTrackerMaterial-> AddElement(C,88.35*perCent);
+   fTrackerMaterial-> AddElement(Gd,0.2*perCent);
   //Here you have to redefine the tracker material to have the liquid scintillator (composition in mass percentage : H 11,45%, Gd 0,2 %, C 88,35 %, density 0,88 g/cm3)
 //refer to the GEANT4 slides to see how to define a material composed by different elements
 
@@ -131,18 +140,18 @@ G4VPhysicalVolume* B2aDetectorConstruction::DefineVolumes()
   
   
   G4Material* air  = G4Material::GetMaterial("G4_AIR");
-
+  G4Material* Lead  = G4Material::GetMaterial("G4_Pb");
+  G4Material* POLYETHELENE  = G4Material::GetMaterial("G4_POLYETHYLENE");
 
   // Sizes of the principal geometrical components (solids)
   
-  G4double worldLength = 4*m;
-  
+G4double worldLength = 4*m;
+
   G4double targetLength = 1.0*cm; // full length of Target (1 cm)
   G4double targetRadius  = 20*cm;   // Radius of Target
-  
+
   G4double trackerLength = 20*cm;
   G4double trackerRadius = 20*cm;
-
 
   // Definitions of Solids, Logical Volumes, Physical Volumes
 
@@ -175,24 +184,37 @@ G4VPhysicalVolume* B2aDetectorConstruction::DefineVolumes()
                  0,               // copy number
                  fCheckOverlaps); // checking overlaps 
  //
-    
+     G4Box* Poly = new G4Box("poly",(200*mm+2220*mm/2),(200*mm+889*mm/2),(200*mm+918*mm/2));
+ G4LogicalVolume* polyLV
+    = new G4LogicalVolume(Poly, POLYETHELENE ,"Poly",0,0,0);
+
+    new G4PVPlacement(0,               // no rotation
+                  G4ThreeVector(0,0,0),  // at (x,y,z)
+                   polyLV,    // its logical volume
+                 "poly",        // its name
+                  worldLV,         // its mother volume
+                 false,           // no boolean operations
+                 0,               // copy number
+                fCheckOverlaps); // checking overlaps
     
   // You can put here your shielding
   
-  G4ThreeVector positionTarget = G4ThreeVector(0,0,-(targetLength/2.+trackerLength/2.));
+  G4ThreeVector positionTarget = G4ThreeVector(0,0,0);
 
-  G4Tubs* targetS
-    = new G4Tubs("target",0.,targetRadius,targetLength/2.,0.*deg,360.*deg);
+  //G4Tubs* targetS
+  //  = new G4Tubs("target",0.,targetRadius,targetLength/2.,0.*deg,360.*deg);
+   G4Box* targetS = new G4Box("tracker",(100*mm+2220*mm/2),(100*mm+889*mm/2),(100*mm+918*mm/2));
   fLogicTarget
     = new G4LogicalVolume(targetS, fTargetMaterial,"Target",0,0,0);
-  //   new G4PVPlacement(0,               // no rotation
-  //                 positionTarget,  // at (x,y,z)
-  //                  fLogicTarget,    // its logical volume
-  //                "Target",        // its name
-  //                worldLV,         // its mother volume
-  //                false,           // no boolean operations
-  //                0,               // copy number
-  //                fCheckOverlaps); // checking overlaps 
+
+    new G4PVPlacement(0,               // no rotation
+                  positionTarget,  // at (x,y,z)
+                   fLogicTarget,    // its logical volume
+                 "Target",        // its name
+                  polyLV,         // its mother volume
+                 false,           // no boolean operations
+                 0,               // copy number
+                fCheckOverlaps); // checking overlaps
 
   G4cout << "Target is " << targetLength/cm << " cm of "
          << fTargetMaterial->GetName() << G4endl;
@@ -210,10 +232,10 @@ G4VPhysicalVolume* B2aDetectorConstruction::DefineVolumes()
                    positionTracker, // at (x,y,z)
                     trackerLV,       // its logical volume
                     "Tracker",       // its name
-                    worldLV,         // its mother  volume
+                    fLogicTarget,    // its mother  volume
                     false,           // no boolean operations
                     0,               // copy number
-                    fCheckOverlaps); // checking overlaps 
+                    fCheckOverlaps); // checking overlaps
 
   // Visualization attributes
 

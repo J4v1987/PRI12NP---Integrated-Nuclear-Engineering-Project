@@ -71,7 +71,7 @@ B2TrackerSD::B2TrackerSD(const G4String& name,
   G4cout << "Using " << analysisManager->GetType() << G4endl;
   
   // Creating histograms
-  analysisManager->CreateH1("fH1"," Deposited energy (MeV)", 100, 0., 5.);
+  analysisManager->CreateH1("fH1"," Deposited energy (MeV)", 1000, 0., 10.);
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
